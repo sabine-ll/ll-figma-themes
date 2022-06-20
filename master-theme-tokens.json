@@ -419,6 +419,20 @@
         "description": "Body Extra Large Mobile",
         "type": "typography"
       },
+      "body-xl-bold-mobile": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-body-xl",
+          "fontWeight": "$edit.text.font-weight-body-xl",
+          "lineHeight": "$body.font-size-body-xl-mobile * 1.4",
+          "fontSize": "$body.font-size-body-xl-mobile",
+          "letterSpacing": "$edit.font-letter-spacing-body",
+          "paragraphSpacing": "$body.font-size-body-xl-mobile * 1.2",
+          "textDecoration": "$typography.text-decoration",
+          "textCase": "$typography.text-transform"
+        },
+        "description": "Body Extra Large Mobile",
+        "type": "typography"
+      },
       "font-size-body-mobile-xl": {
         "value": "$edit.text.font-size-body * 1.15",
         "description": "Font Size Body XL Mobile",
