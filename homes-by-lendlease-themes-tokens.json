@@ -1755,27 +1755,27 @@
         }
       },
       "border-radius-buttons": {
-        "value": "$border-radius-6",
+        "value": "6",
         "description": "Button Border Radius",
         "type": "borderRadius"
       },
       "border-radius-buttons-icon-only": {
-        "value": "$border-radius-6",
+        "value": "20",
         "description": "Button Border Radius Icon Only",
         "type": "borderRadius"
       },
       "border-radius-inputs": {
-        "value": "$border-radius-4",
+        "value": "4",
         "description": "Input Border Radius",
         "type": "borderRadius"
       },
-      "border-size": {
-        "value": "$border-size-1",
+      "border-width": {
+        "value": "1",
         "description": "Border Width",
         "type": "borderWidth"
       },
-      "border-size-buttons": {
-        "value": "$border-size-2",
+      "border-width-buttons": {
+        "value": "2",
         "description": "Border Width Buttons",
         "type": "borderWidth"
       },
@@ -2300,12 +2300,12 @@
         "type": "letterSpacing"
       },
       "border-radius": {
-        "value": "$border-radius-0",
+        "value": "0",
         "description": "Border Radius",
         "type": "borderRadius"
       },
-      "border-size-inputs": {
-        "value": "$border-size-1",
+      "border-width-inputs": {
+        "value": "1",
         "description": "Border Width Inputs",
         "type": "borderWidth"
       }
