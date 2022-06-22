@@ -2321,6 +2321,21 @@
           "value": "$edit.text.font-size-body",
           "description": "Link Button Font Size MD",
           "type": "fontSizes"
+        },
+        "font-weight-button-primary": {
+          "value": "Bold",
+          "description": "Font Weight Primary Button",
+          "type": "fontWeights"
+        },
+        "font-weight-button-secondary": {
+          "value": "Bold",
+          "description": "Font Weight Secondary Button",
+          "type": "fontWeights"
+        },
+        "font-weight-button-tertiary": {
+          "value": "Bold",
+          "description": "Font Weight Tertiary Button",
+          "type": "fontWeights"
         }
       },
       "button-letter-spacing": {
@@ -2336,6 +2351,11 @@
       "border-radius-media-block-image": {
         "value": "128",
         "description": "Border Radius Media Block Image",
+        "type": "borderRadius"
+      },
+      "border-radius-hero": {
+        "value": "0",
+        "description": "Border Radius Hero",
         "type": "borderRadius"
       },
       "border-width-inputs": {
