@@ -1172,7 +1172,7 @@
           "type": "fontFamilies"
         },
         "font-size-heading": {
-          "value": "64",
+          "value": "48",
           "description": "Font Size Extra Large",
           "type": "fontSizes"
         },
