@@ -422,7 +422,7 @@
       "body-xl-bold-mobile": {
         "value": {
           "fontFamily": "$edit.text.font-family-body-xl",
-          "fontWeight": "$edit.text.font-weight-body-xl",
+          "fontWeight": "Bold",
           "lineHeight": "$body.font-size-body-xl-mobile * 1.4",
           "fontSize": "$body.font-size-body-xl-mobile",
           "letterSpacing": "$edit.font-letter-spacing-body",
@@ -430,7 +430,7 @@
           "textDecoration": "$typography.text-decoration",
           "textCase": "$typography.text-transform"
         },
-        "description": "Body Extra Large Mobile",
+        "description": "Body Extra Large Bold Mobile",
         "type": "typography"
       },
       "font-size-body-mobile-xl": {
@@ -1783,7 +1783,7 @@
         "description": "Input Border Radius",
         "type": "borderRadius"
       },
-      "border-size": {
+      "border-width": {
         "value": "$border-size-1",
         "description": "Border Width",
         "type": "borderWidth"
@@ -1791,6 +1791,21 @@
       "border-size-buttons": {
         "value": "$border-size-2",
         "description": "Border Width Buttons",
+        "type": "borderWidth"
+      },
+      "border-width-button-primary": {
+        "value": "2",
+        "description": "Border Width Primary Button",
+        "type": "borderWidth"
+      },
+      "border-width-button-secondary": {
+        "value": "2",
+        "description": "Border Width Secondary Button",
+        "type": "borderWidth"
+      },
+      "border-width-button-tertiary": {
+        "value": "2",
+        "description": "Border Width Tertiary Button",
         "type": "borderWidth"
       },
       "top-bar": {
@@ -2318,7 +2333,12 @@
         "description": "Border Radius",
         "type": "borderRadius"
       },
-      "border-size-inputs": {
+      "border-radius-media-block-image": {
+        "value": "128",
+        "description": "Border Radius Media Block Image",
+        "type": "borderRadius"
+      },
+      "border-width-inputs": {
         "value": "$border-size-1",
         "description": "Border Width Inputs",
         "type": "borderWidth"
