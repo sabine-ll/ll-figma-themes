@@ -1993,7 +1993,7 @@
           "type": "color"
         },
         "border-color-inverted": {
-          "value": "rgba(209,213,219,0.2)",
+          "value": "rgba(209, 213, 219, 0.2)",
           "description": "Border Colour Inverted",
           "type": "color"
         }
