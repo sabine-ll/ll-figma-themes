@@ -419,6 +419,20 @@
         "description": "Body Extra Large Mobile",
         "type": "typography"
       },
+      "body-xl-bold-mobile": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-body-xl",
+          "fontWeight": "Bold",
+          "lineHeight": "$body.font-size-body-xl-mobile * 1.4",
+          "fontSize": "$body.font-size-body-xl-mobile",
+          "letterSpacing": "$edit.font-letter-spacing-body",
+          "paragraphSpacing": "$body.font-size-body-xl-mobile * 1.2",
+          "textDecoration": "$typography.text-decoration",
+          "textCase": "$typography.text-transform"
+        },
+        "description": "Body Extra Large Bold Mobile",
+        "type": "typography"
+      },
       "font-size-body-mobile-xl": {
         "value": "$edit.text.font-size-body * 1.15",
         "description": "Font Size Body XL Mobile",
@@ -1779,6 +1793,21 @@
         "description": "Border Width Buttons",
         "type": "borderWidth"
       },
+      "border-width-button-primary": {
+        "value": "2",
+        "description": "Border Width Primary Button",
+        "type": "borderWidth"
+      },
+      "border-width-button-secondary": {
+        "value": "2",
+        "description": "Border Width Secondary Button",
+        "type": "borderWidth"
+      },
+      "border-width-button-tertiary": {
+        "value": "2",
+        "description": "Border Width Tertiary Button",
+        "type": "borderWidth"
+      },
       "top-bar": {
         "color-topbar-background": {
           "value": "rgba(255, 255, 255, 1)",
@@ -2302,6 +2331,11 @@
       "border-radius": {
         "value": "0",
         "description": "Border Radius",
+        "type": "borderRadius"
+      },
+      "border-radius-media-block-image": {
+        "value": "128",
+        "description": "Border Radius Media Block Image",
         "type": "borderRadius"
       },
       "border-width-inputs": {
