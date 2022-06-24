@@ -1297,12 +1297,12 @@
       },
       "brand-gradient": {
         "color-gradient-primary": {
-          "value": "linear-gradient(0deg, #323232 0%, #323232 100%)",
+          "value": "linear-gradient(0deg, #3C4950 0%, #3C4950 100%)",
           "description": "Primary Gradient",
           "type": "color"
         },
         "color-gradient-primary-inverted": {
-          "value": "linear-gradient(0deg, #323232 0%, #323232 100%)",
+          "value": "linear-gradient(0deg, #3C4950 0%, #3C4950 100%)",
           "description": "Primary Gradient Inverted",
           "type": "color"
         },
@@ -3748,12 +3748,12 @@
       },
       "brand-gradient": {
         "color-gradient-primary": {
-          "value": "linear-gradient(0deg, #323232 0%, #323232 100%)",
+          "value": "linear-gradient(0deg, #3C4950 0%, #3C4950 100%)",
           "description": "Primary Gradient",
           "type": "color"
         },
         "color-gradient-primary-inverted": {
-          "value": "linear-gradient(0deg, #323232 0%, #323232 100%)",
+          "value": "linear-gradient(0deg, #3C4950 0%, #3C4950 100%)",
           "description": "Primary Gradient Inverted",
           "type": "color"
         },
