@@ -1275,7 +1275,7 @@
           "type": "color"
         },
         "color-background-accent1": {
-          "value": "rgba(247, 247, 247, 1)",
+          "value": "rgba(36, 36, 68, 1)",
           "description": "Background Accent Colour 1",
           "type": "color"
         },
@@ -1285,7 +1285,7 @@
           "type": "color"
         },
         "color-background-accent2": {
-          "value": "rgba(36, 36, 68, 1)",
+          "value": "rgba(247, 247, 247, 1)",
           "description": "Background Accent Colour 2",
           "type": "color"
         },
@@ -3637,7 +3637,7 @@
           "type": "fontFamilies"
         },
         "font-size-heading": {
-          "value": "48",
+          "value": "70",
           "description": "Font Size Extra Large",
           "type": "fontSizes"
         },
@@ -3726,7 +3726,7 @@
           "type": "color"
         },
         "color-background-accent1": {
-          "value": "rgba(247, 247, 247, 1)",
+          "value": "rgba(0, 0, 0, 1)",
           "description": "Background Accent Colour 1",
           "type": "color"
         },
@@ -3736,7 +3736,7 @@
           "type": "color"
         },
         "color-background-accent2": {
-          "value": "rgba(237, 55, 0, 1)",
+          "value": "rgba(247, 247, 247, 1)",
           "description": "Background Accent Colour 2",
           "type": "color"
         },
@@ -3758,12 +3758,12 @@
           "type": "color"
         },
         "color-gradient-secondary": {
-          "value": "linear-gradient(0deg, #0000AA 0%, #00BEF0 100%)",
+          "value": "linear-gradient(0deg, #ED3700 0%, #ED3700 100%)",
           "description": "Secondary Gradient",
           "type": "color"
         },
         "color-gradient-secondary-inverted": {
-          "value": "linear-gradient(0deg, #0000AA 0%, #00BEF0 100%)",
+          "value": "linear-gradient(0deg, #ED3700 0%, #ED3700 100%)",
           "description": "Secondary Gradient Inverted",
           "type": "color"
         }
@@ -3782,7 +3782,7 @@
       },
       "type": {
         "color-heading": {
-          "value": "rgba(0, 0, 0, 1)",
+          "value": "rgba(50, 50, 50, 1)",
           "description": "Heading Colour",
           "type": "color"
         },
@@ -3948,12 +3948,12 @@
           "type": "color"
         },
         "color-button-primary-text-hover": {
-          "value": "rgba(0, 0, 0, 1)",
+          "value": "rgba(255, 255, 255, 1)",
           "description": "Button Primary Text Colour Hover",
           "type": "color"
         },
         "color-button-primary-text-active": {
-          "value": "rgba(0, 0, 0, 1)",
+          "value": "rgba(255, 255, 255, 1)",
           "description": "Button Primary Text Colour Active",
           "type": "color"
         },
@@ -3993,12 +3993,12 @@
           "type": "color"
         },
         "color-button-primary-text-hover-inverted": {
-          "value": "rgba(0, 0, 0, 1)",
+          "value": "rgba(255, 255, 255, 1)",
           "description": "Button Primary Text Colour Inverted",
           "type": "color"
         },
         "color-button-primary-text-active-inverted": {
-          "value": "rgba(0, 0, 0, 1)",
+          "value": "rgba(255, 255, 255, 1)",
           "description": "Button Primary Text Colour Active Inverted",
           "type": "color"
         }
@@ -4040,12 +4040,12 @@
           "type": "color"
         },
         "color-button-secondary-text-hover": {
-          "value": "rgba(0, 0, 0, 1)",
+          "value": "rgba(255, 255, 255, 1)",
           "description": "Button Secondary Text Colour Hover",
           "type": "color"
         },
         "color-button-secondary-text-active": {
-          "value": "rgba(0, 0, 0, 1)",
+          "value": "rgba(255, 255, 255, 1)",
           "description": "Button Secondary Text Colour Active",
           "type": "color"
         },
@@ -4085,12 +4085,12 @@
           "type": "color"
         },
         "color-button-secondary-text-hover-inverted": {
-          "value": "rgba(0, 0, 0, 1)",
+          "value": "rgba(255, 255, 255, 1)",
           "description": "Button Secondary Text Colour Hover inverted",
           "type": "color"
         },
         "color-button-secondary-text-active-inverted": {
-          "value": "rgba(0, 0, 0, 1)",
+          "value": "rgba(255, 255, 255, 1)",
           "description": "Button Secondary Text Colour Active Inverted",
           "type": "color"
         }
