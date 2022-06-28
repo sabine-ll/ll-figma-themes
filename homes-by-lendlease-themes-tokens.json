@@ -9195,74 +9195,74 @@
       },
       "header-bar": {
         "color-header-background": {
-          "value": "rgba(255, 255, 255, 1)",
+          "value": "rgba(13, 49, 47, 1)",
           "description": "Header Background Colour",
           "type": "color"
         },
         "color-header-border": {
-          "value": "rgba(255, 255, 255, 1)",
+          "value": "rgba(13, 49, 47, 1)",
           "description": "Header Border Colour",
           "type": "color"
         },
         "color-header-divider": {
-          "value": "rgba(255, 255, 255, 1)",
+          "value": "rgba(13, 49, 47, 1)",
           "description": "Header Divider Colour",
           "type": "color"
         },
         "color-header-link": {
-          "value": "rgba(0, 0, 0, 1)",
+          "value": "rgba(255, 255, 255, 1)",
           "description": "Header Link Colour",
           "type": "color"
         },
         "color-header-link-hover": {
-          "value": "rgba(0, 0, 0, 1)",
+          "value": "rgba(255, 255, 255, 0.6)",
           "description": "Header Link Colour Hover",
           "type": "color"
         },
         "color-header-link-active": {
-          "value": "rgba(0, 0, 0, 1)",
+          "value": "rgba(255, 255, 255, 0.6)",
           "description": "Header Link Colour Active",
           "type": "color"
         }
       },
       "menu": {
         "color-menu-1st-level-background": {
-          "value": "rgba(255, 255, 255, 1)",
+          "value": "rgba(13, 49, 47, 1)",
           "description": "Menu 1st Level Background Colour",
           "type": "color"
         },
         "color-menu-1st-level-background-hover": {
-          "value": "rgba(255, 255, 255, 1)",
+          "value": "rgba(13, 49, 47, 1)",
           "description": "Menu 1st Level Background Colour Hover",
           "type": "color"
         },
         "color-menu-1st-level-link": {
-          "value": "rgba(0, 0, 0, 1)",
+          "value": "rgba(255, 255, 255, 1)",
           "description": "Menu 1st Level Link Colour",
           "type": "color"
         },
         "color-menu-1st-level-link-hover": {
-          "value": "rgba(0, 0, 0, 1)",
+          "value": "rgba(255, 255, 255, 0.6)",
           "description": "Menu 1st Level Link Colour Hover",
           "type": "color"
         },
         "color-menu-2nd-level-background": {
-          "value": "rgba(255, 255, 255, 1)",
+          "value": "rgba(13, 49, 47, 1)",
           "description": "Menu 2nd Level Background Colour",
           "type": "color"
         },
         "color-menu-2nd-level-background-hover": {
-          "value": "rgba(255, 255, 255, 1)",
+          "value": "rgba(13, 49, 47, 1)",
           "description": "Menu 2nd Level Background Colour Hover",
           "type": "color"
         },
         "color-menu-2nd-level-link": {
-          "value": "rgba(0, 0, 0, 1)",
+          "value": "rgba(255, 255, 255, 1)",
           "description": "Menu 2nd Level Link Colour",
           "type": "color"
         },
         "color-menu-2nd-level-link-hover": {
-          "value": "rgba(0, 0, 0, 1)",
+          "value": "rgba(255, 255, 255, 0.6)",
           "description": "Menu 2nd Level Link Colour Hover",
           "type": "color"
         },
