@@ -1198,7 +1198,7 @@
           "type": "fontFamilies"
         },
         "font-size-heading": {
-          "value": "44",
+          "value": "70",
           "description": "Font Size Extra Large",
           "type": "fontSizes"
         },
@@ -1213,12 +1213,12 @@
           "type": "fontFamilies"
         },
         "font-family-body": {
-          "value": "Circular Std",
+          "value": "Arial",
           "description": "Body Font Family",
           "type": "fontFamilies"
         },
         "font-weight-headings": {
-          "value": "Medium",
+          "value": "Bold",
           "description": "Font Heading Weight",
           "type": "fontWeights"
         },
@@ -1781,17 +1781,17 @@
         }
       },
       "border-radius-buttons": {
-        "value": "6",
+        "value": "20",
         "description": "Button Border Radius",
         "type": "borderRadius"
       },
       "border-radius-buttons-icon-only": {
-        "value": "20",
+        "value": "50%",
         "description": "Button Border Radius Icon Only",
         "type": "borderRadius"
       },
       "border-radius-inputs": {
-        "value": "4",
+        "value": "0",
         "description": "Input Border Radius",
         "type": "borderRadius"
       },
@@ -1801,22 +1801,22 @@
         "type": "borderWidth"
       },
       "border-width-buttons": {
-        "value": "2",
+        "value": "1",
         "description": "Border Width Buttons",
         "type": "borderWidth"
       },
       "border-width-button-primary": {
-        "value": "2",
+        "value": "1",
         "description": "Border Width Primary Button",
         "type": "borderWidth"
       },
       "border-width-button-secondary": {
-        "value": "2",
+        "value": "1",
         "description": "Border Width Secondary Button",
         "type": "borderWidth"
       },
       "border-width-button-tertiary": {
-        "value": "2",
+        "value": "1",
         "description": "Border Width Tertiary Button",
         "type": "borderWidth"
       },
@@ -2245,34 +2245,14 @@
           "type": "typography",
           "description": "Link Button Type SM"
         },
-        "button-primary-no-icon-py-md": {
-          "value": "$spacers.sp-8",
-          "description": "Primary Button No Icon Padding Y",
+        "button-py": {
+          "value": "5",
+          "description": "Button Padding Y",
           "type": "spacing"
         },
-        "button-primary-no-icon-px-md": {
-          "value": "$spacers.sp-24",
-          "description": "Primary Button No Icon Padding X",
-          "type": "spacing"
-        },
-        "button-secondary-no-icon-py-md": {
-          "value": "$spacers.sp-8",
-          "description": "Secondary Button No Icon Padding Y",
-          "type": "spacing"
-        },
-        "button-secondary-no-icon-px-md": {
-          "value": "$spacers.sp-36",
-          "description": "Secondary Button No Icon Padding X",
-          "type": "spacing"
-        },
-        "button-tertiary-no-icon-py-md": {
-          "value": "$spacers.sp-1",
-          "description": "Tertiary Button No Icon Padding Y",
-          "type": "spacing"
-        },
-        "button-tertiary-no-icon-px-md": {
-          "value": "$spacers.sp-1",
-          "description": "Tertiary Button No Icon Padding X",
+        "button-px": {
+          "value": "20",
+          "description": "Button Padding X",
           "type": "spacing"
         },
         "button-primary-text-font-family": {
@@ -2346,14 +2326,9 @@
         "type": "borderRadius"
       },
       "border-radius-media-block-image": {
-        "value": "128",
+        "value": "0",
         "description": "Border Radius Media Block Image",
         "type": "borderRadius"
-      },
-      "border-width-inputs": {
-        "value": "1",
-        "description": "Border Width Inputs",
-        "type": "borderWidth"
       }
     },
     "opacity-0": {
