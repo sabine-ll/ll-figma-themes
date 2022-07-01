@@ -1,5 +1,5 @@
 {
-  "#1 (Main) Living By Lendlease": {
+  "#2 (Park West) Living By Lendlease": {
     "headings": {
       "heading-xl-desktop": {
         "value": {
@@ -1245,7 +1245,7 @@
       },
       "brand-color": {
         "color-primary": {
-          "value": "rgba(255, 100, 0, 1)",
+          "value": "rgba(60, 60, 59, 1)",
           "description": "Primary Colour",
           "type": "color"
         },
@@ -1265,7 +1265,7 @@
           "type": "color"
         },
         "color-tertiary": {
-          "value": "rgba(41, 41, 41, 1)",
+          "value": "rgba(87, 87, 86, 1)",
           "description": "Tertiary Colour ",
           "type": "color"
         },
@@ -1282,12 +1282,12 @@
           "type": "color"
         },
         "color-background-page-inverted": {
-          "value": "rgba(41, 41, 41, 1)",
+          "value": "rgba(60, 60, 59, 1)",
           "description": "Background Page Colour Inverted",
           "type": "color"
         },
         "color-background-accent1": {
-          "value": "rgba(41, 41, 41, 1)",
+          "value": "rgba(60, 60, 59, 1)",
           "description": "Background Accent Colour 1",
           "type": "color"
         },
@@ -1474,7 +1474,7 @@
       },
       "button-primary": {
         "color-button-primary-background": {
-          "value": "rgba(255, 100, 0, 1)",
+          "value": "rgba(190, 190, 190, 1)",
           "description": "Button Primary background Colour",
           "type": "color"
         },
@@ -1489,7 +1489,7 @@
           "type": "color"
         },
         "color-button-primary-border": {
-          "value": "rgba(255, 100, 0, 1)",
+          "value": "rgba(190, 190, 190, 1)",
           "description": "Button Primary Border Colour",
           "type": "color"
         },
@@ -1504,17 +1504,17 @@
           "type": "color"
         },
         "color-button-primary-text": {
-          "value": "rgba(255, 255, 255, 1)",
+          "value": "rgba(78, 78, 76, 1)",
           "description": "Button Primary Text Colour",
           "type": "color"
         },
         "color-button-primary-text-hover": {
-          "value": "rgba(50, 50, 50, 1)",
+          "value": "rgba(60, 60, 59, 1)",
           "description": "Button Primary Text Colour Hover",
           "type": "color"
         },
         "color-button-primary-text-active": {
-          "value": "rgba(50, 50, 50, 1)",
+          "value": "rgba(60, 60, 59, 1)",
           "description": "Button Primary Text Colour Active",
           "type": "color"
         },
@@ -1549,17 +1549,17 @@
           "type": "color"
         },
         "color-button-primary-text-inverted": {
-          "value": "rgba(255, 100, 0, 1)",
+          "value": "rgba(78, 78, 76, 1)",
           "description": "Button Primary Text Colour Inverted",
           "type": "color"
         },
         "color-button-primary-text-hover-inverted": {
-          "value": "rgba(50, 50, 50, 1)",
+          "value": "rgba(60, 60, 59, 1)",
           "description": "Button Primary Text Colour Inverted",
           "type": "color"
         },
         "color-button-primary-text-active-inverted": {
-          "value": "rgba(50, 50, 50, 1)",
+          "value": "rgba(60, 60, 59, 1)",
           "description": "Button Primary Text Colour Active Inverted",
           "type": "color"
         }
@@ -1673,7 +1673,7 @@
           "type": "color"
         },
         "color-button-tertiary-border": {
-          "value": "rgba(255, 100, 0, 1)",
+          "value": "rgba(190, 190, 190, 1)",
           "description": "Button Tertiary Border Colour",
           "type": "color"
         },
@@ -1688,7 +1688,7 @@
           "type": "color"
         },
         "color-button-tertiary-text": {
-          "value": "rgba(255, 100, 0, 1)",
+          "value": "rgba(190, 190, 190, 1)",
           "description": "Button Tertiary Text Colour",
           "type": "color"
         },
