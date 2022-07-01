@@ -1142,6 +1142,18 @@
         "type": "color"
       }
     },
+    "brand-gradient": {
+      "color-gradient-primary": {
+        "value": "linear-gradient(90deg, $edit.brand-gradient.gradient-primary-from 0%, $edit.brand-gradient.gradient-primary-to 100%)",
+        "description": "Primary Gradient",
+        "type": "color"
+      },
+      "color-gradient-secondary": {
+        "value": "linear-gradient(90deg, $edit.brand-gradient.gradient-secondary-from 0%, $edit.brand-gradient.gradient-secondary-to 100%)",
+        "description": "Secondary Gradient",
+        "type": "color"
+      }
+    },
     "typography": {
       "headings-decoration": {
         "value": "none",
@@ -1282,24 +1294,24 @@
         }
       },
       "brand-gradient": {
-        "color-gradient-primary": {
-          "value": "linear-gradient(0deg, #00AACD 0%, #91F00A 100%)",
-          "description": "Primary Gradient",
-          "type": "color"
-        },
-        "color-gradient-primary-inverted": {
-          "value": "linear-gradient(0deg, #00AACD 0%, #91F00A 100%)",
+        "gradient-primary-from": {
+          "value": "rgba(0, 170, 205, 1)",
           "description": "Primary Gradient Inverted",
           "type": "color"
         },
-        "color-gradient-secondary": {
-          "value": "linear-gradient(0deg, #0000AA 0%, #00BEF0 100%)",
-          "description": "Secondary Gradient",
+        "gradient-primary-to": {
+          "value": "rgba(145, 240, 10, 1)",
+          "description": "Primary Gradient Inverted",
           "type": "color"
         },
-        "color-gradient-secondary-inverted": {
-          "value": "linear-gradient(0deg, #0000AA 0%, #00BEF0 100%)",
-          "description": "Secondary Gradient Inverted",
+        "gradient-secondary-from": {
+          "value": "rgba(0, 0, 170, 1)",
+          "description": "Primary Gradient Inverted",
+          "type": "color"
+        },
+        "gradient-secondary-to": {
+          "value": "rgba(0, 190, 240, 1)",
+          "description": "Primary Gradient Inverted",
           "type": "color"
         }
       },
@@ -2219,34 +2231,14 @@
           "type": "typography",
           "description": "Link Button Type SM"
         },
-        "button-primary-no-icon-py-md": {
-          "value": "$spacers.sp-8",
-          "description": "Primary Button No Icon Padding Y",
+        "button-py": {
+          "value": "10",
+          "description": "Button Padding Y",
           "type": "spacing"
         },
-        "button-primary-no-icon-px-md": {
-          "value": "$spacers.sp-24",
-          "description": "Primary Button No Icon Padding X",
-          "type": "spacing"
-        },
-        "button-secondary-no-icon-py-md": {
-          "value": "$spacers.sp-8",
-          "description": "Secondary Button No Icon Padding Y",
-          "type": "spacing"
-        },
-        "button-secondary-no-icon-px-md": {
-          "value": "$spacers.sp-36",
-          "description": "Secondary Button No Icon Padding X",
-          "type": "spacing"
-        },
-        "button-tertiary-no-icon-py-md": {
-          "value": "$spacers.sp-1",
-          "description": "Tertiary Button No Icon Padding Y",
-          "type": "spacing"
-        },
-        "button-tertiary-no-icon-px-md": {
-          "value": "$spacers.sp-1",
-          "description": "Tertiary Button No Icon Padding X",
+        "button-px": {
+          "value": "16",
+          "description": "Button Padding X",
           "type": "spacing"
         },
         "button-primary-text-font-family": {
