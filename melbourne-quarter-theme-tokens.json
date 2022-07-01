@@ -1172,7 +1172,7 @@
           "type": "fontFamilies"
         },
         "font-size-heading": {
-          "value": "64",
+          "value": "73",
           "description": "Font Size Extra Large",
           "type": "fontSizes"
         },
@@ -1493,47 +1493,47 @@
           "type": "color"
         },
         "color-button-primary-background-inverted": {
-          "value": "rgba(255, 255, 255, 1)",
+          "value": "rgba(179, 157, 108, 1)",
           "description": "Button Primary background Colour Inverted",
           "type": "color"
         },
         "color-button-primary-background-hover-inverted": {
-          "value": "rgba(238, 238, 238, 1)",
+          "value": "rgba(145, 135, 87, 1)",
           "description": "Button Primary background Colour Hover Inverted",
           "type": "color"
         },
         "color-button-primary-background-active-inverted": {
-          "value": "rgba(238, 238, 238, 1)",
+          "value": "rgba(145, 135, 87, 1)",
           "description": "Button Primary background Colour Active Inverted",
           "type": "color"
         },
         "color-button-primary-border-inverted": {
-          "value": "rgba(255, 255, 255, 1)",
+          "value": "rgba(179, 157, 108, 1)",
           "description": "Button Primary Border Colour Inverted",
           "type": "color"
         },
         "color-button-primary-border-hover-inverted": {
-          "value": "rgba(238, 238, 238, 1)",
+          "value": "rgba(145, 135, 87, 1)",
           "description": "Button Primary Border Colour Hover Inverted",
           "type": "color"
         },
         "color-button-primary-border-active-inverted": {
-          "value": "rgba(238, 238, 238, 1)",
+          "value": "rgba(145, 135, 87, 1)",
           "description": "Button Primary Border Colour Active Inverted",
           "type": "color"
         },
         "color-button-primary-text-inverted": {
-          "value": "rgba(54, 45 , 64, 1)",
+          "value": "rgba(255, 255, 255, 1)",
           "description": "Button Primary Text Colour Inverted",
           "type": "color"
         },
         "color-button-primary-text-hover-inverted": {
-          "value": "rgba(54, 45 , 64, 1)",
+          "value": "rgba(255, 255, 255, 1)",
           "description": "Button Primary Text Colour Inverted",
           "type": "color"
         },
         "color-button-primary-text-active-inverted": {
-          "value": "rgba(54, 45 , 64, 1)",
+          "value": "rgba(255, 255, 255, 1)",
           "description": "Button Primary Text Colour Active Inverted",
           "type": "color"
         }
