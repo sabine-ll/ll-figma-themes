@@ -1,0 +1,2821 @@
+{
+  "IQL": {
+    "headings": {
+      "heading-xl-desktop": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-headings",
+          "fontWeight": "$edit.text.font-weight-headings",
+          "lineHeight": "$edit.text.font-size-heading * 1.2",
+          "fontSize": "$edit.text.font-size-heading",
+          "letterSpacing": "$edit.font-letter-spacing-heading",
+          "paragraphSpacing": "$headings.font-size-heading"
+        },
+        "description": "Heading Extra Large Desktop",
+        "type": "typography"
+      },
+      "heading-lg-desktop": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-headings",
+          "fontWeight": "$edit.text.font-weight-headings",
+          "lineHeight": "$headings.font-size-heading-lg * 1.2",
+          "fontSize": "$headings.font-size-heading-lg",
+          "letterSpacing": "$edit.font-letter-spacing-heading",
+          "paragraphSpacing": "$headings.font-size-heading-lg"
+        },
+        "description": "Heading Large Desktop",
+        "type": "typography"
+      },
+      "heading-md-desktop": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-headings",
+          "fontWeight": "$edit.text.font-weight-headings",
+          "lineHeight": "$headings.font-size-heading-md * 1.2",
+          "fontSize": "$headings.font-size-heading-md",
+          "letterSpacing": "$edit.font-letter-spacing-heading",
+          "paragraphSpacing": "$headings.font-size-heading-md"
+        },
+        "description": "Heading Medium Desktop",
+        "type": "typography"
+      },
+      "heading-sm-desktop": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-headings",
+          "fontWeight": "$edit.text.font-weight-headings",
+          "lineHeight": "$headings.font-size-heading-sm * 1.3",
+          "fontSize": "$headings.font-size-heading-sm",
+          "letterSpacing": "$edit.font-letter-spacing-heading",
+          "paragraphSpacing": "$headings.font-size-heading-sm"
+        },
+        "description": "Heading Small Desktop",
+        "type": "typography"
+      },
+      "font-size-heading-lg": {
+        "value": "$edit.text.font-size-heading * 0.75",
+        "description": "Font Size Large Desktop",
+        "type": "fontSizes"
+      },
+      "font-size-heading-md": {
+        "value": "$edit.text.font-size-heading * 0.5",
+        "description": "Font Size Medium Desktop",
+        "type": "fontSizes"
+      },
+      "font-size-heading-sm": {
+        "value": "$edit.text.font-size-heading * 0.375",
+        "description": "Font Size Small Desktop",
+        "type": "fontSizes"
+      },
+      "font-margin-bottom-heading": {
+        "value": "$edit.text.font-size-heading",
+        "description": "Font Spacing Bottom Heading XL Desktop",
+        "type": "sizing"
+      },
+      "font-margin-bottom-heading-lg": {
+        "value": "$edit.text.font-size-heading * 0.75",
+        "description": "Font Spacing Bottom Heading LG Desktop",
+        "type": "sizing"
+      },
+      "font-margin-bottom-heading-md": {
+        "value": "$edit.text.font-size-heading * 0.5",
+        "description": "Font Spacing Bottom Heading MD Desktop",
+        "type": "sizing"
+      },
+      "font-margin-bottom-heading-sm": {
+        "value": "$edit.text.font-size-heading  * 0.375",
+        "description": "Font Spacing Bottom Heading SM Desktop",
+        "type": "sizing"
+      },
+      "font-spacing-bottom-heading": {
+        "value": "$edit.text.font-size-heading",
+        "description": "Font Spacing Bottom Heading XL Desktop",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-lg": {
+        "value": "$edit.text.font-size-heading * 0.75",
+        "description": "Font Spacing Bottom Heading LG Desktop",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-md": {
+        "value": "$edit.text.font-size-heading * 0.5",
+        "description": "Font Spacing Bottom Heading MD Desktop",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-sm": {
+        "value": "$edit.text.font-size-heading  * 0.375",
+        "description": "Font Spacing Bottom Heading SM Desktop",
+        "type": "spacing"
+      },
+      "heading-xl-mobile": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-headings",
+          "fontWeight": "$edit.text.font-weight-headings",
+          "lineHeight": "$headings.font-size-heading-mobile * 1.2",
+          "fontSize": "$headings.font-size-heading-mobile",
+          "letterSpacing": "$edit.font-letter-spacing-heading",
+          "paragraphSpacing": "$headings.font-size-heading"
+        },
+        "description": "Heading Extra Large Mobile",
+        "type": "typography"
+      },
+      "heading-lg-mobile": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-headings",
+          "fontWeight": "$edit.text.font-weight-headings",
+          "lineHeight": "$headings.font-size-heading-lg-mobile * 1.2",
+          "fontSize": "$headings.font-size-heading-lg-mobile",
+          "letterSpacing": "$edit.font-letter-spacing-heading",
+          "paragraphSpacing": "$headings.font-size-heading-lg-mobile"
+        },
+        "description": "Heading Large Mobile",
+        "type": "typography"
+      },
+      "heading-md-mobile": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-headings",
+          "fontWeight": "$edit.text.font-weight-headings",
+          "lineHeight": "$headings.font-size-heading-md-mobile * 1.2",
+          "fontSize": "$headings.font-size-heading-md-mobile",
+          "letterSpacing": "$edit.font-letter-spacing-heading",
+          "paragraphSpacing": "$headings.font-size-heading-md-mobile"
+        },
+        "description": "Heading Medium Mobile",
+        "type": "typography"
+      },
+      "heading-sm-mobile": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-headings",
+          "fontWeight": "$edit.text.font-weight-headings",
+          "lineHeight": "{headings.font-size-heading-sm-mobile} * 1.3",
+          "fontSize": "{headings.font-size-heading-sm-mobile}",
+          "letterSpacing": "$edit.font-letter-spacing-heading",
+          "paragraphSpacing": "{headings.font-size-heading-sm-mobile}"
+        },
+        "description": "Heading Small Mobile",
+        "type": "typography"
+      },
+      "font-size-heading-mobile": {
+        "value": "$edit.text.font-size-heading * 0.725",
+        "description": "Font Size XL Mobile",
+        "type": "fontSizes"
+      },
+      "font-size-heading-lg-mobile": {
+        "value": "$edit.text.font-size-heading * 0.65",
+        "description": "Font Size LG Mobile",
+        "type": "fontSizes"
+      },
+      "font-size-heading-md-mobile": {
+        "value": "$edit.text.font-size-heading * 0.45",
+        "description": "Font Size MD Mobile",
+        "type": "fontSizes"
+      },
+      "font-size-heading-sm-mobile": {
+        "value": "$edit.text.font-size-heading * 0.35",
+        "description": "Font Size SM Mobile",
+        "type": "fontSizes"
+      },
+      "font-margin-bottom-heading-mobile": {
+        "value": "$edit.text.font-size-heading * 0.725",
+        "description": "Font Spacing Bottom Heading XL Mobile",
+        "type": "sizing"
+      },
+      "font-margin-bottom-heading-lg-mobile": {
+        "value": "$edit.text.font-size-heading * 0.65",
+        "description": "Font Spacing Bottom Heading LG Mobile",
+        "type": "sizing"
+      },
+      "font-margin-bottom-heading-md-mobile": {
+        "value": "$edit.text.font-size-heading * 0.45",
+        "description": "Font Spacing Bottom Heading MD Mobile",
+        "type": "sizing"
+      },
+      "font-margin-bottom-heading-sm-mobile": {
+        "value": "$edit.text.font-size-heading * 0.35",
+        "description": "Font Spacing Bottom Heading SM Mobile",
+        "type": "sizing"
+      },
+      "font-spacing-bottom-heading-mobile": {
+        "value": "$edit.text.font-size-heading * 0.725",
+        "description": "Font Spacing Bottom Heading XL Mobile",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-lg-mobile": {
+        "value": "$edit.text.font-size-heading * 0.65",
+        "description": "Font Spacing Bottom Heading LG Mobile",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-md-mobile": {
+        "value": "$edit.text.font-size-heading * 0.45",
+        "description": "Font Spacing Bottom Heading MD Mobile",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-sm-mobile": {
+        "value": "$edit.text.font-size-heading * 0.35",
+        "description": "Font Spacing Bottom Heading SM Mobile",
+        "type": "spacing"
+      }
+    },
+    "body": {
+      "body-xl-desktop": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-body-xl",
+          "fontWeight": "$edit.text.font-weight-body-xl",
+          "lineHeight": "$body.font-size-body-xl * 1.2",
+          "fontSize": "$body.font-size-body-xl",
+          "letterSpacing": "$edit.font-letter-spacing-body",
+          "paragraphSpacing": "$body.font-size-body-xl *1.2"
+        },
+        "description": "Body Extra Large Desktop",
+        "type": "typography"
+      },
+      "body-xl-bold-desktop": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-body-xl",
+          "fontWeight": "Bold",
+          "lineHeight": "$body.font-size-body-xl * 1.2",
+          "fontSize": "$body.font-size-body-xl",
+          "letterSpacing": "$edit.font-letter-spacing-body",
+          "paragraphSpacing": "$body.font-size-body-xl *1.2"
+        },
+        "description": "Body Extra Large Desktop",
+        "type": "typography"
+      },
+      "body-lg-desktop": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-body",
+          "fontWeight": "$edit.text.font-weight-body",
+          "lineHeight": "$edit.text.font-size-body * 1.3",
+          "fontSize": "$edit.text.font-size-body",
+          "letterSpacing": "$edit.font-letter-spacing-body",
+          "paragraphSpacing": "$edit.text.font-size-body * 1.2"
+        },
+        "description": "Body Large Desktop",
+        "type": "typography"
+      },
+      "body-lg-bold-desktop": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-body",
+          "fontWeight": "Bold",
+          "lineHeight": "$edit.text.font-size-body * 1.3",
+          "fontSize": "$edit.text.font-size-body",
+          "letterSpacing": "$edit.font-letter-spacing-body",
+          "paragraphSpacing": "$edit.text.font-size-body * 1.2"
+        },
+        "description": "Body Large Desktop",
+        "type": "typography"
+      },
+      "body-md-desktop": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-body",
+          "fontWeight": "$edit.text.font-weight-body",
+          "lineHeight": "$body.font-size-body-md * 1.3",
+          "fontSize": "$body.font-size-body-md",
+          "letterSpacing": "$edit.font-letter-spacing-body",
+          "paragraphSpacing": "$body.font-size-body-md * 1.2"
+        },
+        "description": "Body Medium Desktop",
+        "type": "typography"
+      },
+      "body-md-bold-desktop": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-body",
+          "fontWeight": "Bold",
+          "lineHeight": "$body.font-size-body-md * 1.3",
+          "fontSize": "$body.font-size-body-md",
+          "letterSpacing": "$edit.font-letter-spacing-body",
+          "paragraphSpacing": "$body.font-size-body-md * 1.2"
+        },
+        "description": "Body Medium Desktop",
+        "type": "typography"
+      },
+      "body-sm-desktop": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-body",
+          "fontWeight": "$edit.text.font-weight-body",
+          "lineHeight": "$body.font-size-body-sm * 1.3",
+          "fontSize": "$body.font-size-body-sm",
+          "letterSpacing": "$edit.font-letter-spacing-body",
+          "paragraphSpacing": "$body.font-size-body-sm * 1.2"
+        },
+        "description": "Body Small Desktop",
+        "type": "typography"
+      },
+      "body-sm-bold-desktop": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-body",
+          "fontWeight": "Bold",
+          "lineHeight": "$body.font-size-body-sm * 1.3",
+          "fontSize": "$body.font-size-body-sm",
+          "letterSpacing": "$edit.font-letter-spacing-body",
+          "paragraphSpacing": "$body.font-size-body-sm * 1.2"
+        },
+        "description": "Body Small Desktop",
+        "type": "typography"
+      },
+      "font-size-body-xl": {
+        "value": "$edit.text.font-size-body * 1.25",
+        "description": "Font Size Body Large Desktop",
+        "type": "fontSizes"
+      },
+      "font-size-body": {
+        "value": "16",
+        "description": "Font Size Body Large Desktop",
+        "type": "fontSizes"
+      },
+      "font-size-body-md": {
+        "value": "$edit.text.font-size-body * 0.87",
+        "description": "Font Size Body Medium Desktop",
+        "type": "fontSizes"
+      },
+      "font-size-body-sm": {
+        "value": "$edit.text.font-size-body * 0.75",
+        "description": "Font Size Body Small Desktop",
+        "type": "fontSizes"
+      },
+      "font-size-body-xl-mobile": {
+        "value": "$edit.text.font-size-body * 1.15",
+        "description": "Font Size Body Large Desktop",
+        "type": "fontSizes"
+      },
+      "font-margin-bottom-body-xl": {
+        "value": "$body.font-size-body-xl * 1.2",
+        "description": "Font Spacing Bottom Body XL Desktop",
+        "type": "sizing"
+      },
+      "font-margin-bottom-body-lg": {
+        "value": "$edit.text.font-size-body * 1.2",
+        "description": "Font Spacing Bottom Body LG Desktop",
+        "type": "sizing"
+      },
+      "font-margin-bottom-body-md": {
+        "value": "$body.font-size-body-md * 1.2",
+        "description": "Font Spacing Bottom Body MD Desktop",
+        "type": "sizing"
+      },
+      "font-margin-bottom-body-sm": {
+        "value": "$body.font-size-body-sm * 1.2",
+        "description": "Font Spacing Bottom Body SM Desktop",
+        "type": "sizing"
+      },
+      "font-spacing-bottom-body-xl": {
+        "value": "$body.font-size-body-xl * 1.2",
+        "description": "Font Spacing Bottom Body XL Desktop",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-body-lg": {
+        "value": "$edit.text.font-size-body * 1.2",
+        "description": "Font Spacing Bottom Body LG Desktop",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-body-md": {
+        "value": "$body.font-size-body-md * 1.2",
+        "description": "Font Spacing Bottom Body MD Desktop",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-body-sm": {
+        "value": "$body.font-size-body-sm * 1.2",
+        "description": "Font Spacing Bottom Body SM Desktop",
+        "type": "spacing"
+      },
+      "body-xl-mobile": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-body-xl",
+          "fontWeight": "$edit.text.font-weight-body-xl",
+          "lineHeight": "$body.font-size-body-xl-mobile * 1.4",
+          "fontSize": "$body.font-size-body-xl-mobile",
+          "letterSpacing": "$edit.font-letter-spacing-body",
+          "paragraphSpacing": "$body.font-size-body-xl-mobile * 1.2"
+        },
+        "description": "Body Extra Large Mobile",
+        "type": "typography"
+      },
+      "font-size-body-mobile-xl": {
+        "value": "$edit.text.font-size-body * 1.15",
+        "description": "Font Size Body XL Mobile",
+        "type": "fontSizes"
+      },
+      "font-margin-bottom-body-mobile-xl": {
+        "value": "$edit.text.font-size-body * 1.2",
+        "description": "Font Spacing Bottom Body XL Mobile",
+        "type": "sizing"
+      },
+      "font-spacing-bottom-body-mobile-xl": {
+        "value": "$edit.text.font-size-body * 1.2",
+        "description": "Font Spacing Bottom Body XL Mobile",
+        "type": "spacing"
+      }
+    },
+    "buttons": {
+      "button-primary-type-lg": {
+        "value": {
+          "fontFamily": "$edit.buttons.button-primary-text-font-family",
+          "fontWeight": "$edit.text.font-weight-body",
+          "lineHeight": "$edit.button.button-primary-text-size-md * 1.25",
+          "fontSize": "$edit.button.button-primary-text-size-md * 1.25",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Primary Button Type LG "
+      },
+      "button-primary-type-md": {
+        "value": {
+          "fontFamily": "$edit.buttons.button-primary-text-font-family",
+          "fontWeight": "$edit.text.font-weight-body",
+          "lineHeight": "$edit.button.button-primary-text-size-md",
+          "fontSize": "$edit.button.button-primary-text-size-md",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Primary Button Type MD"
+      },
+      "button-primary-type-sm": {
+        "value": {
+          "fontFamily": "$edit.buttons.button-primary-text-font-family",
+          "fontWeight": "$edit.text.font-weight-body",
+          "lineHeight": "$edit.button.button-primary-text-size-md * 0.87",
+          "fontSize": "$edit.button.button-primary-text-size-md * 0.87",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Primary Button Type SM"
+      },
+      "button-secondary-type-lg": {
+        "value": {
+          "fontFamily": "$edit.buttons.button-secondary-text-font-family",
+          "fontWeight": "$edit.text.font-weight-body",
+          "lineHeight": "$edit.button.button-secondary-text-size-md * 1.25",
+          "fontSize": "$edit.button.button-secondary-text-size-md * 1.25",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Secondary Button Type LG "
+      },
+      "button-secondary-type-md": {
+        "value": {
+          "fontFamily": "$edit.buttons.button-secondary-text-font-family",
+          "fontWeight": "$edit.text.font-weight-body",
+          "lineHeight": "$edit.button.button-secondary-text-size-md",
+          "fontSize": "$edit.button.button-secondary-text-size-md",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Secondary Button Type MD"
+      },
+      "button-secondary-type-sm": {
+        "value": {
+          "fontFamily": "$edit.buttons.button-secondary-text-font-family",
+          "fontWeight": "$edit.text.font-weight-body",
+          "lineHeight": "$edit.button.button-secondary-text-size-md * 0.87",
+          "fontSize": "$edit.button.button-secondary-text-size-md * 0.87",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Secondary Button Type SM"
+      },
+      "button-tertiary-type-lg": {
+        "value": {
+          "fontFamily": "$edit.buttons.button-tertiary-text-font-family",
+          "fontWeight": "$edit.text.font-weight-body",
+          "lineHeight": "$edit.button.button-tertiary-tertiary-size-md * 1.25",
+          "fontSize": "$edit.button.button-tertiary-tertiary-size-md * 1.25",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Tertiary Button Type LG "
+      },
+      "button-tertiary-type-md": {
+        "value": {
+          "fontFamily": "$edit.buttons.button-tertiary-text-font-family",
+          "fontWeight": "$edit.text.font-weight-body",
+          "lineHeight": "$edit.button.button-tertiary-text-size-md",
+          "fontSize": "$edit.button.button-tertiary-text-size-md",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Tertiary Button Type MD"
+      },
+      "button-tertiary-type-sm": {
+        "value": {
+          "fontFamily": "$edit.buttons.button-tertiary-text-font-family",
+          "fontWeight": "$edit.text.font-weight-body",
+          "lineHeight": "$edit.button.button-tertiary-text-size-md * 0.87",
+          "fontSize": "$edit.button.button-tertiary-text-size-md * 0.87",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Tertiary Button Type SM"
+      },
+      "button-link-type-lg": {
+        "value": {
+          "fontFamily": "$edit.buttons.button-link-text-font-family",
+          "fontWeight": "$edit.text.font-weight-body",
+          "lineHeight": "$edit.button.button-link-text-size-md * 1.25",
+          "fontSize": "$edit.button.button-link-text-size-md * 1.25",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Link Button Type LG "
+      },
+      "button-link-type-md": {
+        "value": {
+          "fontFamily": "$edit.buttons.button-link-text-font-family",
+          "fontWeight": "$edit.text.font-weight-body",
+          "lineHeight": "$edit.button.button-link-text-size-md",
+          "fontSize": "$edit.button.button-link-text-size-md",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Link Button Type MD"
+      },
+      "button-link-type-sm": {
+        "value": {
+          "fontFamily": "$edit.buttons.button-link-text-font-family",
+          "fontWeight": "$edit.text.font-weight-body",
+          "lineHeight": "$edit.button.button-link-text-size-md * 0.87",
+          "fontSize": "$edit.button.button-link-text-size-md * 0.87",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Link Button Type SM"
+      },
+      "button-primary-icon-type-lg": {
+        "value": {
+          "fontFamily": "$edit.other.icons-font",
+          "fontWeight": "$edit.icons.icons-font-weight",
+          "lineHeight": "$edit.button.button-primary-text-size-md * 1.25",
+          "fontSize": "$icons.button-primary-icon-font-size-lg * 0.8",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Primary Button Icon Font Size LG "
+      },
+      "button-primary-icon-type-md": {
+        "value": {
+          "fontFamily": "$edit.other.icons-font",
+          "fontWeight": "$edit.icons.icons-font-weight",
+          "lineHeight": "$edit.button.button-primary-text-size-md",
+          "fontSize": "$icons.button-primary-icon-font-size-md * 0.8",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Primary Button Icon Font Size MD "
+      },
+      "button-primary-icon-type-sm": {
+        "value": {
+          "fontFamily": "$edit.other.icons-font",
+          "fontWeight": "$edit.icons.icons-font-weight",
+          "lineHeight": "$edit.button.button-primary-text-size-md * 0.87",
+          "fontSize": "$icons.button-primary-icon-font-size-sm * 0.8",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Primary Button Icon Font Size SM "
+      },
+      "button-secondary-icon-type-lg": {
+        "value": {
+          "fontFamily": "$edit.other.icons-font",
+          "fontWeight": "$edit.icons.icons-font-weight",
+          "lineHeight": "$edit.button.button-secondary-text-size-md * 1.25",
+          "fontSize": "$icons.button-secondary-icon-font-size-lg * 0.8",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Secondary Button Icon Font Size LG "
+      },
+      "button-secondary-icon-type-md": {
+        "value": {
+          "fontFamily": "$edit.other.icons-font",
+          "fontWeight": "$edit.icons.icons-font-weight",
+          "lineHeight": "$edit.button.button-secondary-text-size-md",
+          "fontSize": "$icons.button-primary-icon-font-size-md * 0.8",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Secondary Button Icon Font Size MD "
+      },
+      "button-secondary-icon-type-sm": {
+        "value": {
+          "fontFamily": "$edit.other.icons-font",
+          "fontWeight": "$edit.icons.icons-font-weight",
+          "lineHeight": "$edit.button.button-secondary-text-size-md * 0.87",
+          "fontSize": "$icons.button-primary-icon-font-size-sm * 0.8",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Secondary Button Icon Font Size SM "
+      },
+      "button-tertiary-icon-type-lg": {
+        "value": {
+          "fontFamily": "$edit.other.icons-font",
+          "fontWeight": "$edit.icons.icons-font-weight",
+          "lineHeight": "$edit.button.button-tertiary-text-size-md * 1.25",
+          "fontSize": "$icons.button-primary-icon-font-size-lg * 0.8",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Tertiray Button Icon Font Size LG "
+      },
+      "button-tertiary-icon-type-md": {
+        "value": {
+          "fontFamily": "$edit.other.icons-font",
+          "fontWeight": "$edit.icons.icons-font-weight",
+          "lineHeight": "$edit.button.button-primary-text-size-md",
+          "fontSize": "$icons.button-tertiary-icon-font-size-md * 0.8",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Tertiary Button Icon Font Size MD "
+      },
+      "button-tertiary-icon-type-sm": {
+        "value": {
+          "fontFamily": "$edit.other.icons-font",
+          "fontWeight": "$edit.icons.icons-font-weight",
+          "lineHeight": "$edit.button.button-primary-text-size-md * 0.87",
+          "fontSize": "$icons.button-tertiary-icon-font-size-sm * 0.8",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Tertiary Button Icon Font Size SM "
+      },
+      "button-link-icon-type-lg": {
+        "value": {
+          "fontFamily": "$edit.other.icons-font",
+          "fontWeight": "$edit.icons.icons-font-weight",
+          "lineHeight": "$edit.button.button-link-text-size-md * 1.25",
+          "fontSize": "$icons.button-link-icon-font-size-lg * 0.8",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Link Button Icon Font Size LG "
+      },
+      "button-link-icon-type-md": {
+        "value": {
+          "fontFamily": "$edit.other.icons-font",
+          "fontWeight": "$edit.icons.icons-font-weight",
+          "lineHeight": "$edit.button.button-link-text-size-md",
+          "fontSize": "$icons.button-link-icon-font-size-md * 0.8",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Link Button Icon Font Size MD "
+      },
+      "button-link-icon-type-sm": {
+        "value": {
+          "fontFamily": "$edit.other.icons-font",
+          "fontWeight": "$edit.icons.icons-font-weight",
+          "lineHeight": "$edit.button.button-link-text-size-md * 0.87",
+          "fontSize": "$icons.button-link-icon-font-size-sm * 0.8",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Link Button Icon Font Size SM "
+      },
+      "button-primary": {
+        "button-primary-no-icon-py-lg": {
+          "value": "$edit.buttons.button-primary-no-icon-py-md * 1.25",
+          "description": "Primary Button Spacing No Icon LG",
+          "type": "spacing"
+        },
+        "button-primary-no-icon-px-lg": {
+          "value": "$edit.buttons.button-primary-no-icon-px-md * 1.325",
+          "description": "Primary Button Spacing X No Icon LG",
+          "type": "spacing"
+        },
+        "button-primary-no-icon-py-sm": {
+          "value": "$edit.buttons.button-primary-no-icon-py-md * 0.75",
+          "description": "Primary Button Spacing No Icon SM",
+          "type": "spacing"
+        },
+        "button-primary-no-icon-px-sm": {
+          "value": "$edit.buttons.button-primary-no-icon-px-md * 0.675",
+          "description": "Primary Button Spacing X No Icon SM",
+          "type": "spacing"
+        },
+        "button-primary-icon-py-lg": {
+          "value": "$edit.buttons.button-primary-no-icon-py-md * 1.25",
+          "description": "Primary Button Spacing Icon LG",
+          "type": "spacing"
+        },
+        "button-primary-icon-px-lg": {
+          "value": "$edit.buttons.button-primary-no-icon-px-md * 0.6",
+          "description": "Primary Button Spacing X Icon LG",
+          "type": "spacing"
+        },
+        "button-primary-icon-py-md": {
+          "value": "$edit.buttons.button-primary-no-icon-py-md",
+          "description": "Primary Button Spacing Icon MD",
+          "type": "spacing"
+        },
+        "button-primary-icon-px-md": {
+          "value": "$edit.buttons.button-primary-no-icon-px-md * 0.55",
+          "description": "Primary Button Spacing X Icon MD",
+          "type": "spacing"
+        },
+        "button-primary-icon-py-sm": {
+          "value": "$edit.buttons.button-primary-no-icon-py-md * 0.75",
+          "description": "Primary Button Spacing Icon SM",
+          "type": "spacing"
+        },
+        "button-primary-icon-px-sm": {
+          "value": "$edit.buttons.button-primary-no-icon-px-md * 0.45",
+          "description": "Primary Button Spacing X Icon SM",
+          "type": "spacing"
+        },
+        "button-primary-only-icon-py-lg": {
+          "value": "$edit.buttons.button-primary-no-icon-py-md * 1.25",
+          "description": "Primary Button Spacing Y Only Icon LG",
+          "type": "spacing"
+        },
+        "button-primary-only-icon-px-lg": {
+          "value": "$edit.buttons.button-primary-no-icon-py-md * 1.25",
+          "description": "Primary Button Spacing X Only Icon LG",
+          "type": "spacing"
+        },
+        "button-primary-only-icon-py-md": {
+          "value": "$edit.buttons.button-primary-no-icon-py-md",
+          "description": "Primary Button Spacing Y Only Icon MD",
+          "type": "spacing"
+        },
+        "button-primary-only-icon-px-md": {
+          "value": "$edit.buttons.button-primary-no-icon-py-md",
+          "description": "Primary Button Spacing X Only Icon MD",
+          "type": "spacing"
+        },
+        "button-primary-only-icon-py-sm": {
+          "value": "$edit.buttons.button-primary-no-icon-py-md * 0.75",
+          "description": "Primary Button Spacing Y Only Icon SM",
+          "type": "spacing"
+        },
+        "button-primary-only-icon-px-sm": {
+          "value": "$edit.buttons.button-primary-no-icon-py-md * 0.75",
+          "description": "Primary Button Spacing X Only Icon SM",
+          "type": "spacing"
+        },
+        "button-primary-icon-spacing": {
+          "value": "$spacers.sp-6",
+          "description": "Primary Button Icon Spacing ",
+          "type": "spacing"
+        }
+      },
+      "button-secondary": {
+        "button-secondary-no-icon-py-lg": {
+          "value": "$edit.buttons.button-secondary-no-icon-py-md * 1.25",
+          "description": "Secondary Button Spacing No Icon LG",
+          "type": "spacing"
+        },
+        "button-secondary-no-icon-px-lg": {
+          "value": "$edit.buttons.button-secondary-no-icon-px-md * 1.325",
+          "description": "Secondary Button Spacing X No Icon LG",
+          "type": "spacing"
+        },
+        "button-secondary-no-icon-py-sm": {
+          "value": "$edit.buttons.button-secondary-no-icon-py-md * 0.75",
+          "description": "Secondary Button Spacing No Icon SM",
+          "type": "spacing"
+        },
+        "button-secondary-no-icon-px-sm": {
+          "value": "$edit.buttons.button-secondary-no-icon-px-md * 0.675",
+          "description": "Secondary Button Spacing X No Icon SM",
+          "type": "spacing"
+        },
+        "button-secondary-icon-py-lg": {
+          "value": "$edit.buttons.button-secondary-no-icon-py-md * 1.25",
+          "description": "Secondary Button Spacing Icon LG",
+          "type": "spacing"
+        },
+        "button-secondary-icon-px-lg": {
+          "value": "$edit.buttons.button-secondary-no-icon-px-md * 0.6",
+          "description": "Secondary Button Spacing X Icon LG",
+          "type": "spacing"
+        },
+        "button-secondary-icon-py-md": {
+          "value": "$edit.buttons.button-secondary-no-icon-py-md",
+          "description": "Secondary Button Spacing Icon MD",
+          "type": "spacing"
+        },
+        "button-secondary-icon-px-md": {
+          "value": "$edit.buttons.button-secondary-no-icon-px-md * 0.55",
+          "description": "Secondary Button Spacing X Icon MD",
+          "type": "spacing"
+        },
+        "button-secondary-icon-py-sm": {
+          "value": "$edit.buttons.button-secondary-no-icon-py-md * 0.75",
+          "description": "Secondary Button Spacing Icon SM",
+          "type": "spacing"
+        },
+        "button-secondary-icon-px-sm": {
+          "value": "$edit.buttons.button-secondary-no-icon-px-md * 0.45",
+          "description": "Secondary Button Spacing X Icon SM",
+          "type": "spacing"
+        },
+        "button-secondary-only-icon-py-lg": {
+          "value": "$edit.buttons.button-secondary-no-icon-py-md * 1.25",
+          "description": "Secondary Button Spacing Y Only Icon LG",
+          "type": "spacing"
+        },
+        "button-secondary-only-icon-px-lg": {
+          "value": "$edit.buttons.button-secondary-no-icon-py-md * 1.25",
+          "description": "Secondary Button Spacing X Only Icon LG",
+          "type": "spacing"
+        },
+        "button-secondary-only-icon-py-md": {
+          "value": "$edit.buttons.button-secondary-no-icon-py-md",
+          "description": "Secondary Button Spacing Y Only Icon MD",
+          "type": "spacing"
+        },
+        "button-secondary-only-icon-px-md": {
+          "value": "$edit.buttons.button-secondary-no-icon-py-md",
+          "description": "Secondary Button Spacing X Only Icon MD",
+          "type": "spacing"
+        },
+        "button-secondary-only-icon-py-sm": {
+          "value": "$edit.buttons.button-secondary-no-icon-py-md * 0.75",
+          "description": "Secondary Button Spacing Y Only Icon SM",
+          "type": "spacing"
+        },
+        "button-secondary-only-icon-px-sm": {
+          "value": "$edit.buttons.button-secondary-no-icon-py-md * 0.75",
+          "description": "Secondary Button Spacing X Only Icon SM",
+          "type": "spacing"
+        },
+        "button-secondary-icon-spacing": {
+          "value": "$spacers.sp-6",
+          "description": "Secondary Button Icon Spacing ",
+          "type": "spacing"
+        }
+      },
+      "button-tertiary": {
+        "button-tertiary-no-icon-py-lg": {
+          "value": "$edit.buttons.button-tertiary-no-icon-py-md * 1.25",
+          "description": "Tertiary Button Spacing No Icon LG",
+          "type": "spacing"
+        },
+        "button-tertiary-no-icon-px-lg": {
+          "value": "$edit.buttons.button-tertiary-no-icon-px-md * 1.325",
+          "description": "Tertiary Button Spacing X No Icon LG",
+          "type": "spacing"
+        },
+        "button-tertiary-no-icon-py-sm": {
+          "value": "$edit.buttons.button-tertiary-no-icon-py-md * 0.75",
+          "description": "Tertiary Button Spacing No Icon SM",
+          "type": "spacing"
+        },
+        "button-tertiary-no-icon-px-sm": {
+          "value": "$edit.buttons.button-tertiary-no-icon-px-md * 0.675",
+          "description": "Tertiary Button Spacing X No Icon SM",
+          "type": "spacing"
+        },
+        "button-tertiary-icon-py-lg": {
+          "value": "$edit.buttons.button-tertiary-no-icon-py-md * 1.25",
+          "description": "Tertiary Button Spacing Icon LG",
+          "type": "spacing"
+        },
+        "button-tertiary-icon-px-lg": {
+          "value": "$edit.buttons.button-tertiary-no-icon-px-md * 0.6",
+          "description": "Tertiary Button Spacing X Icon LG",
+          "type": "spacing"
+        },
+        "button-tertiary-icon-py-md": {
+          "value": "$edit.buttons.button-tertiary-no-icon-py-md",
+          "description": "Tertiary Button Spacing Icon MD",
+          "type": "spacing"
+        },
+        "button-tertiary-icon-px-md": {
+          "value": "$edit.buttons.button-tertiary-no-icon-px-md * 0.55",
+          "description": "Tertiary Button Spacing X Icon MD",
+          "type": "spacing"
+        },
+        "button-tertiary-icon-py-sm": {
+          "value": "$edit.buttons.button-tertiary-no-icon-py-md * 0.75",
+          "description": "Tertiary Button Spacing Icon SM",
+          "type": "spacing"
+        },
+        "button-tertiary-icon-px-sm": {
+          "value": "$edit.buttons.button-tertiary-no-icon-px-md * 0.45",
+          "description": "Tertiary Button Spacing X Icon SM",
+          "type": "spacing"
+        },
+        "button-tertiary-only-icon-py-lg": {
+          "value": "$edit.buttons.button-tertiary-no-icon-py-md * 1.25",
+          "description": "Tertiary Button Spacing Y Only Icon LG",
+          "type": "spacing"
+        },
+        "button-tertiary-only-icon-px-lg": {
+          "value": "$edit.buttons.button-tertiary-no-icon-py-md * 1.25",
+          "description": "Tertiary Button Spacing X Only Icon LG",
+          "type": "spacing"
+        },
+        "button-tertiary-only-icon-py-md": {
+          "value": "$edit.buttons.button-tertiary-no-icon-py-md",
+          "description": "Tertiary Button Spacing Y Only Icon MD",
+          "type": "spacing"
+        },
+        "button-tertiary-only-icon-px-md": {
+          "value": "$edit.buttons.button-tertiary-no-icon-py-md",
+          "description": "Tertiary Button Spacing X Only Icon MD",
+          "type": "spacing"
+        },
+        "button-tertiary-only-icon-py-sm": {
+          "value": "$edit.buttons.button-tertiary-no-icon-py-md * 0.75",
+          "description": "Tertiary Button Spacing Y Only Icon SM",
+          "type": "spacing"
+        },
+        "button-tertiary-only-icon-px-sm": {
+          "value": "$edit.buttons.button-tertiary-no-icon-py-md * 0.75",
+          "description": "Tertiary Button Spacing X Only Icon SM",
+          "type": "spacing"
+        },
+        "button-tertiary-icon-spacing": {
+          "value": "$spacers.sp-6",
+          "description": "Tertiary Button Icon Spacing ",
+          "type": "spacing"
+        }
+      },
+      "button-link": {
+        "button-link-icon-spacing": {
+          "value": "$spacers.sp-6",
+          "description": "Link Button Icon Spacing ",
+          "type": "spacing"
+        }
+      },
+      "button-primary-icon-size-lg": {
+        "value": "$edit.button.button-primary-text-size-md * 1.25",
+        "description": "Primary Button Icon Size LG",
+        "type": "sizing"
+      },
+      "button-primary-icon-size-md": {
+        "value": "$edit.button.button-primary-text-size-md",
+        "description": "Primary Button Icon Size MD",
+        "type": "sizing"
+      },
+      "button-primary-icon-size-sm": {
+        "value": "$edit.button.button-primary-text-size-md * 0.87",
+        "description": "Secondary Button Icon Size SM",
+        "type": "sizing"
+      },
+      "button-secondary-icon-size-lg": {
+        "value": "$edit.button.button-secondary-text-size-md * 1.25",
+        "description": "Secondary Button Icon Size LG",
+        "type": "sizing"
+      },
+      "button-secondary-icon-size-md": {
+        "value": "$edit.button.button-secondary-text-size-md",
+        "description": "Secondary Button Icon Size MD",
+        "type": "sizing"
+      },
+      "button-secondary-icon-size-sm": {
+        "value": "$edit.button.button-secondary-text-size-md * 0.87",
+        "description": "Secondary Button Icon Size SM",
+        "type": "sizing"
+      },
+      "button-tertiary-icon-size-lg": {
+        "value": "$edit.button.button-tertiary-text-size-md * 1.25",
+        "description": "Tertiary Button Icon Size LG",
+        "type": "sizing"
+      },
+      "button-tertiary-icon-size-md": {
+        "value": "$edit.button.button-tertiary-text-size-md",
+        "description": "Tertiary Button Icon Size MD",
+        "type": "sizing"
+      },
+      "button-tertiary-icon-size-sm": {
+        "value": "$edit.button.button-tertiary-text-size-md * 0.87",
+        "description": "Tertiary Button Icon Size SM",
+        "type": "sizing"
+      },
+      "button-link-icon-size-lg": {
+        "value": "$edit.button.button-link-text-size-md * 1.25",
+        "description": "Link Button Icon Size LG",
+        "type": "sizing"
+      },
+      "button-link-icon-size-md": {
+        "value": "$edit.button.button-link-text-size-md",
+        "description": "Link Button Icon Size MD",
+        "type": "sizing"
+      },
+      "button-link-icon-size-sm": {
+        "value": "$edit.button.button-link-text-size-md * 0.87",
+        "description": "Link Button Icon Size SM",
+        "type": "sizing"
+      }
+    },
+    "spacers": {
+      "sp-1": {
+        "value": "1",
+        "description": "--spacing-0",
+        "type": "spacing"
+      },
+      "sp-2": {
+        "value": "2",
+        "description": "--spacing-0.5",
+        "type": "spacing"
+      },
+      "sp-4": {
+        "value": "4",
+        "description": "--spacing-1",
+        "type": "spacing"
+      },
+      "sp-6": {
+        "value": "6",
+        "description": "--spacing-1.5",
+        "type": "spacing"
+      },
+      "sp-8": {
+        "value": "8",
+        "description": "--spacing-2",
+        "type": "spacing"
+      },
+      "sp-10": {
+        "value": "10",
+        "description": "--spacing-2.5",
+        "type": "spacing"
+      },
+      "sp-12": {
+        "value": "12",
+        "description": "--spacing-3",
+        "type": "spacing"
+      },
+      "sp-14": {
+        "value": "14",
+        "description": "--spacing-3.5",
+        "type": "spacing"
+      },
+      "sp-16": {
+        "value": "16",
+        "description": "--spacing-4",
+        "type": "spacing"
+      },
+      "sp-20": {
+        "value": "20",
+        "description": "--spacing-5",
+        "type": "spacing"
+      },
+      "sp-24": {
+        "value": "24",
+        "description": "--spacing-6",
+        "type": "spacing"
+      },
+      "sp-28": {
+        "value": "28",
+        "description": "--spacing-7",
+        "type": "spacing"
+      },
+      "sp-32": {
+        "value": "32",
+        "description": "--spacing-8",
+        "type": "spacing"
+      },
+      "sp-36": {
+        "value": "36",
+        "description": "--spacing-9",
+        "type": "spacing"
+      },
+      "sp-40": {
+        "value": "40",
+        "description": "--spacing-10",
+        "type": "spacing"
+      },
+      "sp-44": {
+        "value": "44",
+        "description": "--spacing-11",
+        "type": "spacing"
+      },
+      "sp-48": {
+        "value": "48",
+        "description": "--spacing-12",
+        "type": "spacing"
+      },
+      "sp-56": {
+        "value": "56",
+        "description": "--spacing-14",
+        "type": "spacing"
+      },
+      "sp-64": {
+        "value": "64",
+        "description": "--spacing-16",
+        "type": "spacing"
+      },
+      "sp-80": {
+        "value": "80",
+        "description": "--spacing-20",
+        "type": "spacing"
+      },
+      "sp-96": {
+        "value": "96",
+        "description": "--spacing-24",
+        "type": "spacing"
+      },
+      "sp-112": {
+        "value": "112",
+        "description": "--spacing-28",
+        "type": "spacing"
+      },
+      "sp-128": {
+        "value": "128",
+        "description": "--spacing-32",
+        "type": "spacing"
+      },
+      "sp-144": {
+        "value": "144",
+        "description": "--spacing-36",
+        "type": "spacing"
+      },
+      "sp-160": {
+        "value": "160",
+        "description": "--spacing-40",
+        "type": "spacing"
+      },
+      "sp-176": {
+        "value": "176",
+        "description": "--spacing-44",
+        "type": "spacing"
+      },
+      "sp-192": {
+        "value": "192",
+        "description": "--spacing-48",
+        "type": "spacing"
+      },
+      "sp-208": {
+        "value": "208",
+        "description": "--spacing-52",
+        "type": "spacing"
+      },
+      "sp-224": {
+        "value": "224",
+        "description": "--spacing-56",
+        "type": "spacing"
+      },
+      "sp-240": {
+        "value": "240",
+        "description": "--spacing-60",
+        "type": "spacing"
+      },
+      "sp-256": {
+        "value": "256",
+        "description": "--spacing-64",
+        "type": "spacing"
+      },
+      "sp-288": {
+        "value": "288",
+        "description": "--spacing-72",
+        "type": "spacing"
+      },
+      "sp-320": {
+        "value": "320",
+        "description": "--spacing-80",
+        "type": "spacing"
+      },
+      "sp-384": {
+        "value": "384",
+        "description": "--spacing-96",
+        "type": "spacing"
+      },
+      "sp-0": {
+        "value": "1",
+        "description": "--spacing-0",
+        "type": "spacing"
+      }
+    },
+    "sizes": {
+      "si-1": {
+        "value": "$spacers.sp-1",
+        "description": "--spacing-0",
+        "type": "sizing"
+      },
+      "si-2": {
+        "value": "$spacers.sp-2",
+        "description": "--spacing-0.5",
+        "type": "sizing"
+      },
+      "si-4": {
+        "value": "$spacers.sp-4",
+        "description": "--spacing-1",
+        "type": "sizing"
+      },
+      "si-6": {
+        "value": "$spacers.sp-6",
+        "description": "--spacing-1.5",
+        "type": "sizing"
+      },
+      "si-8": {
+        "value": "$spacers.sp-8",
+        "description": "--spacing-2",
+        "type": "sizing"
+      },
+      "si-10": {
+        "value": "$spacers.sp-10",
+        "description": "--spacing-2.5",
+        "type": "sizing"
+      },
+      "si-12": {
+        "value": "$spacers.sp-12",
+        "description": "--spacing-3",
+        "type": "sizing"
+      },
+      "si-14": {
+        "value": "$spacers.sp-14",
+        "description": "--spacing-3.5",
+        "type": "sizing"
+      },
+      "si-16": {
+        "value": "$spacers.sp-16",
+        "description": "--spacing-4",
+        "type": "sizing"
+      },
+      "si-20": {
+        "value": "$spacers.sp-20",
+        "description": "--spacing-5",
+        "type": "sizing"
+      },
+      "si-24": {
+        "value": "$spacers.sp-24",
+        "description": "--spacing-6",
+        "type": "sizing"
+      },
+      "si-28": {
+        "value": "$spacers.sp-28",
+        "description": "--spacing-7",
+        "type": "sizing"
+      },
+      "si-32": {
+        "value": "$spacers.sp-32",
+        "description": "--spacing-8",
+        "type": "sizing"
+      },
+      "si-36": {
+        "value": "$spacers.sp-36",
+        "description": "--spacing-9",
+        "type": "sizing"
+      },
+      "si-40": {
+        "value": "$spacers.sp-40",
+        "description": "--spacing-10",
+        "type": "sizing"
+      },
+      "si-44": {
+        "value": "$spacers.sp-44",
+        "description": "--spacing-11",
+        "type": "sizing"
+      },
+      "si-48": {
+        "value": "$spacers.sp-48",
+        "description": "--spacing-12",
+        "type": "sizing"
+      },
+      "si-56": {
+        "value": "$spacers.sp-56",
+        "description": "--spacing-14",
+        "type": "sizing"
+      },
+      "si-64": {
+        "value": "$spacers.sp-64",
+        "description": "--spacing-16",
+        "type": "sizing"
+      },
+      "si-80": {
+        "value": "$spacers.sp-80",
+        "description": "--spacing-20",
+        "type": "sizing"
+      },
+      "si-96": {
+        "value": "$spacers.sp-96",
+        "description": "--spacing-24",
+        "type": "sizing"
+      },
+      "si-112": {
+        "value": "$spacers.sp-112",
+        "description": "--spacing-28",
+        "type": "sizing"
+      },
+      "si-128": {
+        "value": "$spacers.sp-128",
+        "description": "--spacing-32",
+        "type": "sizing"
+      },
+      "si-144": {
+        "value": "$spacers.sp-144",
+        "description": "--spacing-36",
+        "type": "sizing"
+      },
+      "si-160": {
+        "value": "$spacers.sp-160",
+        "description": "--spacing-40",
+        "type": "sizing"
+      },
+      "si-176": {
+        "value": "$spacers.sp-176",
+        "description": "--spacing-44",
+        "type": "sizing"
+      },
+      "si-192": {
+        "value": "$spacers.sp-192",
+        "description": "--spacing-48",
+        "type": "sizing"
+      },
+      "si-208": {
+        "value": "$spacers.sp-208",
+        "description": "--spacing-52",
+        "type": "sizing"
+      },
+      "si-224": {
+        "value": "$spacers.sp-224",
+        "description": "--spacing-56",
+        "type": "sizing"
+      },
+      "si-240": {
+        "value": "$spacers.sp-240",
+        "description": "--spacing-60",
+        "type": "sizing"
+      },
+      "si-256": {
+        "value": "$spacers.sp-256",
+        "description": "--spacing-64",
+        "type": "sizing"
+      },
+      "si-288": {
+        "value": "$spacers.sp-288",
+        "description": "--spacing-72",
+        "type": "sizing"
+      },
+      "si-320": {
+        "value": "$spacers.sp-320",
+        "description": "--spacing-80",
+        "type": "sizing"
+      },
+      "si-384": {
+        "value": "$spacers.sp-384",
+        "description": "--spacing-96",
+        "type": "sizing"
+      }
+    },
+    "icons": {
+      "icon-size-8": {
+        "value": "$spacers.sp-8",
+        "description": "--icon-size-xs",
+        "type": "sizing"
+      },
+      "icon-size-16": {
+        "value": "$spacers.sp-16",
+        "description": "--icon-size-sm",
+        "type": "sizing"
+      },
+      "icon-size-24": {
+        "value": "$spacers.sp-24",
+        "description": "--icon-size-md",
+        "type": "sizing"
+      },
+      "icon-size-32": {
+        "value": "$spacers.sp-32",
+        "description": "--icon-size-lg",
+        "type": "sizing"
+      },
+      "icon-size-40": {
+        "value": "$spacers.sp-40",
+        "description": "--icon-size-xl",
+        "type": "sizing"
+      },
+      "icon-size-48": {
+        "value": "$spacers.sp-48",
+        "description": "--icon-size-2xl",
+        "type": "sizing"
+      },
+      "icon-size-56": {
+        "value": "$spacers.sp-56",
+        "description": "--icon-size-3xl",
+        "type": "sizing"
+      },
+      "icon-size-64": {
+        "value": "$spacers.sp-64",
+        "description": "--icon-size-4xl",
+        "type": "sizing"
+      },
+      "icon-size-80": {
+        "value": "$spacers.sp-80",
+        "description": "--icon-size-5xl",
+        "type": "sizing"
+      },
+      "icon-font-weight-thin": {
+        "value": "Thin",
+        "description": "Icon Font Weight Thin",
+        "type": "fontWeights"
+      },
+      "icon-font-weight-light": {
+        "value": "Light",
+        "description": "Icon Font Weight Light",
+        "type": "fontWeights"
+      },
+      "icon-font-weight-regular": {
+        "value": "Regular",
+        "description": "Icon Font Weight Regular",
+        "type": "fontWeights"
+      },
+      "icon-font-weight-solid": {
+        "value": "Solid",
+        "description": "Icon Font Weight Solid",
+        "type": "fontWeights"
+      },
+      "icons-font": {
+        "value": {
+          "fontFamily": "$edit.other.icons-font",
+          "fontWeight": "$edit.icons.icons-font-weight",
+          "lineHeight": "auto",
+          "fontSize": "",
+          "letterSpacing": "0",
+          "paragraphSpacing": "auto"
+        },
+        "description": "Icons Font",
+        "type": "typography"
+      },
+      "button-primary-icon-font-size-lg": {
+        "value": "$edit.button.button-primary-text-size-md * 1.25",
+        "description": "Primary Button Icon Font Size LG",
+        "type": "fontSizes"
+      },
+      "button-primary-icon-font-size-md": {
+        "value": "$edit.button.button-primary-text-size-md",
+        "description": "Primary Button Icon Font Size MD",
+        "type": "fontSizes"
+      },
+      "button-primary-icon-font-size-sm": {
+        "value": "$edit.button.button-primary-text-size-md * 0.87",
+        "description": "Primary Button Icon Font Size SM",
+        "type": "fontSizes"
+      }
+    },
+    "border-radius-0": {
+      "value": "0",
+      "description": "Border Radius None",
+      "type": "borderRadius"
+    },
+    "border-radius-2": {
+      "value": "2",
+      "description": "Border Radius 2",
+      "type": "borderRadius"
+    },
+    "border-radius-4": {
+      "value": "4",
+      "description": "Border Radius 4",
+      "type": "borderRadius"
+    },
+    "border-radius-6": {
+      "value": "6",
+      "description": "Border Radius 6",
+      "type": "borderRadius"
+    },
+    "border-radius-8": {
+      "value": "8",
+      "description": "Border Radius 8",
+      "type": "borderRadius"
+    },
+    "border-radius-12": {
+      "value": "12",
+      "description": "Border Radius 12",
+      "type": "borderRadius"
+    },
+    "border-radius-16": {
+      "value": "16",
+      "description": "Border Radius 16",
+      "type": "borderRadius"
+    },
+    "border-radius-24": {
+      "value": "24",
+      "description": "Border Radius 24",
+      "type": "borderRadius"
+    },
+    "border-radius-32": {
+      "value": "32",
+      "description": "Border Radius 32",
+      "type": "borderRadius"
+    },
+    "border-radius-48": {
+      "value": "48",
+      "description": "Border Radius 48",
+      "type": "borderRadius"
+    },
+    "border-radius-64": {
+      "value": "64",
+      "description": "Border Radius 64",
+      "type": "borderRadius"
+    },
+    "border-radius-full": {
+      "value": "9999",
+      "description": "Border Radius Full",
+      "type": "borderRadius"
+    },
+    "border-size-0": {
+      "value": "0",
+      "description": "Border Size 0",
+      "type": "borderWidth"
+    },
+    "border-size-1": {
+      "value": "1",
+      "description": "Border Size 1",
+      "type": "borderWidth"
+    },
+    "border-size-2": {
+      "value": "2",
+      "description": "Border Size 2",
+      "type": "borderWidth"
+    },
+    "border-size-3": {
+      "value": "3",
+      "description": "Border Size 3",
+      "type": "borderWidth"
+    },
+    "border-size-4": {
+      "value": "4",
+      "description": "Border Size 4",
+      "type": "borderWidth"
+    },
+    "border-size-6": {
+      "value": "6",
+      "description": "Border Size 6",
+      "type": "borderWidth"
+    },
+    "border-size-8": {
+      "value": "8",
+      "description": "Border Size 8",
+      "type": "borderWidth"
+    },
+    "border-size-10": {
+      "value": "10",
+      "description": "Border Size 10",
+      "type": "borderWidth"
+    },
+    "shadow-sm": {
+      "value": {
+        "x": "0",
+        "y": "1",
+        "blur": "2",
+        "spread": "0",
+        "color": "$edit.shadow.color-shadow"
+      },
+      "description": "Shadow Small",
+      "type": "boxShadow"
+    },
+    "shadow-sm-inverted": {
+      "value": {
+        "x": "0",
+        "y": "1",
+        "blur": "2",
+        "spread": "0",
+        "color": "$edit.shadow.color-shadow-inverted"
+      },
+      "description": "Shadow Small Inverted",
+      "type": "boxShadow"
+    },
+    "shadow-md": {
+      "value": {
+        "x": "0",
+        "y": "4",
+        "blur": "8",
+        "spread": "0",
+        "color": "$edit.shadow.color-shadow"
+      },
+      "description": "Shadow Medium",
+      "type": "boxShadow"
+    },
+    "shadow-md-inverted": {
+      "value": {
+        "x": "0",
+        "y": "4",
+        "blur": "8",
+        "spread": "0",
+        "color": "$edit.shadow.color-shadow-inverted"
+      },
+      "description": "Shadow Medium Inverted",
+      "type": "boxShadow"
+    },
+    "shadow-lg": {
+      "value": {
+        "x": "0",
+        "y": "6",
+        "blur": "12",
+        "spread": "0",
+        "color": "$edit.shadow.color-shadow"
+      },
+      "description": "Shadow Large",
+      "type": "boxShadow"
+    },
+    "shadow-lg-inverted": {
+      "value": {
+        "x": "0",
+        "y": "6",
+        "blur": "12",
+        "spread": "0",
+        "color": "$edit.shadow.color-shadow-inverted"
+      },
+      "description": "Shadow Large Inverted",
+      "type": "boxShadow"
+    },
+    "shadow-xl": {
+      "value": {
+        "x": "0",
+        "y": "8",
+        "blur": "16",
+        "spread": "0",
+        "color": "$edit.shadow.color-shadow"
+      },
+      "description": "Shadow Extra Large",
+      "type": "boxShadow"
+    },
+    "shadow-xl-inverted": {
+      "value": {
+        "x": "0",
+        "y": "8",
+        "blur": "16",
+        "spread": "0",
+        "color": "$edit.shadow.color-shadow-inverted"
+      },
+      "description": "Shadow Extra Large Inverted",
+      "type": "boxShadow"
+    },
+    "shadow-2xl": {
+      "value": {
+        "x": "0",
+        "y": "12",
+        "blur": "24",
+        "spread": "0",
+        "color": "$edit.shadow.color-shadow"
+      },
+      "description": "Shadow 2 Extra Large",
+      "type": "boxShadow"
+    },
+    "shadow-2xl-inverted": {
+      "value": {
+        "x": "0",
+        "y": "12",
+        "blur": "24",
+        "spread": "0",
+        "color": "$edit.shadow.color-shadow-inverted"
+      },
+      "description": "Shadow 2 Extra Large Inverted",
+      "type": "boxShadow"
+    },
+    "greyscale": {
+      "color-black": {
+        "value": "rgba(0, 0, 0, 1)",
+        "description": "Black",
+        "type": "color"
+      },
+      "color-grey-900": {
+        "value": "rgba(17, 24, 39, 1)",
+        "description": "Grey-900",
+        "type": "color"
+      },
+      "color-grey-700": {
+        "value": "rgba(55, 65, 81, 1)",
+        "description": "Grey-700",
+        "type": "color"
+      },
+      "color-grey-500": {
+        "value": "rgba(107, 114, 128, 1)",
+        "description": "Grey-500",
+        "type": "color"
+      },
+      "color-grey-300": {
+        "value": "rgba(209, 213, 219, 1)",
+        "description": "Grey-300",
+        "type": "color"
+      },
+      "color-grey-100": {
+        "value": "rgba(243, 244, 246, 1)",
+        "description": "Grey-100",
+        "type": "color"
+      },
+      "color-white": {
+        "value": "rgba(255, 255, 255, 1)",
+        "description": "White",
+        "type": "color"
+      }
+    },
+    "edit": {
+      "text": {
+        "font-family-headings": {
+          "value": "Pharma",
+          "description": "Heading Font Family",
+          "type": "fontFamilies"
+        },
+        "font-size-heading": {
+          "value": "64",
+          "description": "Font Size Extra Large",
+          "type": "fontSizes"
+        },
+        "font-size-body": {
+          "value": "16",
+          "description": "Font Body Size LG",
+          "type": "fontSizes"
+        },
+        "font-family-body-xl": {
+          "value": "Pharma",
+          "description": "Body Font Family XL",
+          "type": "fontFamilies"
+        },
+        "font-family-body": {
+          "value": "Circular Std",
+          "description": "Body Font Family",
+          "type": "fontFamilies"
+        },
+        "font-weight-headings": {
+          "value": "Bold Condensed",
+          "description": "Font Heading Weight",
+          "type": "fontWeights"
+        },
+        "font-weight-body-xl": {
+          "value": "Regular Condensed",
+          "description": "Font Body Weight XL",
+          "type": "fontWeights"
+        },
+        "font-weight-body": {
+          "value": "Book",
+          "description": "Font Body Weight",
+          "type": "fontWeights"
+        }
+      },
+      "font-letter-spacing-heading": {
+        "value": "0%",
+        "description": "Headings Letter Spacing",
+        "type": "letterSpacing"
+      },
+      "font-letter-spacing-body": {
+        "value": "0%",
+        "description": "Body Letter Spacing",
+        "type": "letterSpacing"
+      },
+      "brand-color": {
+        "color-primary": {
+          "value": "rgba(252, 60, 123, 1)",
+          "description": "Primary Colour",
+          "type": "color"
+        },
+        "color-primary-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Primary Colour Inverted",
+          "type": "color"
+        },
+        "color-secondary": {
+          "value": "rgba(24, 180, 234, 1)",
+          "description": "Secondary Colour",
+          "type": "color"
+        },
+        "color-secondary-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Secondary Colour Inverted",
+          "type": "color"
+        },
+        "color-tertiary": {
+          "value": "rgba(168, 222, 60, 1)",
+          "description": "Tertiary Colour ",
+          "type": "color"
+        },
+        "color-tertiary-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Tertiary Colour Inverted",
+          "type": "color"
+        }
+      },
+      "background-colors": {
+        "color-background-page": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Background Page Colour",
+          "type": "color"
+        },
+        "color-background-page-inverted": {
+          "value": "rgba(252, 60, 123, 1)",
+          "description": "Background Page Colour Inverted",
+          "type": "color"
+        },
+        "color-background-accent1": {
+          "value": "rgba(24, 180, 234, 1)",
+          "description": "Background Accent Colour 1",
+          "type": "color"
+        },
+        "color-background-accent1-inverted": {
+          "value": "rgba(247, 247, 247, 1)",
+          "description": "Background Accent Colour 1 Inverted",
+          "type": "color"
+        },
+        "color-background-accent2": {
+          "value": "rgba(168, 222, 60, 1)",
+          "description": "Background Accent Colour 2",
+          "type": "color"
+        },
+        "color-background-accent2-inverted": {
+          "value": "rgba(247, 247, 247, 1)",
+          "description": "Background Accent Colour 2 Inverted",
+          "type": "color"
+        }
+      },
+      "brand-gradient": {
+        "color-gradient-primary": {
+          "value": "linear-gradient(0deg, #FC6C0C 0%, #FC6C0C 100%)",
+          "description": "Primary Gradient",
+          "type": "color"
+        },
+        "color-gradient-primary-inverted": {
+          "value": "linear-gradient(0deg, #00AACD 0%, #91F00A 100%)",
+          "description": "Primary Gradient Inverted",
+          "type": "color"
+        },
+        "color-gradient-secondary": {
+          "value": "linear-gradient(0deg, #0000AA 0%, #00BEF0 100%)",
+          "description": "Secondary Gradient",
+          "type": "color"
+        },
+        "color-gradient-secondary-inverted": {
+          "value": "linear-gradient(0deg, #0000AA 0%, #00BEF0 100%)",
+          "description": "Secondary Gradient Inverted",
+          "type": "color"
+        }
+      },
+      "shadow": {
+        "color-shadow": {
+          "value": "rgba(0, 0, 0, 0.2)",
+          "description": "Shadow Colour",
+          "type": "color"
+        },
+        "color-shadow-inverted": {
+          "value": "rgba(255, 255, 255, 0.2)",
+          "description": "Shadow Colour Inverted",
+          "type": "color"
+        }
+      },
+      "type": {
+        "color-heading": {
+          "value": "rgba(252, 108, 12, 1)",
+          "description": "Heading Colour",
+          "type": "color"
+        },
+        "color-heading-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Heading Colour Inverted",
+          "type": "color"
+        },
+        "color-text": {
+          "value": "rgba(0, 0, 0, 1)",
+          "description": "Text Colour",
+          "type": "color"
+        },
+        "color-text-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Text Colour Inverted",
+          "type": "color"
+        }
+      },
+      "link": {
+        "color-link-text": {
+          "value": "rgba(0, 110, 210, 1)",
+          "description": "Link Text Colour",
+          "type": "color"
+        },
+        "color-link-text-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Link Text Colour Inverted",
+          "type": "color"
+        },
+        "color-link-text-hover": {
+          "value": "rgba(0, 91, 148, 1)",
+          "description": "Link Text Colour Hover",
+          "type": "color"
+        },
+        "color-link-text-inverted-hover": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Link Text Colour Hover Inverted ",
+          "type": "color"
+        },
+        "color-link-text-active": {
+          "value": "rgba(0, 91, 148, 1)",
+          "description": "Link Text Colour Active",
+          "type": "color"
+        },
+        "color-link-text-inverted-active": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Link Text Colour Active Inverted ",
+          "type": "color"
+        }
+      },
+      "system": {
+        "color-system-alert-full": {
+          "value": "rgba(252, 54, 12, 1)",
+          "description": "System Alert Colour",
+          "type": "color"
+        },
+        "color-system-alert-faded": {
+          "value": "rgba(254, 215, 206, 1)",
+          "description": "System Alert Colour Faded",
+          "type": "color"
+        },
+        "color-system-alert-text": {
+          "value": "rgba(0, 0, 0, 1)",
+          "description": "System Alert Text Colour",
+          "type": "color"
+        },
+        "color-system-warning-full": {
+          "value": "rgba(252, 108, 12, 1)",
+          "description": "System Warning Colour",
+          "type": "color"
+        },
+        "color-system-warning-faded": {
+          "value": "rgba(252, 226, 206, 1)",
+          "description": "System Warning Colour Faded",
+          "type": "color"
+        },
+        "color-system-warning-text": {
+          "value": "rgba(0, 0, 0, 1)",
+          "description": "System Warning Text Colour",
+          "type": "color"
+        },
+        "color-system-success-full": {
+          "value": "rgba(6, 180, 72, 1)",
+          "description": "System Success Colour",
+          "type": "color"
+        },
+        "color-system-success-faded": {
+          "value": "rgba(205, 240, 218, 1)",
+          "description": "System Success Colour Faded",
+          "type": "color"
+        },
+        "color-system-success-text": {
+          "value": "rgba(0, 0, 0, 1)",
+          "description": "System Success Text Colour",
+          "type": "color"
+        },
+        "color-system-focus-color": {
+          "value": "rgba(50, 114, 217,0.3)",
+          "description": "System Focus Colour",
+          "type": "color"
+        },
+        "color-system-focus-color-inverted": {
+          "value": "rgba(255, 255, 255, 0.3)",
+          "description": "System Focus Colour Inverted",
+          "type": "color"
+        },
+        "color-system-disabled-text": {
+          "value": "rgba(136, 136, 136, 1)",
+          "description": "System Disabled Text Colour",
+          "type": "color"
+        },
+        "color-system-disabled-text-inverted": {
+          "value": "rgba(136, 136, 136, 0.8)",
+          "description": "System Disabled Text Colour Inverted",
+          "type": "color"
+        },
+        "color-system-disabled-background": {
+          "value": "rgba(204, 204, 204, 1)",
+          "description": "System Disabled background Colour ",
+          "type": "color"
+        },
+        "color-system-disabled-background-inverted": {
+          "value": "rgba(204, 204, 204,0.8)",
+          "description": "System Disabled background Colour Inverted",
+          "type": "color"
+        }
+      },
+      "button-primary": {
+        "color-button-primary-background": {
+          "value": "rgba(252, 60, 123, 1)",
+          "description": "Button Primary background Colour",
+          "type": "color"
+        },
+        "color-button-primary-background-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Button Primary background Colour Inverted",
+          "type": "color"
+        },
+        "color-button-primary-background-hover": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Button Primary background Colour Hover",
+          "type": "color"
+        },
+        "color-button-primary-background-hover-inverted": {
+          "value": "rgba(252, 60, 123, 1)",
+          "description": "Button Primary background Colour Hover Inverted",
+          "type": "color"
+        },
+        "color-button-primary-background-active": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Button Primary background Colour Active",
+          "type": "color"
+        },
+        "color-button-primary-background-active-inverted": {
+          "value": "rgba(252, 60, 123, 1)",
+          "description": "Button Primary background Colour Active Inverted",
+          "type": "color"
+        },
+        "color-button-primary-border": {
+          "value": "rgba(252, 60, 123, 1)",
+          "description": "Button Primary Border Colour",
+          "type": "color"
+        },
+        "color-button-primary-border-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Button Primary Border Colour Inverted",
+          "type": "color"
+        },
+        "color-button-primary-border-hover": {
+          "value": "rgba(252, 60, 123, 1)",
+          "description": "Button Primary Border Colour Hover",
+          "type": "color"
+        },
+        "color-button-primary-border-hover-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Button Primary Border Colour Hover Inverted",
+          "type": "color"
+        },
+        "color-button-primary-border-active": {
+          "value": "rgba(252, 60, 123, 1)",
+          "description": "Button Primary Border Colour Active",
+          "type": "color"
+        },
+        "color-button-primary-border-active-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Button Primary Border Colour Active Inverted",
+          "type": "color"
+        },
+        "color-button-primary-text": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Button Primary Text Colour",
+          "type": "color"
+        },
+        "color-button-primary-text-inverted": {
+          "value": "rgba(252, 60, 123, 1)",
+          "description": "Button Primary Text Colour Inverted",
+          "type": "color"
+        },
+        "color-button-primary-text-hover": {
+          "value": "rgba(252, 60, 123, 1)",
+          "description": "Button Primary Text Colour Hover",
+          "type": "color"
+        },
+        "color-button-primary-text-hover-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Button Primary Text Colour Inverted",
+          "type": "color"
+        },
+        "color-button-primary-text-active": {
+          "value": "rgba(252, 60, 123, 1)",
+          "description": "Button Primary Text Colour Active",
+          "type": "color"
+        },
+        "color-button-primary-text-active-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Button Primary Text Colour Active Inverted",
+          "type": "color"
+        }
+      },
+      "button-secondary": {
+        "color-button-secondary-background": {
+          "value": "rgba(168, 222, 60, 1)",
+          "description": "Button Secondary background Colour",
+          "type": "color"
+        },
+        "color-button-secondary-background-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Button Secondary background Colour Inverted",
+          "type": "color"
+        },
+        "color-button-secondary-background-hover": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Button Secondary background Colour Hover",
+          "type": "color"
+        },
+        "color-button-secondary-background-hover-inverted": {
+          "value": "rgba(168, 222, 60, 1)",
+          "description": "Button Secondary background Colour Hover Inverted",
+          "type": "color"
+        },
+        "color-button-secondary-background-active": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Button Secondarybackground Colour Active",
+          "type": "color"
+        },
+        "color-button-secondary-background-active-inverted": {
+          "value": "rgba(168, 222, 60, 1)",
+          "description": "Button Secondary background Colour Active Inverted",
+          "type": "color"
+        },
+        "color-button-secondary-border": {
+          "value": "rgba(168, 222, 60, 1)",
+          "description": "Button Secondary Border Colour",
+          "type": "color"
+        },
+        "color-button-secondary-border-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Button Secondary Border Colour Inverted",
+          "type": "color"
+        },
+        "color-button-secondary-border-hover": {
+          "value": "rgba(168, 222, 60, 1)",
+          "description": "Button Secondary Border Colour Hover",
+          "type": "color"
+        },
+        "color-button-secondary-border-hover-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Button Secondary Border Colour Hover inverted",
+          "type": "color"
+        },
+        "color-button-secondary-border-active": {
+          "value": "rgba(168, 222, 60, 1)",
+          "description": "Button Secondary Border Colour Active",
+          "type": "color"
+        },
+        "color-button-secondary-border-active-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Button Secondary Border Colour Active inverted",
+          "type": "color"
+        },
+        "color-button-secondary-text": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Button Secondary Text Colour",
+          "type": "color"
+        },
+        "color-button-secondary-text-inverted": {
+          "value": "rgba(168, 222, 60, 1)",
+          "description": "Button Secondary Text Colour Inverted",
+          "type": "color"
+        },
+        "color-button-secondary-text-hover": {
+          "value": "rgba(168, 222, 60, 1)",
+          "description": "Button Secondary Text Colour Hover",
+          "type": "color"
+        },
+        "color-button-secondary-text-hover-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Button Secondary Text Colour Hover inverted",
+          "type": "color"
+        },
+        "color-button-secondary-text-active": {
+          "value": "rgba(168, 222, 60, 1)",
+          "description": "Button Secondary Text Colour Active",
+          "type": "color"
+        },
+        "color-button-secondary-text-active-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Button Secondary Text Colour Active Inverted",
+          "type": "color"
+        }
+      },
+      "button-tertiary": {
+        "color-button-tertiary-background": {
+          "value": "rgba(24, 180, 234, 1)",
+          "description": "Button Tertiary background Colour",
+          "type": "color"
+        },
+        "color-button-tertiary-background-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Button Tertiary background Colour Inverted",
+          "type": "color"
+        },
+        "color-button-tertiary-background-hover": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Button Tertiary background Colour Hover",
+          "type": "color"
+        },
+        "color-button-tertiary-background-hover-inverted": {
+          "value": "rgba(24, 180, 234, 1)",
+          "description": "Button Tertiary background Colour Hover Inverted",
+          "type": "color"
+        },
+        "color-button-tertiary-background-active": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Button Tertiary background Colour Active",
+          "type": "color"
+        },
+        "color-button-tertiary-background-active-inverted": {
+          "value": "rgba(24, 180, 234, 1)",
+          "description": "Button Tertiary background Colour Active Inverted",
+          "type": "color"
+        },
+        "color-button-tertiary-border": {
+          "value": "rgba(24, 180, 234, 1)",
+          "description": "Button Tertiary Border Colour",
+          "type": "color"
+        },
+        "color-button-tertiary-border-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Button Tertiary Border Colour Inverted",
+          "type": "color"
+        },
+        "color-button-tertiary-border-hover": {
+          "value": "rgba(24, 180, 234, 1)",
+          "description": "Button Tertiary Border Colour Hover",
+          "type": "color"
+        },
+        "color-button-tertiary-border-hover-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Button Tertiary Border Colour Hover inverted",
+          "type": "color"
+        },
+        "color-button-tertiary-border-active": {
+          "value": "rgba(24, 180, 234, 1)",
+          "description": "Button Tertiary Border Colour Active",
+          "type": "color"
+        },
+        "color-button-tertiary-border-active-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Button Tertiary Border Colour Active inverted",
+          "type": "color"
+        },
+        "color-button-tertiary-text": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Button Tertiary Text Colour",
+          "type": "color"
+        },
+        "color-button-tertiary-text-inverted": {
+          "value": "rgba(24, 180, 234, 1)",
+          "description": "Button Tertiary Text Colour Inverted",
+          "type": "color"
+        },
+        "color-button-tertiary-text-hover": {
+          "value": "rgba(24, 180, 234, 1)",
+          "description": "Button Tertiary Text Colour Hover",
+          "type": "color"
+        },
+        "color-button-tertiary-text-hover-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Button Tertiary Text Colour Hover inverted",
+          "type": "color"
+        },
+        "color-button-tertiary-text-active": {
+          "value": "rgba(24, 180, 234, 1)",
+          "description": "Button Tertiary Text Colour Active",
+          "type": "color"
+        },
+        "color-button-tertiary-text-active-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Button Tertiary Text Colour Active Inverted",
+          "type": "color"
+        }
+      },
+      "button-link": {
+        "color-button-link-text": {
+          "value": "$edit.link.color-link-text",
+          "description": "Button Link Text Colour",
+          "type": "color"
+        },
+        "color-button-link-text-inverted": {
+          "value": "$edit.link.color-link-text-inverted",
+          "description": "Button Link Text Colour Inverted",
+          "type": "color"
+        },
+        "color-button-link-text-hover": {
+          "value": "$edit.link.color-link-text-hover",
+          "description": "Button Link Text Colour Hover",
+          "type": "color"
+        },
+        "color-button-link-text-hover-inverted": {
+          "value": "$edit.link.color-link-text-inverted-hover",
+          "description": "Button Link Text Colour Inverted",
+          "type": "color"
+        },
+        "color-button-link-text-active": {
+          "value": "$edit.link.color-link-text-active",
+          "description": "Button Link Text Colour Active",
+          "type": "color"
+        },
+        "color-button-link-text-active-inverted": {
+          "value": "$edit.link.color-link-text-inverted-active",
+          "description": "Button Link Text Colour Active Inverted",
+          "type": "color"
+        }
+      },
+      "border-radius-buttons": {
+        "value": "$border-radius-6",
+        "description": "Button Border Radius",
+        "type": "borderRadius"
+      },
+      "border-radius-buttons-icon-only": {
+        "value": "$border-radius-6",
+        "description": "Button Border Radius Icon Only",
+        "type": "borderRadius"
+      },
+      "border-radius-inputs": {
+        "value": "$border-radius-4",
+        "description": "Input Border Radius",
+        "type": "borderRadius"
+      },
+      "border-size": {
+        "value": "$border-size-1",
+        "description": "Border Width",
+        "type": "borderWidth"
+      },
+      "border-size-buttons": {
+        "value": "$border-size-2",
+        "description": "Border Width Buttons",
+        "type": "borderWidth"
+      },
+      "top-bar": {
+        "color-topbar-background": {
+          "value": "rgba(168, 222, 60, 1)",
+          "description": "Top Bar Background Colour",
+          "type": "color"
+        },
+        "color-topbar-border": {
+          "value": "rgba(168, 222, 60, 1)",
+          "description": "Top Bar Border Colour",
+          "type": "color"
+        },
+        "color-topbar-divider": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Top Bar Divider Colour",
+          "type": "color"
+        },
+        "color-topbar-link": {
+          "value": "rgba(0, 0, 0, 1)",
+          "description": "Top Bar Link Colour",
+          "type": "color"
+        },
+        "color-topbar-link-hover": {
+          "value": "rgba(0, 91, 148, 1)",
+          "description": "Top Bar Link Colour Hover",
+          "type": "color"
+        },
+        "color-topbar-link-active": {
+          "value": "rgba(0, 91, 148, 1)",
+          "description": "Top Bar Link Colour Active",
+          "type": "color"
+        }
+      },
+      "header-bar": {
+        "color-header-background": {
+          "value": "rgba(252, 60, 123, 1)",
+          "description": "Header Background Colour",
+          "type": "color"
+        },
+        "color-header-border": {
+          "value": "rgba(252, 60, 123, 1)",
+          "description": "Header Border Colour",
+          "type": "color"
+        },
+        "color-header-divider": {
+          "value": "rgba(252, 60, 123, 1)",
+          "description": "Header Divider Colour",
+          "type": "color"
+        },
+        "color-header-link": {
+          "value": "rgba(0, 0, 0, 1)",
+          "description": "Header Link Colour",
+          "type": "color"
+        },
+        "color-header-link-hover": {
+          "value": "rgba(0, 91, 148, 1)",
+          "description": "Header Link Colour Hover",
+          "type": "color"
+        },
+        "color-header-link-active": {
+          "value": "rgba(0, 91, 148, 1)",
+          "description": "Header Link Colour Active",
+          "type": "color"
+        }
+      },
+      "menu": {
+        "color-menu-1st-level-background": {
+          "value": "rgba(252, 60, 123, 1)",
+          "description": "Menu 1st Level Background Colour",
+          "type": "color"
+        },
+        "color-menu-1st-level-background-hover": {
+          "value": "rgba(24, 180, 234, 1)",
+          "description": "Menu 1st Level Background Colour Hover",
+          "type": "color"
+        },
+        "color-menu-1st-level-link": {
+          "value": "rgba(0, 0, 0, 1)",
+          "description": "Menu 1st Level Link Colour",
+          "type": "color"
+        },
+        "color-menu-1st-level-link-hover": {
+          "value": "rgba(0, 91, 148, 1)",
+          "description": "Menu 1st Level Link Colour Hover",
+          "type": "color"
+        },
+        "color-menu-2nd-level-background": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Menu 2nd Level Background Colour",
+          "type": "color"
+        },
+        "color-menu-2nd-level-background-hover": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Menu 2nd Level Background Colour Hover",
+          "type": "color"
+        },
+        "color-menu-2nd-level-link": {
+          "value": "rgba(0, 0, 0, 1)",
+          "description": "Menu 2nd Level Link Colour",
+          "type": "color"
+        },
+        "color-menu-2nd-level-link-hover": {
+          "value": "rgba(24, 180, 234, 1)",
+          "description": "Menu 2nd Level Link Colour Hover",
+          "type": "color"
+        },
+        "color-menu-alternative-background": {
+          "value": "rgba(24, 180, 234, 1)",
+          "description": "Menu Alternative Background Colour",
+          "type": "color"
+        },
+        "color-menu-alternative-background-hover": {
+          "value": "rgba(24, 180, 234, 1)",
+          "description": "Menu Alternative Background Colour Hover",
+          "type": "color"
+        },
+        "color-menu-alternative-link": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Menu Alternative Link Colour",
+          "type": "color"
+        },
+        "color-menu-alternative-link-hover": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Menu Alternative Link Colour Hover",
+          "type": "color"
+        },
+        "color-menu-1st-level-divider": {
+          "value": "rgba(252, 60, 123, 1)",
+          "description": "Menu 1st Level Divider",
+          "type": "color"
+        },
+        "color-menu-2nd-level-divider-copy": {
+          "value": "$greyscale.color-grey-100",
+          "description": "Menu 2nd Level Divider",
+          "type": "color"
+        }
+      },
+      "footer": {
+        "color-footer-background": {
+          "value": "rgba(252, 60, 123, 1)",
+          "description": "Footer Background Colour",
+          "type": "color"
+        },
+        "color-footer-border": {
+          "value": "rgba(0, 0, 0, 1)",
+          "description": "Footer Border colour",
+          "type": "color"
+        },
+        "color-footer-divider": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Footer Divider Colour",
+          "type": "color"
+        },
+        "color-footer-heading": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Footer Heading Colour",
+          "type": "color"
+        },
+        "color-footer-text": {
+          "value": "rgba(255, 255, 255, .6)",
+          "description": "Footer Text Colour",
+          "type": "color"
+        },
+        "color-footer-link": {
+          "value": "rgba(255, 255, 255, .8)",
+          "description": "Footer Link Colour",
+          "type": "color"
+        },
+        "color-footer-link-hover": {
+          "value": "rgba(0, 91, 148, 1)",
+          "description": "Footer Link Hover Colour",
+          "type": "color"
+        },
+        "color-footer-link-active": {
+          "value": "rgba(0, 91, 148, 1)",
+          "description": "Footer Link Active Colour",
+          "type": "color"
+        }
+      },
+      "Border": {
+        "border-color": {
+          "value": "rgba(252, 60, 123, 1)",
+          "description": "Border Colour",
+          "type": "color"
+        },
+        "border-color-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Border Colour Inverted",
+          "type": "color"
+        }
+      },
+      "Table": {
+        "color-table-background": {
+          "value": "rgba(243,244,246,1)",
+          "description": "Table Background Colour",
+          "type": "color"
+        },
+        "color-table-background-inverted": {
+          "value": "rgba(255,255,255,1)",
+          "description": "Table Background Colour Inverted",
+          "type": "color"
+        },
+        "color-table-title": {
+          "value": "rgba(0, 0, 0, 1)",
+          "description": "Table Title Colour",
+          "type": "color"
+        },
+        "color-table-title-inverted": {
+          "value": "rgba(0, 0, 0, 1)",
+          "description": "Table Title Colour Inverted",
+          "type": "color"
+        }
+      },
+      "inputs": {
+        "color-inputs-background": {
+          "value": "$edit.background-colors.color-background-page",
+          "description": "Inputs Background Colour",
+          "type": "color"
+        },
+        "color-inputs-background-inverted": {
+          "value": "$edit.background-colors.color-background-page-inverted",
+          "description": "Inputs Background Colour Inverted",
+          "type": "color"
+        },
+        "color-inputs-border": {
+          "value": "rgba(204, 204, 204, 1)",
+          "description": "Inputs Border Colour",
+          "type": "color"
+        },
+        "color-inputs-border-inverted": {
+          "value": "$greyscale.color-white",
+          "description": "Inputs Border Colour Inverted",
+          "type": "color"
+        },
+        "color-inputs-text": {
+          "value": "rgba(0, 0, 0, 1)",
+          "description": "Inputs Text Colour",
+          "type": "color"
+        },
+        "color-inputs-text-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Inputs Text Colour Inverted",
+          "type": "color"
+        },
+        "color-inputs-highlight-colour": {
+          "value": "rgba(24, 180, 234, 1)",
+          "description": "Inputs Highlight Colour",
+          "type": "color"
+        },
+        "color-inputs-highlight-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Inputs Highlight Colour Inverted",
+          "type": "color"
+        },
+        "color-inputs-checked-icon": {
+          "value": "rgba(24, 180, 234, 1)",
+          "description": "Inputs Checked Icon Colour",
+          "type": "color"
+        },
+        "color-inputs-checked-icon-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Inputs Checked Icon Colour Inverted",
+          "type": "color"
+        }
+      },
+      "other": {
+        "icons-font": {
+          "value": "Font Awesome 6 Pro",
+          "description": "Icons Font",
+          "type": "fontFamilies"
+        }
+      },
+      "icons": {
+        "icons-font-weight": {
+          "value": "$icons.icon-font-weight-light",
+          "description": "Icons Font Weight",
+          "type": "fontWeights"
+        }
+      },
+      "buttons": {
+        "button-primary-no-icon-py-md": {
+          "value": "$spacers.sp-8",
+          "description": "Primary Button No Icon Padding Y",
+          "type": "spacing"
+        },
+        "button-primary-no-icon-px-md": {
+          "value": "$spacers.sp-24",
+          "description": "Primary Button No Icon Padding X",
+          "type": "spacing"
+        },
+        "button-secondary-no-icon-py-md": {
+          "value": "$spacers.sp-8",
+          "description": "Secondary Button No Icon Padding Y",
+          "type": "spacing"
+        },
+        "button-secondary-no-icon-px-md": {
+          "value": "$spacers.sp-36",
+          "description": "Secondary Button No Icon Padding X",
+          "type": "spacing"
+        },
+        "button-tertiary-no-icon-py-md": {
+          "value": "$spacers.sp-1",
+          "description": "Tertiary Button No Icon Padding Y",
+          "type": "spacing"
+        },
+        "button-tertiary-no-icon-px-md": {
+          "value": "$spacers.sp-1",
+          "description": "Tertiary Button No Icon Padding X",
+          "type": "spacing"
+        },
+        "button-primary-text-font-family": {
+          "value": "$edit.text.font-family-body",
+          "description": "Primary Button Font Family",
+          "type": "fontFamilies"
+        },
+        "button-secondary-text-font-family": {
+          "value": "$edit.text.font-family-body",
+          "description": "Secondary Button Font Family",
+          "type": "fontFamilies"
+        },
+        "button-tertiary-text-font-family": {
+          "value": "$edit.text.font-family-body",
+          "description": "Tertiary Button Font Family",
+          "type": "fontFamilies"
+        },
+        "button-link-text-font-family": {
+          "value": "$edit.text.font-family-body",
+          "description": "Link Button Font Family",
+          "type": "fontFamilies"
+        },
+        "link-button": {
+          "button-link-text-decoration": {
+            "value": "underline",
+            "description": "Button Link Text Decoration",
+            "type": "textDecoration"
+          },
+          "button-link-text-decoration-hover": {
+            "value": "none",
+            "description": "Button Link Text Decoration Hover",
+            "type": "textDecoration"
+          },
+          "button-link-text-decoration-active": {
+            "value": "underline",
+            "description": "Button Link Text Decoration Active",
+            "type": "textDecoration"
+          }
+        }
+      },
+      "button": {
+        "button-primary-text-size-md": {
+          "value": "$edit.text.font-size-body",
+          "description": "Primary Button Font Size MD",
+          "type": "fontSizes"
+        },
+        "button-secondary-text-size-md": {
+          "value": "$edit.text.font-size-body",
+          "description": "Secondary Button Font Size MD",
+          "type": "fontSizes"
+        },
+        "button-tertiary-text-size-md": {
+          "value": "$edit.text.font-size-body",
+          "description": "Tertiary Button Font Size MD",
+          "type": "fontSizes"
+        },
+        "button-link-text-size-md": {
+          "value": "$edit.text.font-size-body",
+          "description": "Link Button Font Size MD",
+          "type": "fontSizes"
+        }
+      },
+      "button-letter-spacing": {
+        "value": "0%",
+        "description": "Button Letter Spacing",
+        "type": "letterSpacing"
+      },
+      "border-radius": {
+        "value": "$border-radius-0",
+        "description": "Border Radius",
+        "type": "borderRadius"
+      },
+      "border-size-inputs": {
+        "value": "$border-size-1",
+        "description": "Border Width Inputs",
+        "type": "borderWidth"
+      }
+    },
+    "opacity-0": {
+      "value": "0",
+      "description": "Opacity 0%",
+      "type": "opacity"
+    },
+    "opacity-5": {
+      "value": "0.05",
+      "description": "Opacity 5%",
+      "type": "opacity"
+    },
+    "opacity-10": {
+      "value": "0.1",
+      "description": "Opacity 10%",
+      "type": "opacity"
+    },
+    "opacity-15": {
+      "value": "0.15",
+      "description": "Opacity 15%",
+      "type": "opacity"
+    },
+    "opacity-20": {
+      "value": "0.2",
+      "description": "Opacity 20%",
+      "type": "opacity"
+    },
+    "opacity-25": {
+      "value": "0.25",
+      "description": "Opacity 25%",
+      "type": "opacity"
+    },
+    "opacity-30": {
+      "value": "0.3",
+      "description": "Opacity 30%",
+      "type": "opacity"
+    },
+    "opacity-35": {
+      "value": "0.35",
+      "description": "Opacity 35%",
+      "type": "opacity"
+    },
+    "opacity-40": {
+      "value": "0.4",
+      "description": "Opacity 40%",
+      "type": "opacity"
+    },
+    "opacity-45": {
+      "value": "0.45",
+      "description": "Opacity 45%",
+      "type": "opacity"
+    },
+    "opacity-50": {
+      "value": "0.5",
+      "description": "Opacity 50%",
+      "type": "opacity"
+    },
+    "opacity-55": {
+      "value": "0.55",
+      "description": "Opacity 55%",
+      "type": "opacity"
+    },
+    "opacity-60": {
+      "value": "0.6",
+      "description": "Opacity 60%",
+      "type": "opacity"
+    },
+    "opacity-65": {
+      "value": "0.65",
+      "description": "Opacity 65%",
+      "type": "opacity"
+    },
+    "opacity-70": {
+      "value": "0.7",
+      "description": "Opacity 70%",
+      "type": "opacity"
+    },
+    "opacity-75": {
+      "value": "0.75",
+      "description": "Opacity 75%",
+      "type": "opacity"
+    },
+    "opacity-80": {
+      "value": "0.8",
+      "description": "Opacity 80%",
+      "type": "opacity"
+    },
+    "opacity-85": {
+      "value": "0.85",
+      "description": "Opacity 85%",
+      "type": "opacity"
+    },
+    "opacity-90": {
+      "value": "0.9",
+      "description": "Opacity 90%",
+      "type": "opacity"
+    },
+    "opacity-95": {
+      "value": "0.95",
+      "description": "Opacity 95%",
+      "type": "opacity"
+    },
+    "opacity-100": {
+      "value": "1",
+      "description": "Opacity 100%",
+      "type": "opacity"
+    }
+  },
+  "$themes": []
+}
