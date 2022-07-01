@@ -1276,7 +1276,7 @@
           "type": "color"
         },
         "color-background-accent2-inverted": {
-          "value": "rgba(80, 135, 98, 1)",
+          "value": "rgba(178, 157, 110, 1)",
           "description": "Background Accent Colour 2 Inverted",
           "type": "color"
         }
