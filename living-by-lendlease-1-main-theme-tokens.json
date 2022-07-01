@@ -1365,17 +1365,17 @@
       },
       "link": {
         "color-link-text": {
-          "value": "rgba(12, 108, 222, 1)",
+          "value": "rgba(255, 100, 0, 1)",
           "description": "Link Text Colour",
           "type": "color"
         },
         "color-link-text-hover": {
-          "value": "rgba(0, 91, 148, 1)",
+          "value": "rgba(190, 190, 190, 1)",
           "description": "Link Text Colour Hover",
           "type": "color"
         },
         "color-link-text-active": {
-          "value": "rgba(0, 91, 148, 1)",
+          "value": "rgba(190, 190, 190, 1)",
           "description": "Link Text Colour Active",
           "type": "color"
         },
@@ -1591,7 +1591,7 @@
           "type": "color"
         },
         "color-button-secondary-border-active": {
-          "value": "rgba(36, 36, 68, 1)",
+          "value": "rgba(24, 24, 24, 1)",
           "description": "Button Secondary Border Colour Active",
           "type": "color"
         },
@@ -1646,12 +1646,12 @@
           "type": "color"
         },
         "color-button-secondary-text-hover-inverted": {
-          "value": "rgba(36, 36, 68, 1)",
+          "value": "rgba(24, 24, 24, 1)",
           "description": "Button Secondary Text Colour Hover inverted",
           "type": "color"
         },
         "color-button-secondary-text-active-inverted": {
-          "value": "rgba(36, 36, 68, 1)",
+          "value": "rgba(24, 24, 24, 1)",
           "description": "Button Secondary Text Colour Active Inverted",
           "type": "color"
         }
@@ -1750,17 +1750,17 @@
       },
       "button-link": {
         "color-button-link-text": {
-          "value": "$edit.link.color-link-text",
+          "value": "rgba(255, 100, 0, 1)",
           "description": "Button Link Text Colour",
           "type": "color"
         },
         "color-button-link-text-hover": {
-          "value": "$edit.link.color-link-text-hover",
+          "value": "rgba(190, 190, 190, 1)",
           "description": "Button Link Text Colour Hover",
           "type": "color"
         },
         "color-button-link-text-active": {
-          "value": "$edit.link.color-link-text-active",
+          "value": "rgba(190, 190, 190, 1)",
           "description": "Button Link Text Colour Active",
           "type": "color"
         },
@@ -1770,12 +1770,12 @@
           "type": "color"
         },
         "color-button-link-text-hover-inverted": {
-          "value": "$edit.link.color-link-text-inverted-hover",
+          "value": "rgba(190, 190, 190, 1)",
           "description": "Button Link Text Colour Inverted",
           "type": "color"
         },
         "color-button-link-text-active-inverted": {
-          "value": "$edit.link.color-link-text-inverted-active",
+          "value": "rgba(190, 190, 190, 1)",
           "description": "Button Link Text Colour Active Inverted",
           "type": "color"
         }
@@ -1827,7 +1827,7 @@
           "type": "color"
         },
         "color-topbar-border": {
-          "value": "rgba(255, 255, 255, 0)",
+          "value": "rgba(255, 255, 255, 1)",
           "description": "Top Bar Border Colour",
           "type": "color"
         },
@@ -1958,42 +1958,42 @@
       },
       "footer": {
         "color-footer-background": {
-          "value": "rgba(50, 50, 50, 1)",
+          "value": "rgba(255, 255, 255, 1)",
           "description": "Footer Background Colour",
           "type": "color"
         },
         "color-footer-border": {
-          "value": "rgba(50, 50, 50, 1)",
+          "value": "rgba(146, 146, 146, 1)",
           "description": "Footer Border colour",
           "type": "color"
         },
         "color-footer-divider": {
-          "value": "rgba(255, 255, 255, .8)",
+          "value": "rgba(146, 146, 146, 1)",
           "description": "Footer Divider Colour",
           "type": "color"
         },
         "color-footer-heading": {
-          "value": "rgba(255, 255, 255, 1)",
+          "value": "rgba(146, 146, 146, 1)",
           "description": "Footer Heading Colour",
           "type": "color"
         },
         "color-footer-text": {
-          "value": "rgba(255, 255, 255, 1)",
+          "value": "rgba(146, 146, 146, 1)",
           "description": "Footer Text Colour",
           "type": "color"
         },
         "color-footer-link": {
-          "value": "rgba(255, 255, 255, .8)",
+          "value": "rgba(146, 146, 146, 1)",
           "description": "Footer Link Colour",
           "type": "color"
         },
         "color-footer-link-hover": {
-          "value": "rgba(238, 238, 238, 1)",
+          "value": "rgba(88, 88, 88, 1)",
           "description": "Footer Link Hover Colour",
           "type": "color"
         },
         "color-footer-link-active": {
-          "value": "rgba(238, 238, 238, 1)",
+          "value": "rgba(88, 88, 88, 1)",
           "description": "Footer Link Active Colour",
           "type": "color"
         }
@@ -2246,7 +2246,7 @@
           "description": "Link Button Type SM"
         },
         "button-py": {
-          "value": "5",
+          "value": "10",
           "description": "Button Padding Y",
           "type": "spacing"
         },
