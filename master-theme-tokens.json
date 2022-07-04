@@ -60,13 +60,13 @@
       "heading-md-desktop": {
         "value": {
           "fontFamily": "$edit.text.font-family-headings",
-          "fontWeight": "{edit.text.font-weight-headings}",
-          "lineHeight": "$headings.font-size-heading-md * 1.2",
+          "fontWeight": "$edit.text.font-weight-headings",
+          "lineHeight": "$headings.line-height-heading-md",
           "fontSize": "$headings.font-size-heading-md",
           "letterSpacing": "$edit.font-letter-spacing-heading",
-          "paragraphSpacing": "$headings.font-size-heading-md",
+          "paragraphSpacing": "$headings.paragraph-spacing-heading-md",
           "textDecoration": "$typography.headings-decoration",
-          "textCase": "{typography.font-transform-heading}"
+          "textCase": "$typography.font-transform-heading"
         },
         "description": "Heading Medium Desktop",
         "type": "typography"
@@ -97,6 +97,11 @@
       },
       "font-size-heading-md": {
         "value": "$edit.text.font-size-heading * 0.5",
+        "description": "Font Size Medium Desktop",
+        "type": "fontSizes"
+      },
+      "font-size-heading-alternate-md": {
+        "value": "$edit.text.font-size-heading-alternate * 0.5",
         "description": "Font Size Medium Desktop",
         "type": "fontSizes"
       },
@@ -361,6 +366,16 @@
         "type": "lineHeights",
         "description": "Line Height Heading LG Alternate"
       },
+      "line-height-heading-md": {
+        "value": "$headings.font-size-heading-md * 1.2",
+        "type": "lineHeights",
+        "description": "Line Height Heading MD"
+      },
+      "line-height-heading-md-alternate": {
+        "value": "$headings.font-size-heading-alternate-md * 1.2",
+        "type": "lineHeights",
+        "description": "Line Height Heading MD Alternate"
+      },
       "paragraph-spacing-heading-xl": {
         "value": "$edit.text.font-size-heading",
         "type": "paragraphSpacing",
@@ -378,6 +393,16 @@
       },
       "paragraph-spacing-heading-lg-alternate": {
         "value": "$edit.text.font-size-heading-alternate * 0.75",
+        "type": "paragraphSpacing",
+        "description": "Paragraph Spacing Heading XL Alternate"
+      },
+      "paragraph-spacing-heading-md": {
+        "value": "$edit.text.font-size-heading * 0.5",
+        "type": "paragraphSpacing",
+        "description": "Paragraph Spacing Heading XL"
+      },
+      "paragraph-spacing-heading-md-alternate": {
+        "value": "$edit.text.font-size-heading-alternate * 0.5",
         "type": "paragraphSpacing",
         "description": "Paragraph Spacing Heading XL Alternate"
       }
