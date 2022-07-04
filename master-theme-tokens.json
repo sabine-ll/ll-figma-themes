@@ -310,15 +310,29 @@
       "heading-sm-mobile": {
         "value": {
           "fontFamily": "$edit.text.font-family-headings",
-          "fontWeight": "{edit.text.font-weight-headings}",
-          "lineHeight": "{headings.font-size-heading-sm-mobile} * 1.3",
-          "fontSize": "{headings.font-size-heading-sm-mobile}",
+          "fontWeight": "$edit.text.font-weight-headings",
+          "lineHeight": "$headings.line-height-heading-sm-mobile",
+          "fontSize": "$headings.font-size-heading-sm-mobile",
           "letterSpacing": "$edit.font-letter-spacing-heading",
-          "paragraphSpacing": "{headings.font-size-heading-sm-mobile}",
+          "paragraphSpacing": "$headings.paragraph-spacing-heading-sm-mobile",
           "textDecoration": "$typography.headings-decoration",
           "textCase": "$typography.font-transform-heading"
         },
         "description": "Heading Small Mobile",
+        "type": "typography"
+      },
+      "heading-alternate-sm-mobile": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-headings-alternate",
+          "fontWeight": "$edit.text.font-weight-headings-alternate",
+          "lineHeight": "$headings.line-height-heading-alternate-sm-mobile",
+          "fontSize": "$headings.font-size-heading-alternate-sm-mobile",
+          "letterSpacing": "$edit.font-letter-spacing-heading-alternate",
+          "paragraphSpacing": "$headings.paragraph-spacing-heading-alternate-sm-mobile",
+          "textDecoration": "$typography.headings-decoration",
+          "textCase": "$typography.font-transform-heading"
+        },
+        "description": "Heading Alternate Small Mobile",
         "type": "typography"
       },
       "font-size-heading-mobile": {
@@ -590,6 +604,16 @@
         "value": "$headings.font-size-heading-alternate-md-mobile",
         "type": "paragraphSpacing",
         "description": "Paragraph Spacing Heading Alternate MD Mobile"
+      },
+      "paragraph-spacing-heading-sm-mobile": {
+        "value": "$headings.font-size-heading-sm-mobile ",
+        "type": "paragraphSpacing",
+        "description": "Paragraph Spacing Heading SM Mobile"
+      },
+      "paragraph-spacing-heading-alternate-sm-mobile": {
+        "value": "$headings.font-size-heading-alternate-sm-mobile",
+        "type": "paragraphSpacing",
+        "description": "Paragraph Spacing Heading Alternate SM Mobile"
       }
     },
     "body": {
