@@ -32,15 +32,29 @@
       "heading-lg-desktop": {
         "value": {
           "fontFamily": "$edit.text.font-family-headings",
-          "fontWeight": "{edit.text.font-weight-headings}",
-          "lineHeight": "$headings.font-size-heading-lg * 1.2",
+          "fontWeight": "$edit.text.font-weight-headings",
+          "lineHeight": "$headings.line-height-heading-lg",
           "fontSize": "$headings.font-size-heading-lg",
           "letterSpacing": "$edit.font-letter-spacing-heading",
-          "paragraphSpacing": "$headings.font-size-heading-lg",
+          "paragraphSpacing": "$headings.paragraph-spacing-heading-lg",
           "textDecoration": "$typography.headings-decoration",
           "textCase": "$typography.font-transform-heading"
         },
         "description": "Heading Large Desktop",
+        "type": "typography"
+      },
+      "heading-lg-alternate-desktop": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-headings-alternate",
+          "fontWeight": "$edit.text.font-weight-headings-alternate",
+          "lineHeight": "$headings.line-height-heading-alternate-lg",
+          "fontSize": "$headings.font-size-heading-alternate-lg",
+          "letterSpacing": "$edit.font-letter-spacing-heading-alternate",
+          "paragraphSpacing": "$headings.paragraph-spacing-heading-lg-alternate",
+          "textDecoration": "$typography.headings-decoration",
+          "textCase": "$typography.font-transform-heading"
+        },
+        "description": "Heading Large Alternate Desktop",
         "type": "typography"
       },
       "heading-md-desktop": {
@@ -337,6 +351,16 @@
         "type": "lineHeights",
         "description": "Line Height Heading XL Alternate"
       },
+      "line-height-heading-lg": {
+        "value": "$headings.font-size-heading-lg * 1.2",
+        "type": "lineHeights",
+        "description": "Line Height Heading LG"
+      },
+      "line-height-heading-alternate-lg": {
+        "value": "$headings.font-size-heading-alternate-lg * 1.2",
+        "type": "lineHeights",
+        "description": "Line Height Heading LG Alternate"
+      },
       "paragraph-spacing-heading-xl": {
         "value": "$edit.text.font-size-heading",
         "type": "paragraphSpacing",
@@ -344,6 +368,16 @@
       },
       "paragraph-spacing-heading-xl-alternate": {
         "value": "$edit.text.font-size-heading-alternate",
+        "type": "paragraphSpacing",
+        "description": "Paragraph Spacing Heading XL Alternate"
+      },
+      "paragraph-spacing-heading-lg": {
+        "value": "$edit.text.font-size-heading * 0.75",
+        "type": "paragraphSpacing",
+        "description": "Paragraph Spacing Heading XL"
+      },
+      "paragraph-spacing-heading-lg-alternate": {
+        "value": "$edit.text.font-size-heading-alternate * 0.75",
         "type": "paragraphSpacing",
         "description": "Paragraph Spacing Heading XL Alternate"
       }
@@ -1317,12 +1351,12 @@
     "edit": {
       "text": {
         "font-family-headings": {
-          "value": "Roboto",
+          "value": "Circular Std",
           "description": "Heading Font Family",
           "type": "fontFamilies"
         },
         "font-family-headings-alternate": {
-          "value": "Circular Std",
+          "value": "NewParis Headline",
           "description": "Heading Font Family Alternate",
           "type": "fontFamilies"
         },
@@ -1332,7 +1366,7 @@
           "type": "fontSizes"
         },
         "font-size-heading-alternate": {
-          "value": "58",
+          "value": "60",
           "description": "Font Size Extra Large",
           "type": "fontSizes"
         },
