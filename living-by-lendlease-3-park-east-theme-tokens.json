@@ -1245,7 +1245,7 @@
       },
       "brand-color": {
         "color-primary": {
-          "value": "rgba(60, 60, 59, 1)",
+          "value": "rgba(164, 138, 123, 1)",
           "description": "Primary Colour",
           "type": "color"
         },
@@ -1265,7 +1265,7 @@
           "type": "color"
         },
         "color-tertiary": {
-          "value": "rgba(87, 87, 86, 1)",
+          "value": "rgba(77, 60, 49, 1)",
           "description": "Tertiary Colour ",
           "type": "color"
         },
@@ -1282,12 +1282,12 @@
           "type": "color"
         },
         "color-background-page-inverted": {
-          "value": "rgba(60, 60, 59, 1)",
+          "value": "rgba(164, 138, 123, 1)",
           "description": "Background Page Colour Inverted",
           "type": "color"
         },
         "color-background-accent1": {
-          "value": "rgba(60, 60, 59, 1)",
+          "value": "rgba(164, 138, 123, 1)",
           "description": "Background Accent Colour 1",
           "type": "color"
         },
@@ -1474,47 +1474,47 @@
       },
       "button-primary": {
         "color-button-primary-background": {
-          "value": "rgba(190, 190, 190, 1)",
+          "value": "rgba(203, 187, 160, 1)",
           "description": "Button Primary background Colour",
           "type": "color"
         },
         "color-button-primary-background-hover": {
-          "value": "rgba(255, 255, 255, 1)",
+          "value": "rgba(203, 187, 160, 1)",
           "description": "Button Primary background Colour Hover",
           "type": "color"
         },
         "color-button-primary-background-active": {
-          "value": "rgba(255, 255, 255, 1)",
+          "value": "rgba(203, 187, 160, 1)",
           "description": "Button Primary background Colour Active",
           "type": "color"
         },
         "color-button-primary-border": {
-          "value": "rgba(190, 190, 190, 1)",
+          "value": "rgba(203, 187, 160, 1)",
           "description": "Button Primary Border Colour",
           "type": "color"
         },
         "color-button-primary-border-hover": {
-          "value": "rgba(255, 100, 0, 1)",
+          "value": "rgba(203, 187, 160, 1)",
           "description": "Button Primary Border Colour Hover",
           "type": "color"
         },
         "color-button-primary-border-active": {
-          "value": "rgba(255, 100, 0, 1)",
+          "value": "rgba(203, 187, 160, 1)",
           "description": "Button Primary Border Colour Active",
           "type": "color"
         },
         "color-button-primary-text": {
-          "value": "rgba(78, 78, 76, 1)",
+          "value": "rgba(255, 255, 255, 1)",
           "description": "Button Primary Text Colour",
           "type": "color"
         },
         "color-button-primary-text-hover": {
-          "value": "rgba(60, 60, 59, 1)",
+          "value": "rgba(255, 255, 255, 1)",
           "description": "Button Primary Text Colour Hover",
           "type": "color"
         },
         "color-button-primary-text-active": {
-          "value": "rgba(60, 60, 59, 1)",
+          "value": "rgba(255, 255, 255, 1)",
           "description": "Button Primary Text Colour Active",
           "type": "color"
         },
@@ -1658,47 +1658,47 @@
       },
       "button-tertiary": {
         "color-button-tertiary-background": {
-          "value": "rgba(255, 255, 255, 0)",
+          "value": "rgba(77, 60, 49, 1)",
           "description": "Button Tertiary background Colour",
           "type": "color"
         },
         "color-button-tertiary-background-hover": {
-          "value": "rgba(255, 255, 255, 0)",
+          "value": "rgba(77, 60, 49, 1)",
           "description": "Button Tertiary background Colour Hover",
           "type": "color"
         },
         "color-button-tertiary-background-active": {
-          "value": "rgba(255, 255, 255, 0)",
+          "value": "rgba(77, 60, 49, 1)",
           "description": "Button Tertiary background Colour Active",
           "type": "color"
         },
         "color-button-tertiary-border": {
-          "value": "rgba(190, 190, 190, 1)",
+          "value": "rgba(77, 60, 49, 1)",
           "description": "Button Tertiary Border Colour",
           "type": "color"
         },
         "color-button-tertiary-border-hover": {
-          "value": "rgba(50, 50, 50, 1)",
+          "value": "rgba(77, 60, 49, 1)",
           "description": "Button Tertiary Border Colour Hover",
           "type": "color"
         },
         "color-button-tertiary-border-active": {
-          "value": "rgba(50, 50, 50, 1)",
+          "value": "rgba(77, 60, 49, 1)",
           "description": "Button Tertiary Border Colour Active",
           "type": "color"
         },
         "color-button-tertiary-text": {
-          "value": "rgba(190, 190, 190, 1)",
+          "value": "rgba(255, 255, 255, 1)",
           "description": "Button Tertiary Text Colour",
           "type": "color"
         },
         "color-button-tertiary-text-hover": {
-          "value": "rgba(50, 50, 50, 1)",
+          "value": "rgba(255, 255, 255, 1)",
           "description": "Button Tertiary Text Colour Hover",
           "type": "color"
         },
         "color-button-tertiary-text-active": {
-          "value": "rgba(50, 50, 50, 1)",
+          "value": "rgba(255, 255, 255, 1)",
           "description": "Button Tertiary Text Colour Active",
           "type": "color"
         },
@@ -1822,17 +1822,17 @@
       },
       "top-bar": {
         "color-topbar-background": {
-          "value": "rgba(87, 87, 86, 1)",
+          "value": "rgba(77, 60, 49, 1)",
           "description": "Top Bar Background Colour",
           "type": "color"
         },
         "color-topbar-border": {
-          "value": "rgba(87, 87, 86, 1)",
+          "value": "rgba(77, 60, 49, 1)",
           "description": "Top Bar Border Colour",
           "type": "color"
         },
         "color-topbar-divider": {
-          "value": "rgba(87, 87, 86, 1)",
+          "value": "rgba(77, 60, 49, 1)",
           "description": "Top Bar Divider Colour",
           "type": "color"
         },
@@ -1854,17 +1854,17 @@
       },
       "header-bar": {
         "color-header-background": {
-          "value": "rgba(60, 60, 59, 1)",
+          "value": "rgba(164, 138, 123, 1)",
           "description": "Header Background Colour",
           "type": "color"
         },
         "color-header-border": {
-          "value": "rgba(60, 60, 59, 1)",
+          "value": "rgba(164, 138, 123, 1)",
           "description": "Header Border Colour",
           "type": "color"
         },
         "color-header-divider": {
-          "value": "rgba(60, 60, 59, 1)",
+          "value": "rgba(164, 138, 123, 1)",
           "description": "Header Divider Colour",
           "type": "color"
         },
@@ -1886,12 +1886,12 @@
       },
       "menu": {
         "color-menu-1st-level-background": {
-          "value": "rgba(60, 60, 59, 1)",
+          "value": "rgba(164, 138, 123, 1)",
           "description": "Menu 1st Level Background Colour",
           "type": "color"
         },
         "color-menu-1st-level-background-hover": {
-          "value": "rgba(60, 60, 59, 1)",
+          "value": "rgba(164, 138, 123, 1)",
           "description": "Menu 1st Level Background Colour Hover",
           "type": "color"
         },
@@ -1906,12 +1906,12 @@
           "type": "color"
         },
         "color-menu-2nd-level-background": {
-          "value": "rgba(60, 60, 59, 1)",
+          "value": "rgba(164, 138, 123, 1)",
           "description": "Menu 2nd Level Background Colour",
           "type": "color"
         },
         "color-menu-2nd-level-background-hover": {
-          "value": "rgba(60, 60, 59, 1)",
+          "value": "rgba(164, 138, 123, 1)",
           "description": "Menu 2nd Level Background Colour Hover",
           "type": "color"
         },
