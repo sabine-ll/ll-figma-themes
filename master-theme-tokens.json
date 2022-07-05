@@ -15,7 +15,7 @@
         "description": "Heading Extra Large Desktop",
         "type": "typography"
       },
-      "heading-xl-alternate-desktop": {
+      "heading-alternate-xl-desktop": {
         "value": {
           "fontFamily": "$edit.text.font-family-headings-alternate",
           "fontWeight": "{edit.text.font-weight-heading-alternate}",
@@ -26,7 +26,7 @@
           "textDecoration": "$typography.headings-decoration",
           "textCase": "$typography.font-transform-heading"
         },
-        "description": "Heading Extra Large Alternative Desktop ",
+        "description": "Heading Alternative Extra Large Desktop ",
         "type": "typography"
       },
       "heading-lg-desktop": {
@@ -43,10 +43,10 @@
         "description": "Heading Large Desktop",
         "type": "typography"
       },
-      "heading-lg-alternate-desktop": {
+      "heading-alternate-lg-desktop": {
         "value": {
           "fontFamily": "$edit.text.font-family-headings-alternate",
-          "fontWeight": "{edit.text.font-weight-heading-alternate}",
+          "fontWeight": "$edit.text.font-weight-heading-alternate",
           "lineHeight": "$headings.line-height-heading-alternate-lg",
           "fontSize": "$headings.font-size-heading-alternate-lg",
           "letterSpacing": "$edit.font-letter-spacing-heading-alternate",
@@ -71,10 +71,10 @@
         "description": "Heading Medium Desktop",
         "type": "typography"
       },
-      "heading-md-desktop-alternate": {
+      "heading-alternate-md-desktop": {
         "value": {
           "fontFamily": "$edit.text.font-family-headings-alternate",
-          "fontWeight": "{edit.text.font-weight-heading-alternate}",
+          "fontWeight": "$edit.text.font-weight-heading-alternate",
           "lineHeight": "$headings.line-height-heading-md-alternate",
           "fontSize": "$headings.font-size-heading-alternate-md",
           "letterSpacing": "$edit.font-letter-spacing-heading",
@@ -82,7 +82,7 @@
           "textDecoration": "$typography.headings-decoration",
           "textCase": "$typography.font-transform-heading"
         },
-        "description": "Heading Medium Desktop",
+        "description": "Heading Alternate Medium Desktop",
         "type": "typography"
       },
       "heading-sm-desktop": {
@@ -99,10 +99,10 @@
         "description": "Heading Small Desktop",
         "type": "typography"
       },
-      "heading-sm-alternate-desktop": {
+      "heading-alternate-sm-desktop": {
         "value": {
           "fontFamily": "$edit.text.font-family-headings-alternate",
-          "fontWeight": "{edit.text.font-weight-heading-alternate}",
+          "fontWeight": "$edit.text.font-weight-heading-alternate",
           "lineHeight": "$headings.line-height-heading-sm-alternate",
           "fontSize": "$headings.font-size-heading-alternate-sm",
           "letterSpacing": "$edit.font-letter-spacing-heading",
@@ -110,7 +110,7 @@
           "textDecoration": "$typography.headings-decoration",
           "textCase": "$typography.font-transform-heading"
         },
-        "description": "Heading Small Alternate Desktop",
+        "description": "Heading Alternate Small  Desktop",
         "type": "typography"
       },
       "font-size-heading-lg": {
@@ -237,10 +237,10 @@
         "description": "Heading Extra Large Mobile",
         "type": "typography"
       },
-      "heading-xl-alternate-mobile": {
+      "heading-alternate-xl-mobile": {
         "value": {
           "fontFamily": "$edit.text.font-family-headings-alternate",
-          "fontWeight": "{edit.text.font-weight-heading-alternate}",
+          "fontWeight": "$edit.text.font-weight-heading-alternate",
           "lineHeight": "$headings.line-height-heading-xl-alternate-mobile",
           "fontSize": "$headings.font-size-heading-alternate-mobile",
           "letterSpacing": "$edit.font-letter-spacing-heading",
@@ -248,7 +248,7 @@
           "textDecoration": "$typography.headings-decoration",
           "textCase": "$typography.font-transform-heading"
         },
-        "description": "Heading Extra Large Alternate Mobile",
+        "description": "Heading Alternate Extra Large Mobile",
         "type": "typography"
       },
       "heading-lg-mobile": {
