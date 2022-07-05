@@ -18,7 +18,7 @@
       "heading-xl-alternate-desktop": {
         "value": {
           "fontFamily": "$edit.text.font-family-headings-alternate",
-          "fontWeight": "$edit.text.font-weight-headings-alternate",
+          "fontWeight": "{edit.text.font-weight-heading-alternate}",
           "lineHeight": "$headings.line-height-heading-xl-alternate",
           "fontSize": "$edit.text.font-size-heading-alternate",
           "letterSpacing": "$edit.font-letter-spacing-heading-alternate",
@@ -46,7 +46,7 @@
       "heading-lg-alternate-desktop": {
         "value": {
           "fontFamily": "$edit.text.font-family-headings-alternate",
-          "fontWeight": "$edit.text.font-weight-headings-alternate",
+          "fontWeight": "{edit.text.font-weight-heading-alternate}",
           "lineHeight": "$headings.line-height-heading-alternate-lg",
           "fontSize": "$headings.font-size-heading-alternate-lg",
           "letterSpacing": "$edit.font-letter-spacing-heading-alternate",
@@ -74,7 +74,7 @@
       "heading-md-desktop-alternate": {
         "value": {
           "fontFamily": "$edit.text.font-family-headings-alternate",
-          "fontWeight": "$edit.text.font-weight-headings-alternate",
+          "fontWeight": "{edit.text.font-weight-heading-alternate}",
           "lineHeight": "$headings.line-height-heading-md-alternate",
           "fontSize": "$headings.font-size-heading-alternate-md",
           "letterSpacing": "$edit.font-letter-spacing-heading",
@@ -102,7 +102,7 @@
       "heading-sm-alternate-desktop": {
         "value": {
           "fontFamily": "$edit.text.font-family-headings-alternate",
-          "fontWeight": "$edit.text.font-weight-headings-alternate",
+          "fontWeight": "{edit.text.font-weight-heading-alternate}",
           "lineHeight": "$headings.line-height-heading-sm-alternate",
           "fontSize": "$headings.font-size-heading-alternate-sm",
           "letterSpacing": "$edit.font-letter-spacing-heading",
@@ -240,7 +240,7 @@
       "heading-xl-alternate-mobile": {
         "value": {
           "fontFamily": "$edit.text.font-family-headings-alternate",
-          "fontWeight": "$edit.text.font-weight-headings-alternate",
+          "fontWeight": "{edit.text.font-weight-heading-alternate}",
           "lineHeight": "$headings.line-height-heading-xl-alternate-mobile",
           "fontSize": "$headings.font-size-heading-alternate-mobile",
           "letterSpacing": "$edit.font-letter-spacing-heading",
@@ -268,7 +268,7 @@
       "heading-alternate-lg-mobile": {
         "value": {
           "fontFamily": "$edit.text.font-family-headings-alternate",
-          "fontWeight": "$edit.text.font-weight-headings-alternate",
+          "fontWeight": "{edit.text.font-weight-heading-alternate}",
           "lineHeight": "$headings.line-height-heading-alternate-lg-mobile",
           "fontSize": "$headings.font-size-heading-alternate-lg-mobile",
           "letterSpacing": "$edit.font-letter-spacing-heading",
@@ -296,7 +296,7 @@
       "heading-alternate-md-mobile": {
         "value": {
           "fontFamily": "$edit.text.font-family-headings-alternate",
-          "fontWeight": "$edit.text.font-weight-headings-alternate",
+          "fontWeight": "{edit.text.font-weight-heading-alternate}",
           "lineHeight": "$headings.line-height-heading-alternate-md-mobile",
           "fontSize": "$headings.font-size-heading-alternate-md-mobile",
           "letterSpacing": "$edit.font-letter-spacing-heading",
@@ -324,7 +324,7 @@
       "heading-alternate-sm-mobile": {
         "value": {
           "fontFamily": "$edit.text.font-family-headings-alternate",
-          "fontWeight": "$edit.text.font-weight-headings-alternate",
+          "fontWeight": "{edit.text.font-weight-heading-alternate}",
           "lineHeight": "$headings.line-height-heading-alternate-sm-mobile",
           "fontSize": "$headings.font-size-heading-alternate-sm-mobile",
           "letterSpacing": "$edit.font-letter-spacing-heading-alternate",
@@ -1624,7 +1624,7 @@
           "description": "Font Heading Weight",
           "type": "fontWeights"
         },
-        "font-weight-headings-alternate": {
+        "font-weight-heading-alternate": {
           "value": "Bold",
           "description": "Font Heading Weight Alternate",
           "type": "fontWeights"
