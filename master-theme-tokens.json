@@ -476,12 +476,12 @@
         "description": "Line Height Heading LG Alternate"
       },
       "line-height-heading-md": {
-        "value": "$headings.font-size-heading-md * 1.2",
+        "value": "$headings.font-size-heading-md * 1.3",
         "type": "lineHeights",
         "description": "Line Height Heading MD"
       },
       "line-height-heading-md-alternate": {
-        "value": "$headings.font-size-heading-alternate-md * 1.2",
+        "value": "$headings.font-size-heading-alternate-md * 1.3",
         "type": "lineHeights",
         "description": "Line Height Heading MD Alternate"
       },
