@@ -685,12 +685,12 @@
         "value": {
           "fontFamily": "$edit.text.font-family-body-xl",
           "fontWeight": "Bold",
-          "lineHeight": "$body.font-size-body-xl * 1.2",
+          "lineHeight": "$body.line-height-body-xl",
           "fontSize": "$body.font-size-body-xl",
           "letterSpacing": "$edit.font-letter-spacing-body",
-          "paragraphSpacing": "$body.font-size-body-xl *1.2",
+          "paragraphSpacing": "$body.paragraph-spacing-body-xl",
           "textDecoration": "$typography.text-decoration",
-          "textCase": "{typography.font-transform-body}"
+          "textCase": "$typography.font-transform-body"
         },
         "description": "Body Extra Large Desktop",
         "type": "typography"
@@ -713,12 +713,12 @@
         "value": {
           "fontFamily": "$edit.text.font-family-body",
           "fontWeight": "Bold",
-          "lineHeight": "$edit.text.font-size-body * 1.3",
+          "lineHeight": "$body.line-height-body-lg",
           "fontSize": "$edit.text.font-size-body",
           "letterSpacing": "$edit.font-letter-spacing-body",
-          "paragraphSpacing": "$edit.text.font-size-body * 1.2",
+          "paragraphSpacing": "$body.paragraph-spacing-body-lg",
           "textDecoration": "$typography.text-decoration",
-          "textCase": "{typography.font-transform-body}"
+          "textCase": "$typography.font-transform-body"
         },
         "description": "Body Large Desktop",
         "type": "typography"
@@ -741,10 +741,12 @@
         "value": {
           "fontFamily": "$edit.text.font-family-body",
           "fontWeight": "Bold",
-          "lineHeight": "$body.font-size-body-md * 1.3",
+          "lineHeight": "$body.line-height-body-md",
           "fontSize": "$body.font-size-body-md",
           "letterSpacing": "$edit.font-letter-spacing-body",
-          "paragraphSpacing": "$body.font-size-body-md * 1.2"
+          "paragraphSpacing": "$body.paragraph-spacing-body-md",
+          "textDecoration": "$typography.text-decoration",
+          "textCase": "$typography.font-transform-body"
         },
         "description": "Body Medium Desktop",
         "type": "typography"
@@ -753,12 +755,12 @@
         "value": {
           "fontFamily": "$edit.text.font-family-body",
           "fontWeight": "$edit.text.font-weight-body",
-          "lineHeight": "$body.font-size-body-sm * 1.3",
+          "lineHeight": "$body.line-height-body-sm",
           "fontSize": "$body.font-size-body-sm",
           "letterSpacing": "$edit.font-letter-spacing-body",
-          "paragraphSpacing": "$body.font-size-body-sm * 1.2",
+          "paragraphSpacing": "$body.paragraph-spacing-body-sm",
           "textDecoration": "$typography.text-decoration",
-          "textCase": "{typography.font-transform-body}"
+          "textCase": "$typography.font-transform-body"
         },
         "description": "Body Small Desktop",
         "type": "typography"
@@ -767,12 +769,12 @@
         "value": {
           "fontFamily": "$edit.text.font-family-body",
           "fontWeight": "Bold",
-          "lineHeight": "$body.font-size-body-sm * 1.3",
+          "lineHeight": "$body.line-height-body-sm",
           "fontSize": "$body.font-size-body-sm",
           "letterSpacing": "$edit.font-letter-spacing-body",
-          "paragraphSpacing": "$body.font-size-body-sm * 1.2",
+          "paragraphSpacing": "$body.paragraph-spacing-body-sm",
           "textDecoration": "$typography.text-decoration",
-          "textCase": "{typography.font-transform-body}"
+          "textCase": "$typography.font-transform-body"
         },
         "description": "Body Small Desktop",
         "type": "typography"
@@ -846,12 +848,12 @@
         "value": {
           "fontFamily": "$edit.text.font-family-body-xl",
           "fontWeight": "$edit.text.font-weight-body-xl",
-          "lineHeight": "$body.font-size-body-xl-mobile * 1.4",
+          "lineHeight": "$body.line-height-body-xl-mobile",
           "fontSize": "$body.font-size-body-xl-mobile",
           "letterSpacing": "$edit.font-letter-spacing-body",
-          "paragraphSpacing": "$body.font-size-body-xl-mobile * 1.2",
+          "paragraphSpacing": "$body.paragraph-spacing-body-xl-mobile",
           "textDecoration": "$typography.text-decoration",
-          "textCase": "{typography.font-transform-body}"
+          "textCase": "$typography.font-transform-body"
         },
         "description": "Body Extra Large Mobile",
         "type": "typography"
@@ -860,12 +862,12 @@
         "value": {
           "fontFamily": "$edit.text.font-family-body-xl",
           "fontWeight": "Bold",
-          "lineHeight": "$body.font-size-body-xl-mobile * 1.4",
+          "lineHeight": "$body.line-height-body-xl-mobile",
           "fontSize": "$body.font-size-body-xl-mobile",
           "letterSpacing": "$edit.font-letter-spacing-body",
-          "paragraphSpacing": "$body.font-size-body-xl-mobile * 1.2",
+          "paragraphSpacing": "$body.paragraph-spacing-body-xl-mobile",
           "textDecoration": "$typography.text-decoration",
-          "textCase": "{typography.font-transform-body}"
+          "textCase": "$typography.font-transform-body"
         },
         "description": "Body Extra Large Bold Mobile",
         "type": "typography"
