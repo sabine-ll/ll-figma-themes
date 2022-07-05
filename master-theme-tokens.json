@@ -645,7 +645,7 @@
           "letterSpacing": "$edit.font-letter-spacing-body",
           "paragraphSpacing": "$body.font-size-body-xl *1.2",
           "textDecoration": "$typography.text-decoration",
-          "textCase": "$typography.text-transform"
+          "textCase": "{typography.font-transform-body}"
         },
         "description": "Body Extra Large Desktop",
         "type": "typography"
@@ -659,7 +659,7 @@
           "letterSpacing": "$edit.font-letter-spacing-body",
           "paragraphSpacing": "$edit.text.font-size-body * 1.2",
           "textDecoration": "$typography.text-decoration",
-          "textCase": "$typography.text-transform"
+          "textCase": "{typography.font-transform-body}"
         },
         "description": "Body Large Desktop",
         "type": "typography"
@@ -673,7 +673,7 @@
           "letterSpacing": "$edit.font-letter-spacing-body",
           "paragraphSpacing": "$edit.text.font-size-body * 1.2",
           "textDecoration": "$typography.text-decoration",
-          "textCase": "$typography.text-transform"
+          "textCase": "{typography.font-transform-body}"
         },
         "description": "Body Large Desktop",
         "type": "typography"
@@ -687,7 +687,7 @@
           "letterSpacing": "$edit.font-letter-spacing-body",
           "paragraphSpacing": "$body.font-size-body-md * 1.2",
           "textDecoration": "$typography.text-decoration",
-          "textCase": "$typography.text-transform"
+          "textCase": "{typography.font-transform-body}"
         },
         "description": "Body Medium Desktop",
         "type": "typography"
@@ -713,7 +713,7 @@
           "letterSpacing": "$edit.font-letter-spacing-body",
           "paragraphSpacing": "$body.font-size-body-sm * 1.2",
           "textDecoration": "$typography.text-decoration",
-          "textCase": "$typography.text-transform"
+          "textCase": "{typography.font-transform-body}"
         },
         "description": "Body Small Desktop",
         "type": "typography"
@@ -727,7 +727,7 @@
           "letterSpacing": "$edit.font-letter-spacing-body",
           "paragraphSpacing": "$body.font-size-body-sm * 1.2",
           "textDecoration": "$typography.text-decoration",
-          "textCase": "$typography.text-transform"
+          "textCase": "{typography.font-transform-body}"
         },
         "description": "Body Small Desktop",
         "type": "typography"
@@ -806,7 +806,7 @@
           "letterSpacing": "$edit.font-letter-spacing-body",
           "paragraphSpacing": "$body.font-size-body-xl-mobile * 1.2",
           "textDecoration": "$typography.text-decoration",
-          "textCase": "$typography.text-transform"
+          "textCase": "{typography.font-transform-body}"
         },
         "description": "Body Extra Large Mobile",
         "type": "typography"
@@ -820,7 +820,7 @@
           "letterSpacing": "$edit.font-letter-spacing-body",
           "paragraphSpacing": "$body.font-size-body-xl-mobile * 1.2",
           "textDecoration": "$typography.text-decoration",
-          "textCase": "$typography.text-transform"
+          "textCase": "{typography.font-transform-body}"
         },
         "description": "Body Extra Large Bold Mobile",
         "type": "typography"
@@ -1581,9 +1581,9 @@
         "description": "Transform Heading Alternate",
         "type": "textCase"
       },
-      "text-transform": {
+      "font-transform-body": {
         "value": "none",
-        "description": "Text Transform",
+        "description": "Font Transform Body",
         "type": "textCase"
       }
     },
