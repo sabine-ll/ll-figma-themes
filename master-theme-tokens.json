@@ -631,12 +631,12 @@
         "value": {
           "fontFamily": "$edit.text.font-family-body-xl",
           "fontWeight": "$edit.text.font-weight-body-xl",
-          "lineHeight": "$body.font-size-body-xl * 1.2",
+          "lineHeight": "$body.line-height-body-xl",
           "fontSize": "$body.font-size-body-xl",
           "letterSpacing": "$edit.font-letter-spacing-body",
-          "paragraphSpacing": "$body.font-size-body-xl *1.2",
+          "paragraphSpacing": "$body.paragraph-spacing-body-xl",
           "textDecoration": "$typography.text-decoration",
-          "textCase": "$typography.text-decoration"
+          "textCase": "$typography.font-transform-body"
         },
         "description": "Body Extra Large Desktop",
         "type": "typography"
