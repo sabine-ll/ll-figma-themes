@@ -617,6 +617,11 @@
       }
     },
     "body": {
+      "paragraph-spacing-body-xl": {
+        "value": "$edit.text.font-size-body * 1.2",
+        "type": "paragraphSpacing",
+        "description": "Paragraph Spacing Body XL"
+      },
       "line-height-body-xl": {
         "value": "$edit.text.font-size-body * 1.2",
         "type": "lineHeights",
