@@ -4,7 +4,7 @@
       "heading-xl-desktop": {
         "value": {
           "fontFamily": "$edit.text.font-family-headings",
-          "fontWeight": "{edit.text.font-weight-headings}",
+          "fontWeight": "{edit.text.font-weight-heading}",
           "lineHeight": "$headings.line-height-heading-xl",
           "fontSize": "$edit.text.font-size-heading",
           "letterSpacing": "$edit.font-letter-spacing-heading",
@@ -32,7 +32,7 @@
       "heading-lg-desktop": {
         "value": {
           "fontFamily": "$edit.text.font-family-headings",
-          "fontWeight": "$edit.text.font-weight-headings",
+          "fontWeight": "{edit.text.font-weight-heading}",
           "lineHeight": "$headings.line-height-heading-lg",
           "fontSize": "$headings.font-size-heading-lg",
           "letterSpacing": "$edit.font-letter-spacing-heading",
@@ -60,7 +60,7 @@
       "heading-md-desktop": {
         "value": {
           "fontFamily": "$edit.text.font-family-headings",
-          "fontWeight": "$edit.text.font-weight-headings",
+          "fontWeight": "{edit.text.font-weight-heading}",
           "lineHeight": "$headings.line-height-heading-md",
           "fontSize": "$headings.font-size-heading-md",
           "letterSpacing": "$edit.font-letter-spacing-heading",
@@ -88,7 +88,7 @@
       "heading-sm-desktop": {
         "value": {
           "fontFamily": "$edit.text.font-family-headings",
-          "fontWeight": "$edit.text.font-weight-headings",
+          "fontWeight": "{edit.text.font-weight-heading}",
           "lineHeight": "$headings.line-height-heading-sm",
           "fontSize": "$headings.font-size-heading-sm",
           "letterSpacing": "$edit.font-letter-spacing-heading",
@@ -226,7 +226,7 @@
       "heading-xl-mobile": {
         "value": {
           "fontFamily": "$edit.text.font-family-headings",
-          "fontWeight": "$edit.text.font-weight-headings",
+          "fontWeight": "{edit.text.font-weight-heading}",
           "lineHeight": "$headings.line-height-heading-xl-mobile",
           "fontSize": "$headings.font-size-heading-mobile",
           "letterSpacing": "$edit.font-letter-spacing-heading",
@@ -254,7 +254,7 @@
       "heading-lg-mobile": {
         "value": {
           "fontFamily": "$edit.text.font-family-headings",
-          "fontWeight": "$edit.text.font-weight-headings",
+          "fontWeight": "{edit.text.font-weight-heading}",
           "lineHeight": "$headings.line-height-heading-lg-mobile",
           "fontSize": "$headings.font-size-heading-lg-mobile",
           "letterSpacing": "$edit.font-letter-spacing-heading",
@@ -282,7 +282,7 @@
       "heading-md-mobile": {
         "value": {
           "fontFamily": "$edit.text.font-family-headings",
-          "fontWeight": "$edit.text.font-weight-headings",
+          "fontWeight": "{edit.text.font-weight-heading}",
           "lineHeight": "$headings.line-height-heading-md-mobile",
           "fontSize": "$headings.font-size-heading-md-mobile",
           "letterSpacing": "$edit.font-letter-spacing-heading",
@@ -310,7 +310,7 @@
       "heading-sm-mobile": {
         "value": {
           "fontFamily": "$edit.text.font-family-headings",
-          "fontWeight": "$edit.text.font-weight-headings",
+          "fontWeight": "{edit.text.font-weight-heading}",
           "lineHeight": "$headings.line-height-heading-sm-mobile",
           "fontSize": "$headings.font-size-heading-sm-mobile",
           "letterSpacing": "$edit.font-letter-spacing-heading",
@@ -1619,7 +1619,7 @@
           "description": "Body Font Family",
           "type": "fontFamilies"
         },
-        "font-weight-headings": {
+        "font-weight-heading": {
           "value": "Bold",
           "description": "Font Heading Weight",
           "type": "fontWeights"
