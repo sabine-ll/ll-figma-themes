@@ -618,9 +618,24 @@
     },
     "body": {
       "paragraph-spacing-body-xl": {
-        "value": "$edit.text.font-size-body * 1.2",
+        "value": "$body.font-size-body-xl * 1.2",
         "type": "paragraphSpacing",
         "description": "Paragraph Spacing Body XL"
+      },
+      "paragraph-spacing-body-lg": {
+        "value": "$body.font-size-body * 1.3",
+        "type": "paragraphSpacing",
+        "description": "Paragraph Spacing Body LG"
+      },
+      "paragraph-spacing-body-md": {
+        "value": "$body.font-size-body-md * 1.3",
+        "type": "paragraphSpacing",
+        "description": "Paragraph Spacing Body MD"
+      },
+      "paragraph-spacing-body-sm": {
+        "value": "$body.font-size-body-sm* 1.3",
+        "type": "paragraphSpacing",
+        "description": "Paragraph Spacing Body SM"
       },
       "line-height-body-xl": {
         "value": "$edit.text.font-size-body * 1.2",
