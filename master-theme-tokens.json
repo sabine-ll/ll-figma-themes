@@ -617,6 +617,11 @@
       }
     },
     "body": {
+      "line-height-body-xl": {
+        "value": "$edit.text.font-size-body * 1.2",
+        "type": "lineHeights",
+        "description": "Line Height Body XL"
+      },
       "body-xl-desktop": {
         "value": {
           "fontFamily": "$edit.text.font-family-body-xl",
