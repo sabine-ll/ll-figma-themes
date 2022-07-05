@@ -15,18 +15,18 @@
         "description": "Heading Extra Large Desktop",
         "type": "typography"
       },
-      "heading-alternate-xl-desktop": {
+      "heading-xl-mobile": {
         "value": {
-          "fontFamily": "$edit.text.font-family-headings-alternate",
-          "fontWeight": "{edit.text.font-weight-heading-alternate}",
-          "lineHeight": "$headings.line-height-heading-xl-alternate",
-          "fontSize": "$edit.text.font-size-heading-alternate",
-          "letterSpacing": "$edit.font-letter-spacing-heading-alternate",
-          "paragraphSpacing": "$headings.paragraph-spacing-heading-xl-alternate",
+          "fontFamily": "{edit.text.font-family-heading}",
+          "fontWeight": "{edit.text.font-weight-heading}",
+          "lineHeight": "$headings.line-height-heading-xl-mobile",
+          "fontSize": "$headings.font-size-heading-mobile",
+          "letterSpacing": "$edit.font-letter-spacing-heading",
+          "paragraphSpacing": "$headings.paragraph-spacing-heading-xl-mobile",
           "textDecoration": "$typography.headings-decoration",
           "textCase": "$typography.font-transform-heading"
         },
-        "description": "Heading Alternative Extra Large Desktop ",
+        "description": "Heading Extra Large Mobile",
         "type": "typography"
       },
       "heading-lg-desktop": {
@@ -43,18 +43,18 @@
         "description": "Heading Large Desktop",
         "type": "typography"
       },
-      "heading-alternate-lg-desktop": {
+      "heading-lg-mobile": {
         "value": {
-          "fontFamily": "$edit.text.font-family-headings-alternate",
-          "fontWeight": "$edit.text.font-weight-heading-alternate",
-          "lineHeight": "$headings.line-height-heading-alternate-lg",
-          "fontSize": "$headings.font-size-heading-alternate-lg",
-          "letterSpacing": "$edit.font-letter-spacing-heading-alternate",
-          "paragraphSpacing": "$headings.paragraph-spacing-heading-lg-alternate",
+          "fontFamily": "{edit.text.font-family-heading}",
+          "fontWeight": "{edit.text.font-weight-heading}",
+          "lineHeight": "$headings.line-height-heading-lg-mobile",
+          "fontSize": "$headings.font-size-heading-lg-mobile",
+          "letterSpacing": "$edit.font-letter-spacing-heading",
+          "paragraphSpacing": "$headings.paragraph-spacing-heading-lg-mobile",
           "textDecoration": "$typography.headings-decoration",
           "textCase": "$typography.font-transform-heading"
         },
-        "description": "Heading Large Alternate Desktop",
+        "description": "Heading Large Mobile",
         "type": "typography"
       },
       "heading-md-desktop": {
@@ -71,18 +71,18 @@
         "description": "Heading Medium Desktop",
         "type": "typography"
       },
-      "heading-alternate-md-desktop": {
+      "heading-md-mobile": {
         "value": {
-          "fontFamily": "$edit.text.font-family-headings-alternate",
-          "fontWeight": "$edit.text.font-weight-heading-alternate",
-          "lineHeight": "$headings.line-height-heading-md-alternate",
-          "fontSize": "$headings.font-size-heading-alternate-md",
+          "fontFamily": "{edit.text.font-family-heading}",
+          "fontWeight": "{edit.text.font-weight-heading}",
+          "lineHeight": "$headings.line-height-heading-md-mobile",
+          "fontSize": "$headings.font-size-heading-md-mobile",
           "letterSpacing": "$edit.font-letter-spacing-heading",
-          "paragraphSpacing": "$headings.paragraph-spacing-heading-md-alternate",
+          "paragraphSpacing": "$headings.paragraph-spacing-heading-md-mobile",
           "textDecoration": "$typography.headings-decoration",
           "textCase": "$typography.font-transform-heading"
         },
-        "description": "Heading Alternate Medium Desktop",
+        "description": "Heading Medium Mobile",
         "type": "typography"
       },
       "heading-sm-desktop": {
@@ -97,6 +97,104 @@
           "textCase": "$typography.font-transform-heading"
         },
         "description": "Heading Small Desktop",
+        "type": "typography"
+      },
+      "heading-sm-mobile": {
+        "value": {
+          "fontFamily": "{edit.text.font-family-heading}",
+          "fontWeight": "{edit.text.font-weight-heading}",
+          "lineHeight": "$headings.line-height-heading-sm-mobile",
+          "fontSize": "$headings.font-size-heading-sm-mobile",
+          "letterSpacing": "$edit.font-letter-spacing-heading",
+          "paragraphSpacing": "$headings.paragraph-spacing-heading-sm-mobile",
+          "textDecoration": "$typography.headings-decoration",
+          "textCase": "$typography.font-transform-heading"
+        },
+        "description": "Heading Small Mobile",
+        "type": "typography"
+      },
+      "heading-alternate-xl-desktop": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-headings-alternate",
+          "fontWeight": "{edit.text.font-weight-heading-alternate}",
+          "lineHeight": "$headings.line-height-heading-xl-alternate",
+          "fontSize": "$edit.text.font-size-heading-alternate",
+          "letterSpacing": "$edit.font-letter-spacing-heading-alternate",
+          "paragraphSpacing": "$headings.paragraph-spacing-heading-xl-alternate",
+          "textDecoration": "$typography.headings-decoration",
+          "textCase": "$typography.font-transform-heading"
+        },
+        "description": "Heading Alternative Extra Large Desktop ",
+        "type": "typography"
+      },
+      "heading-alternate-xl-mobile": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-headings-alternate",
+          "fontWeight": "$edit.text.font-weight-heading-alternate",
+          "lineHeight": "$headings.line-height-heading-xl-alternate-mobile",
+          "fontSize": "$headings.font-size-heading-alternate-mobile",
+          "letterSpacing": "$edit.font-letter-spacing-heading",
+          "paragraphSpacing": "$headings.paragraph-spacing-heading-alternate-xl-mobile",
+          "textDecoration": "$typography.headings-decoration",
+          "textCase": "$typography.font-transform-heading"
+        },
+        "description": "Heading Alternate Extra Large Mobile",
+        "type": "typography"
+      },
+      "heading-alternate-lg-desktop": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-headings-alternate",
+          "fontWeight": "$edit.text.font-weight-heading-alternate",
+          "lineHeight": "$headings.line-height-heading-alternate-lg",
+          "fontSize": "$headings.font-size-heading-alternate-lg",
+          "letterSpacing": "$edit.font-letter-spacing-heading-alternate",
+          "paragraphSpacing": "$headings.paragraph-spacing-heading-lg-alternate",
+          "textDecoration": "$typography.headings-decoration",
+          "textCase": "$typography.font-transform-heading"
+        },
+        "description": "Heading Large Alternate Desktop",
+        "type": "typography"
+      },
+      "heading-alternate-lg-mobile": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-headings-alternate",
+          "fontWeight": "{edit.text.font-weight-heading-alternate}",
+          "lineHeight": "$headings.line-height-heading-alternate-lg-mobile",
+          "fontSize": "$headings.font-size-heading-alternate-lg-mobile",
+          "letterSpacing": "$edit.font-letter-spacing-heading",
+          "paragraphSpacing": "$headings.paragraph-spacing-heading-alternate-lg-mobile",
+          "textDecoration": "$typography.headings-decoration",
+          "textCase": "$typography.font-transform-heading"
+        },
+        "description": "Heading Alternate Large Mobile",
+        "type": "typography"
+      },
+      "heading-alternate-md-desktop": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-headings-alternate",
+          "fontWeight": "$edit.text.font-weight-heading-alternate",
+          "lineHeight": "$headings.line-height-heading-md-alternate",
+          "fontSize": "$headings.font-size-heading-alternate-md",
+          "letterSpacing": "$edit.font-letter-spacing-heading",
+          "paragraphSpacing": "$headings.paragraph-spacing-heading-md-alternate",
+          "textDecoration": "$typography.headings-decoration",
+          "textCase": "$typography.font-transform-heading"
+        },
+        "description": "Heading Alternate Medium Desktop",
+        "type": "typography"
+      },
+      "heading-alternate-md-mobile": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-headings-alternate",
+          "fontWeight": "{edit.text.font-weight-heading-alternate}",
+          "lineHeight": "$headings.line-height-heading-alternate-md-mobile",
+          "fontSize": "$headings.font-size-heading-alternate-md-mobile",
+          "letterSpacing": "$edit.font-letter-spacing-heading",
+          "paragraphSpacing": "$headings.paragraph-spacing-heading-alternate-md-mobile",
+          "textDecoration": "$typography.headings-decoration",
+          "textCase": "$typography.font-transform-heading"
+        },
+        "description": "Heading Alternate Medium Mobile",
         "type": "typography"
       },
       "heading-alternate-sm-desktop": {
@@ -222,104 +320,6 @@
         "value": "$edit.text.font-size-heading-alternate  * 0.375",
         "description": "Font Spacing Bottom Heading SM Alternate Desktop",
         "type": "spacing"
-      },
-      "heading-xl-mobile": {
-        "value": {
-          "fontFamily": "{edit.text.font-family-heading}",
-          "fontWeight": "{edit.text.font-weight-heading}",
-          "lineHeight": "$headings.line-height-heading-xl-mobile",
-          "fontSize": "$headings.font-size-heading-mobile",
-          "letterSpacing": "$edit.font-letter-spacing-heading",
-          "paragraphSpacing": "$headings.paragraph-spacing-heading-xl-mobile",
-          "textDecoration": "$typography.headings-decoration",
-          "textCase": "$typography.font-transform-heading"
-        },
-        "description": "Heading Extra Large Mobile",
-        "type": "typography"
-      },
-      "heading-alternate-xl-mobile": {
-        "value": {
-          "fontFamily": "$edit.text.font-family-headings-alternate",
-          "fontWeight": "$edit.text.font-weight-heading-alternate",
-          "lineHeight": "$headings.line-height-heading-xl-alternate-mobile",
-          "fontSize": "$headings.font-size-heading-alternate-mobile",
-          "letterSpacing": "$edit.font-letter-spacing-heading",
-          "paragraphSpacing": "$headings.paragraph-spacing-heading-alternate-xl-mobile",
-          "textDecoration": "$typography.headings-decoration",
-          "textCase": "$typography.font-transform-heading"
-        },
-        "description": "Heading Alternate Extra Large Mobile",
-        "type": "typography"
-      },
-      "heading-lg-mobile": {
-        "value": {
-          "fontFamily": "{edit.text.font-family-heading}",
-          "fontWeight": "{edit.text.font-weight-heading}",
-          "lineHeight": "$headings.line-height-heading-lg-mobile",
-          "fontSize": "$headings.font-size-heading-lg-mobile",
-          "letterSpacing": "$edit.font-letter-spacing-heading",
-          "paragraphSpacing": "$headings.paragraph-spacing-heading-lg-mobile",
-          "textDecoration": "$typography.headings-decoration",
-          "textCase": "$typography.font-transform-heading"
-        },
-        "description": "Heading Large Mobile",
-        "type": "typography"
-      },
-      "heading-alternate-lg-mobile": {
-        "value": {
-          "fontFamily": "$edit.text.font-family-headings-alternate",
-          "fontWeight": "{edit.text.font-weight-heading-alternate}",
-          "lineHeight": "$headings.line-height-heading-alternate-lg-mobile",
-          "fontSize": "$headings.font-size-heading-alternate-lg-mobile",
-          "letterSpacing": "$edit.font-letter-spacing-heading",
-          "paragraphSpacing": "$headings.paragraph-spacing-heading-alternate-lg-mobile",
-          "textDecoration": "$typography.headings-decoration",
-          "textCase": "$typography.font-transform-heading"
-        },
-        "description": "Heading Alternate Large Mobile",
-        "type": "typography"
-      },
-      "heading-md-mobile": {
-        "value": {
-          "fontFamily": "{edit.text.font-family-heading}",
-          "fontWeight": "{edit.text.font-weight-heading}",
-          "lineHeight": "$headings.line-height-heading-md-mobile",
-          "fontSize": "$headings.font-size-heading-md-mobile",
-          "letterSpacing": "$edit.font-letter-spacing-heading",
-          "paragraphSpacing": "$headings.paragraph-spacing-heading-md-mobile",
-          "textDecoration": "$typography.headings-decoration",
-          "textCase": "$typography.font-transform-heading"
-        },
-        "description": "Heading Medium Mobile",
-        "type": "typography"
-      },
-      "heading-alternate-md-mobile": {
-        "value": {
-          "fontFamily": "$edit.text.font-family-headings-alternate",
-          "fontWeight": "{edit.text.font-weight-heading-alternate}",
-          "lineHeight": "$headings.line-height-heading-alternate-md-mobile",
-          "fontSize": "$headings.font-size-heading-alternate-md-mobile",
-          "letterSpacing": "$edit.font-letter-spacing-heading",
-          "paragraphSpacing": "$headings.paragraph-spacing-heading-alternate-md-mobile",
-          "textDecoration": "$typography.headings-decoration",
-          "textCase": "$typography.font-transform-heading"
-        },
-        "description": "Heading Alternate Medium Mobile",
-        "type": "typography"
-      },
-      "heading-sm-mobile": {
-        "value": {
-          "fontFamily": "{edit.text.font-family-heading}",
-          "fontWeight": "{edit.text.font-weight-heading}",
-          "lineHeight": "$headings.line-height-heading-sm-mobile",
-          "fontSize": "$headings.font-size-heading-sm-mobile",
-          "letterSpacing": "$edit.font-letter-spacing-heading",
-          "paragraphSpacing": "$headings.paragraph-spacing-heading-sm-mobile",
-          "textDecoration": "$typography.headings-decoration",
-          "textCase": "$typography.font-transform-heading"
-        },
-        "description": "Heading Small Mobile",
-        "type": "typography"
       },
       "heading-alternate-sm-mobile": {
         "value": {
