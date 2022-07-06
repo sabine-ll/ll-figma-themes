@@ -3632,7 +3632,7 @@
     "edit": {
       "text": {
         "font-family-headings": {
-          "value": "Circular Std",
+          "value": "Druk Cond",
           "description": "Heading Font Family",
           "type": "fontFamilies"
         },
@@ -3657,7 +3657,7 @@
           "type": "fontFamilies"
         },
         "font-weight-headings": {
-          "value": "Bold",
+          "value": "Super",
           "description": "Font Heading Weight",
           "type": "fontWeights"
         },
@@ -3673,7 +3673,7 @@
         }
       },
       "font-letter-spacing-heading": {
-        "value": "0%",
+        "value": "1%",
         "description": "Headings Letter Spacing",
         "type": "letterSpacing"
       },
