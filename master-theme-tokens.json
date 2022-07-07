@@ -889,6 +889,152 @@
       }
     },
     "buttons": {
+      "button-primary-type-lg": {
+        "value": {
+          "fontFamily": "{edit.buttons.button-font-family}",
+          "fontWeight": "$edit.text.font-weight-body",
+          "lineHeight": "{edit.buttons.button-font-size} * 1.25",
+          "fontSize": "{edit.buttons.button-font-size} * 1.25",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Primary Button Type LG "
+      },
+      "button-primary-type-md": {
+        "value": {
+          "fontFamily": "{edit.buttons.button-font-family}",
+          "fontWeight": "$edit.text.font-weight-body",
+          "lineHeight": "{edit.buttons.button-font-size}",
+          "fontSize": "{edit.buttons.button-font-size}",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Primary Button Type MD"
+      },
+      "button-primary-type-sm": {
+        "value": {
+          "fontFamily": "{edit.buttons.button-font-family}",
+          "fontWeight": "$edit.text.font-weight-body",
+          "lineHeight": "{edit.buttons.button-font-size} * 0.87",
+          "fontSize": "{edit.buttons.button-font-size} * 0.87",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Primary Button Type SM"
+      },
+      "button-secondary-type-lg": {
+        "value": {
+          "fontFamily": "$edit.buttons.button-secondary-text-font-family",
+          "fontWeight": "$edit.text.font-weight-body",
+          "lineHeight": "{buttons.button-font-size-md} * 1.25",
+          "fontSize": "{buttons.button-font-size-md} * 1.25",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Secondary Button Type LG "
+      },
+      "button-secondary-type-md": {
+        "value": {
+          "fontFamily": "$edit.buttons.button-secondary-text-font-family",
+          "fontWeight": "$edit.text.font-weight-body",
+          "lineHeight": "{buttons.button-font-size-md}",
+          "fontSize": "{buttons.button-font-size-md}",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Secondary Button Type MD"
+      },
+      "button-secondary-type-sm": {
+        "value": {
+          "fontFamily": "$edit.buttons.button-secondary-text-font-family",
+          "fontWeight": "$edit.text.font-weight-body",
+          "lineHeight": "{buttons.button-font-size-md} * 0.87",
+          "fontSize": "{buttons.button-font-size-md} * 0.87",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Secondary Button Type SM"
+      },
+      "button-tertiary-type-lg": {
+        "value": {
+          "fontFamily": "$edit.buttons.button-tertiary-text-font-family",
+          "fontWeight": "$edit.text.font-weight-body",
+          "lineHeight": "$edit.button.button-tertiary-text-size-md * 1.25",
+          "fontSize": "$edit.button.button-tertiary-text-size-md * 1.25",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto",
+          "textDecoration": "$buttons.buttons-decoration",
+          "textCase": "$buttons.buttons-transform"
+        },
+        "type": "typography",
+        "description": "Tertiary Button Type LG "
+      },
+      "button-tertiary-type-md": {
+        "value": {
+          "fontFamily": "$edit.buttons.button-tertiary-text-font-family",
+          "fontWeight": "$edit.text.font-weight-body",
+          "lineHeight": "$edit.button.button-tertiary-text-size-md",
+          "fontSize": "$edit.button.button-tertiary-text-size-md",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Tertiary Button Type MD"
+      },
+      "button-tertiary-type-sm": {
+        "value": {
+          "fontFamily": "$edit.buttons.button-tertiary-text-font-family",
+          "fontWeight": "$edit.text.font-weight-body",
+          "lineHeight": "$edit.button.button-tertiary-text-size-md * 0.87",
+          "fontSize": "$edit.button.button-tertiary-text-size-md * 0.87",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Tertiary Button Type SM"
+      },
+      "button-link-type-lg": {
+        "value": {
+          "fontFamily": "$edit.buttons.button-link-text-font-family",
+          "fontWeight": "$edit.text.font-weight-body",
+          "lineHeight": "$edit.button.button-link-text-size-md * 1.25",
+          "fontSize": "$edit.button.button-link-text-size-md * 1.25",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Link Button Type LG "
+      },
+      "button-link-type-md": {
+        "value": {
+          "fontFamily": "$edit.buttons.button-link-text-font-family",
+          "fontWeight": "$edit.text.font-weight-body",
+          "lineHeight": "$edit.button.button-link-text-size-md",
+          "fontSize": "$edit.button.button-link-text-size-md",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Link Button Type MD"
+      },
+      "button-link-type-sm": {
+        "value": {
+          "fontFamily": "$edit.buttons.button-link-text-font-family",
+          "fontWeight": "$edit.text.font-weight-body",
+          "lineHeight": "$edit.button.button-link-text-size-md * 0.87",
+          "fontSize": "$edit.button.button-link-text-size-md * 0.87",
+          "letterSpacing": "$edit.button-letter-spacing",
+          "paragraphSpacing": "auto"
+        },
+        "type": "typography",
+        "description": "Link Button Type SM"
+      },
       "button-font-size-md": {
         "value": "$edit.buttons.button-font-size",
         "description": "Button Font Size MD",
@@ -989,7 +1135,7 @@
           "description": "Button Only Icon Padding LG",
           "type": "spacing"
         },
-        "button-only-icon-px-md": {
+        "button-only-icon-pyx-md": {
           "value": "$edit.buttons.button-py",
           "description": "Button Only Icon Padding MD",
           "type": "spacing"
@@ -2465,11 +2611,6 @@
         "description": "Border Width",
         "type": "borderWidth"
       },
-      "border-size-buttons": {
-        "value": "$border-size-2",
-        "description": "Border Width Buttons",
-        "type": "borderWidth"
-      },
       "border-width-button-primary": {
         "value": "2",
         "description": "Border Width Primary Button",
@@ -2764,152 +2905,6 @@
         }
       },
       "buttons": {
-        "button-primary-type-lg": {
-          "value": {
-            "fontFamily": "{edit.buttons.button-font-family}",
-            "fontWeight": "$edit.text.font-weight-body",
-            "lineHeight": "{edit.buttons.button-font-size} * 1.25",
-            "fontSize": "{edit.buttons.button-font-size} * 1.25",
-            "letterSpacing": "$edit.button-letter-spacing",
-            "paragraphSpacing": "auto"
-          },
-          "type": "typography",
-          "description": "Primary Button Type LG "
-        },
-        "button-primary-type-md": {
-          "value": {
-            "fontFamily": "{edit.buttons.button-font-family}",
-            "fontWeight": "$edit.text.font-weight-body",
-            "lineHeight": "{edit.buttons.button-font-size}",
-            "fontSize": "{edit.buttons.button-font-size}",
-            "letterSpacing": "$edit.button-letter-spacing",
-            "paragraphSpacing": "auto"
-          },
-          "type": "typography",
-          "description": "Primary Button Type MD"
-        },
-        "button-primary-type-sm": {
-          "value": {
-            "fontFamily": "{edit.buttons.button-font-family}",
-            "fontWeight": "$edit.text.font-weight-body",
-            "lineHeight": "{edit.buttons.button-font-size} * 0.87",
-            "fontSize": "{edit.buttons.button-font-size} * 0.87",
-            "letterSpacing": "$edit.button-letter-spacing",
-            "paragraphSpacing": "auto"
-          },
-          "type": "typography",
-          "description": "Primary Button Type SM"
-        },
-        "button-secondary-type-lg": {
-          "value": {
-            "fontFamily": "$edit.buttons.button-secondary-text-font-family",
-            "fontWeight": "$edit.text.font-weight-body",
-            "lineHeight": "{buttons.button-font-size-md} * 1.25",
-            "fontSize": "{buttons.button-font-size-md} * 1.25",
-            "letterSpacing": "$edit.button-letter-spacing",
-            "paragraphSpacing": "auto"
-          },
-          "type": "typography",
-          "description": "Secondary Button Type LG "
-        },
-        "button-secondary-type-md": {
-          "value": {
-            "fontFamily": "$edit.buttons.button-secondary-text-font-family",
-            "fontWeight": "$edit.text.font-weight-body",
-            "lineHeight": "{buttons.button-font-size-md}",
-            "fontSize": "{buttons.button-font-size-md}",
-            "letterSpacing": "$edit.button-letter-spacing",
-            "paragraphSpacing": "auto"
-          },
-          "type": "typography",
-          "description": "Secondary Button Type MD"
-        },
-        "button-secondary-type-sm": {
-          "value": {
-            "fontFamily": "$edit.buttons.button-secondary-text-font-family",
-            "fontWeight": "$edit.text.font-weight-body",
-            "lineHeight": "{buttons.button-font-size-md} * 0.87",
-            "fontSize": "{buttons.button-font-size-md} * 0.87",
-            "letterSpacing": "$edit.button-letter-spacing",
-            "paragraphSpacing": "auto"
-          },
-          "type": "typography",
-          "description": "Secondary Button Type SM"
-        },
-        "button-tertiary-type-lg": {
-          "value": {
-            "fontFamily": "$edit.buttons.button-tertiary-text-font-family",
-            "fontWeight": "$edit.text.font-weight-body",
-            "lineHeight": "$edit.button.button-tertiary-text-size-md * 1.25",
-            "fontSize": "$edit.button.button-tertiary-text-size-md * 1.25",
-            "letterSpacing": "$edit.button-letter-spacing",
-            "paragraphSpacing": "auto",
-            "textDecoration": "$buttons.buttons-decoration",
-            "textCase": "$buttons.buttons-transform"
-          },
-          "type": "typography",
-          "description": "Tertiary Button Type LG "
-        },
-        "button-tertiary-type-md": {
-          "value": {
-            "fontFamily": "$edit.buttons.button-tertiary-text-font-family",
-            "fontWeight": "$edit.text.font-weight-body",
-            "lineHeight": "$edit.button.button-tertiary-text-size-md",
-            "fontSize": "$edit.button.button-tertiary-text-size-md",
-            "letterSpacing": "$edit.button-letter-spacing",
-            "paragraphSpacing": "auto"
-          },
-          "type": "typography",
-          "description": "Tertiary Button Type MD"
-        },
-        "button-tertiary-type-sm": {
-          "value": {
-            "fontFamily": "$edit.buttons.button-tertiary-text-font-family",
-            "fontWeight": "$edit.text.font-weight-body",
-            "lineHeight": "$edit.button.button-tertiary-text-size-md * 0.87",
-            "fontSize": "$edit.button.button-tertiary-text-size-md * 0.87",
-            "letterSpacing": "$edit.button-letter-spacing",
-            "paragraphSpacing": "auto"
-          },
-          "type": "typography",
-          "description": "Tertiary Button Type SM"
-        },
-        "button-link-type-lg": {
-          "value": {
-            "fontFamily": "$edit.buttons.button-link-text-font-family",
-            "fontWeight": "$edit.text.font-weight-body",
-            "lineHeight": "$edit.button.button-link-text-size-md * 1.25",
-            "fontSize": "$edit.button.button-link-text-size-md * 1.25",
-            "letterSpacing": "$edit.button-letter-spacing",
-            "paragraphSpacing": "auto"
-          },
-          "type": "typography",
-          "description": "Link Button Type LG "
-        },
-        "button-link-type-md": {
-          "value": {
-            "fontFamily": "$edit.buttons.button-link-text-font-family",
-            "fontWeight": "$edit.text.font-weight-body",
-            "lineHeight": "$edit.button.button-link-text-size-md",
-            "fontSize": "$edit.button.button-link-text-size-md",
-            "letterSpacing": "$edit.button-letter-spacing",
-            "paragraphSpacing": "auto"
-          },
-          "type": "typography",
-          "description": "Link Button Type MD"
-        },
-        "button-link-type-sm": {
-          "value": {
-            "fontFamily": "$edit.buttons.button-link-text-font-family",
-            "fontWeight": "$edit.text.font-weight-body",
-            "lineHeight": "$edit.button.button-link-text-size-md * 0.87",
-            "fontSize": "$edit.button.button-link-text-size-md * 0.87",
-            "letterSpacing": "$edit.button-letter-spacing",
-            "paragraphSpacing": "auto"
-          },
-          "type": "typography",
-          "description": "Link Button Type SM"
-        },
         "button-py": {
           "value": "8",
           "description": "Button Padding Y ",
@@ -3004,6 +2999,16 @@
         "value": "$border-size-1",
         "description": "Border Width Inputs",
         "type": "borderWidth"
+      },
+      "box-shadow": {
+        "value": "{shadow-md}",
+        "type": "boxShadow",
+        "description": "Box Shadow"
+      },
+      "box-shadow-inverted": {
+        "value": "$shadow-md-inverted",
+        "type": "boxShadow",
+        "description": "Box Shadow Inverted"
       }
     }
   },
