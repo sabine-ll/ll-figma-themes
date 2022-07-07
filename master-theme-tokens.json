@@ -942,24 +942,24 @@
           "description": "Button Icon Padding Y LG",
           "type": "spacing"
         },
-        "button-icon-py-md": {
-          "value": "$edit.buttons.button-py",
-          "description": "Button Icon Padding MD",
-          "type": "spacing"
-        },
-        "button-icon-py-sm": {
-          "value": "$edit.buttons.button-py * 0.75",
-          "description": "Button Icon Padding Y SM",
-          "type": "spacing"
-        },
         "button-icon-px-lg": {
           "value": "$edit.buttons.button-px * 0.6",
           "description": "Button Icon Padding X LG",
           "type": "spacing"
         },
+        "button-icon-py-md": {
+          "value": "$edit.buttons.button-py",
+          "description": "Button Icon Padding MD",
+          "type": "spacing"
+        },
         "button-icon-px-md": {
           "value": "$edit.buttons.button-px * 0.55",
           "description": "Button Icon Padding X MD",
+          "type": "spacing"
+        },
+        "button-icon-py-sm": {
+          "value": "$edit.buttons.button-py * 0.75",
+          "description": "Button Icon Padding Y SM",
           "type": "spacing"
         },
         "button-icon-px-sm": {
