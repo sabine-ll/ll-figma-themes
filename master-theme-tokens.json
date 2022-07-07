@@ -889,6 +889,21 @@
       }
     },
     "buttons": {
+      "button-font-size-md": {
+        "value": "$edit.buttons.button-font-size",
+        "description": "Button Font Size MD",
+        "type": "fontSizes"
+      },
+      "button-font-size-lg": {
+        "value": "$edit.buttons.button-font-size * 1.25",
+        "description": "Button Font Size LG",
+        "type": "fontSizes"
+      },
+      "button-font-size-sm": {
+        "value": "$edit.buttons.button-font-size * 0.87",
+        "description": "Button Font Size SM",
+        "type": "fontSizes"
+      },
       "buttons-decoration": {
         "value": "none",
         "description": "Main Buttons Decoration",
@@ -984,21 +999,6 @@
           "description": "Button Only Icon Padding SM",
           "type": "spacing"
         }
-      },
-      "button-font-size-md": {
-        "value": "$edit.buttons.button-font-size",
-        "description": "Button Font Size MD",
-        "type": "fontSizes"
-      },
-      "button-font-size-lg": {
-        "value": "$edit.buttons.button-font-size * 1.25",
-        "description": "Button Font Size LG",
-        "type": "fontSizes"
-      },
-      "button-font-size-sm": {
-        "value": "$edit.buttons.button-font-size * 0.87",
-        "description": "Button Font Size SM",
-        "type": "fontSizes"
       }
     },
     "spacers": {
@@ -1729,6 +1729,111 @@
         "description": "Font Transform Body",
         "type": "textCase"
       }
+    },
+    "opacity-0": {
+      "value": "0",
+      "description": "Opacity 0%",
+      "type": "opacity"
+    },
+    "opacity-5": {
+      "value": "0.05",
+      "description": "Opacity 5%",
+      "type": "opacity"
+    },
+    "opacity-10": {
+      "value": "0.1",
+      "description": "Opacity 10%",
+      "type": "opacity"
+    },
+    "opacity-15": {
+      "value": "0.15",
+      "description": "Opacity 15%",
+      "type": "opacity"
+    },
+    "opacity-20": {
+      "value": "0.2",
+      "description": "Opacity 20%",
+      "type": "opacity"
+    },
+    "opacity-25": {
+      "value": "0.25",
+      "description": "Opacity 25%",
+      "type": "opacity"
+    },
+    "opacity-30": {
+      "value": "0.3",
+      "description": "Opacity 30%",
+      "type": "opacity"
+    },
+    "opacity-35": {
+      "value": "0.35",
+      "description": "Opacity 35%",
+      "type": "opacity"
+    },
+    "opacity-40": {
+      "value": "0.4",
+      "description": "Opacity 40%",
+      "type": "opacity"
+    },
+    "opacity-45": {
+      "value": "0.45",
+      "description": "Opacity 45%",
+      "type": "opacity"
+    },
+    "opacity-50": {
+      "value": "0.5",
+      "description": "Opacity 50%",
+      "type": "opacity"
+    },
+    "opacity-55": {
+      "value": "0.55",
+      "description": "Opacity 55%",
+      "type": "opacity"
+    },
+    "opacity-60": {
+      "value": "0.6",
+      "description": "Opacity 60%",
+      "type": "opacity"
+    },
+    "opacity-65": {
+      "value": "0.65",
+      "description": "Opacity 65%",
+      "type": "opacity"
+    },
+    "opacity-70": {
+      "value": "0.7",
+      "description": "Opacity 70%",
+      "type": "opacity"
+    },
+    "opacity-75": {
+      "value": "0.75",
+      "description": "Opacity 75%",
+      "type": "opacity"
+    },
+    "opacity-80": {
+      "value": "0.8",
+      "description": "Opacity 80%",
+      "type": "opacity"
+    },
+    "opacity-85": {
+      "value": "0.85",
+      "description": "Opacity 85%",
+      "type": "opacity"
+    },
+    "opacity-90": {
+      "value": "0.9",
+      "description": "Opacity 90%",
+      "type": "opacity"
+    },
+    "opacity-95": {
+      "value": "0.95",
+      "description": "Opacity 95%",
+      "type": "opacity"
+    },
+    "opacity-100": {
+      "value": "1",
+      "description": "Opacity 100%",
+      "type": "opacity"
     },
     "edit": {
       "text": {
@@ -2661,7 +2766,7 @@
       "buttons": {
         "button-primary-type-lg": {
           "value": {
-            "fontFamily": "$edit.buttons.button-primary-text-font-family",
+            "fontFamily": "{edit.buttons.button-font-family}",
             "fontWeight": "$edit.text.font-weight-body",
             "lineHeight": "{edit.buttons.button-font-size} * 1.25",
             "fontSize": "{edit.buttons.button-font-size} * 1.25",
@@ -2673,7 +2778,7 @@
         },
         "button-primary-type-md": {
           "value": {
-            "fontFamily": "$edit.buttons.button-primary-text-font-family",
+            "fontFamily": "{edit.buttons.button-font-family}",
             "fontWeight": "$edit.text.font-weight-body",
             "lineHeight": "{edit.buttons.button-font-size}",
             "fontSize": "{edit.buttons.button-font-size}",
@@ -2685,7 +2790,7 @@
         },
         "button-primary-type-sm": {
           "value": {
-            "fontFamily": "$edit.buttons.button-primary-text-font-family",
+            "fontFamily": "{edit.buttons.button-font-family}",
             "fontWeight": "$edit.text.font-weight-body",
             "lineHeight": "{edit.buttons.button-font-size} * 0.87",
             "fontSize": "{edit.buttons.button-font-size} * 0.87",
@@ -2815,24 +2920,14 @@
           "description": "Button Padding X",
           "type": "spacing"
         },
-        "button-primary-text-font-family": {
+        "button-font-family": {
           "value": "$edit.text.font-family-body",
-          "description": "Primary Button Font Family",
+          "description": "Button Font Family",
           "type": "fontFamilies"
         },
-        "button-secondary-text-font-family": {
+        "button-link-font-family": {
           "value": "$edit.text.font-family-body",
-          "description": "Secondary Button Font Family",
-          "type": "fontFamilies"
-        },
-        "button-tertiary-text-font-family": {
-          "value": "$edit.text.font-family-body",
-          "description": "Tertiary Button Font Family",
-          "type": "fontFamilies"
-        },
-        "button-link-text-font-family": {
-          "value": "$edit.text.font-family-body",
-          "description": "Link Button Font Family",
+          "description": "Button Lnk Font Family",
           "type": "fontFamilies"
         },
         "link-button": {
@@ -2856,6 +2951,11 @@
           "value": "$edit.text.font-size-body",
           "description": "Button Font Size",
           "type": "fontSizes"
+        },
+        "button-link-font-size": {
+          "value": "$edit.text.font-size-body",
+          "description": "Button Link Font Size",
+          "type": "fontSizes"
         }
       },
       "button": {
@@ -2872,6 +2972,11 @@
         "font-weight-button-tertiary": {
           "value": "Bold",
           "description": "Font Weight Tertiary Button",
+          "type": "fontWeights"
+        },
+        "font-weight-button-link": {
+          "value": "Bold",
+          "description": "Font Weight Button Link",
           "type": "fontWeights"
         }
       },
@@ -2900,111 +3005,6 @@
         "description": "Border Width Inputs",
         "type": "borderWidth"
       }
-    },
-    "opacity-0": {
-      "value": "0",
-      "description": "Opacity 0%",
-      "type": "opacity"
-    },
-    "opacity-5": {
-      "value": "0.05",
-      "description": "Opacity 5%",
-      "type": "opacity"
-    },
-    "opacity-10": {
-      "value": "0.1",
-      "description": "Opacity 10%",
-      "type": "opacity"
-    },
-    "opacity-15": {
-      "value": "0.15",
-      "description": "Opacity 15%",
-      "type": "opacity"
-    },
-    "opacity-20": {
-      "value": "0.2",
-      "description": "Opacity 20%",
-      "type": "opacity"
-    },
-    "opacity-25": {
-      "value": "0.25",
-      "description": "Opacity 25%",
-      "type": "opacity"
-    },
-    "opacity-30": {
-      "value": "0.3",
-      "description": "Opacity 30%",
-      "type": "opacity"
-    },
-    "opacity-35": {
-      "value": "0.35",
-      "description": "Opacity 35%",
-      "type": "opacity"
-    },
-    "opacity-40": {
-      "value": "0.4",
-      "description": "Opacity 40%",
-      "type": "opacity"
-    },
-    "opacity-45": {
-      "value": "0.45",
-      "description": "Opacity 45%",
-      "type": "opacity"
-    },
-    "opacity-50": {
-      "value": "0.5",
-      "description": "Opacity 50%",
-      "type": "opacity"
-    },
-    "opacity-55": {
-      "value": "0.55",
-      "description": "Opacity 55%",
-      "type": "opacity"
-    },
-    "opacity-60": {
-      "value": "0.6",
-      "description": "Opacity 60%",
-      "type": "opacity"
-    },
-    "opacity-65": {
-      "value": "0.65",
-      "description": "Opacity 65%",
-      "type": "opacity"
-    },
-    "opacity-70": {
-      "value": "0.7",
-      "description": "Opacity 70%",
-      "type": "opacity"
-    },
-    "opacity-75": {
-      "value": "0.75",
-      "description": "Opacity 75%",
-      "type": "opacity"
-    },
-    "opacity-80": {
-      "value": "0.8",
-      "description": "Opacity 80%",
-      "type": "opacity"
-    },
-    "opacity-85": {
-      "value": "0.85",
-      "description": "Opacity 85%",
-      "type": "opacity"
-    },
-    "opacity-90": {
-      "value": "0.9",
-      "description": "Opacity 90%",
-      "type": "opacity"
-    },
-    "opacity-95": {
-      "value": "0.95",
-      "description": "Opacity 95%",
-      "type": "opacity"
-    },
-    "opacity-100": {
-      "value": "1",
-      "description": "Opacity 100%",
-      "type": "opacity"
     }
   },
   "$themes": []
