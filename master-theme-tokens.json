@@ -942,24 +942,24 @@
           "description": "Button Icon Padding Y LG",
           "type": "spacing"
         },
-        "button-icon-px-lg": {
-          "value": "$edit.buttons.button-px * 0.6",
-          "description": "Button Icon Padding X LG",
-          "type": "spacing"
-        },
         "button-icon-py-md": {
           "value": "$edit.buttons.button-py",
           "description": "Button Icon Padding MD",
           "type": "spacing"
         },
-        "button-icon-px-md": {
-          "value": "$edit.buttons.button-px * 0.55",
-          "description": "Button Icon Padding X MD",
-          "type": "spacing"
-        },
         "button-icon-py-sm": {
           "value": "$edit.buttons.button-py * 0.75",
           "description": "Button Icon Padding Y SM",
+          "type": "spacing"
+        },
+        "button-icon-px-lg": {
+          "value": "$edit.buttons.button-px * 0.6",
+          "description": "Button Icon Padding X LG",
+          "type": "spacing"
+        },
+        "button-icon-px-md": {
+          "value": "$edit.buttons.button-px * 0.55",
+          "description": "Button Icon Padding X MD",
           "type": "spacing"
         },
         "button-icon-px-sm": {
@@ -2789,36 +2789,6 @@
           },
           "type": "typography",
           "description": "Link Button Type SM"
-        },
-        "button-primary-no-icon-py-md-copy": {
-          "value": "$spacers.sp-8",
-          "description": "Primary Button No Icon Padding Y",
-          "type": "spacing"
-        },
-        "button-primary-no-icon-px-md": {
-          "value": "$spacers.sp-24",
-          "description": "Primary Button No Icon Padding X",
-          "type": "spacing"
-        },
-        "button-secondary-no-icon-py-md": {
-          "value": "$spacers.sp-8",
-          "description": "Secondary Button No Icon Padding Y",
-          "type": "spacing"
-        },
-        "button-secondary-no-icon-px-md": {
-          "value": "$spacers.sp-36",
-          "description": "Secondary Button No Icon Padding X",
-          "type": "spacing"
-        },
-        "button-tertiary-no-icon-py-md": {
-          "value": "$spacers.sp-1",
-          "description": "Tertiary Button No Icon Padding Y",
-          "type": "spacing"
-        },
-        "button-tertiary-no-icon-px-md": {
-          "value": "$spacers.sp-1",
-          "description": "Tertiary Button No Icon Padding X",
-          "type": "spacing"
         },
         "button-py": {
           "value": "8",
