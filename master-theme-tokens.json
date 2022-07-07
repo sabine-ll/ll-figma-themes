@@ -984,6 +984,21 @@
           "description": "Button Only Icon Padding SM",
           "type": "spacing"
         }
+      },
+      "button-font-size-md": {
+        "value": "$edit.buttons.button-font-size",
+        "description": "Button Font Size MD",
+        "type": "fontSizes"
+      },
+      "button-font-size-lg": {
+        "value": "$edit.buttons.button-font-size * 1.25",
+        "description": "Button Font Size LG",
+        "type": "fontSizes"
+      },
+      "button-font-size-sm": {
+        "value": "$edit.buttons.button-font-size * 0.87",
+        "description": "Button Font Size SM",
+        "type": "fontSizes"
       }
     },
     "spacers": {
@@ -1414,17 +1429,17 @@
         "type": "typography"
       },
       "button-primary-icon-font-size-lg": {
-        "value": "$edit.button.button-primary-text-size-md * 1.25",
+        "value": "{edit.buttons.button-font-size} * 1.25",
         "description": "Primary Button Icon Font Size LG",
         "type": "fontSizes"
       },
       "button-primary-icon-font-size-md": {
-        "value": "$edit.button.button-primary-text-size-md",
+        "value": "{edit.buttons.button-font-size}",
         "description": "Primary Button Icon Font Size MD",
         "type": "fontSizes"
       },
       "button-primary-icon-font-size-sm": {
-        "value": "$edit.button.button-primary-text-size-md * 0.87",
+        "value": "{edit.buttons.button-font-size} * 0.87",
         "description": "Primary Button Icon Font Size SM",
         "type": "fontSizes"
       }
@@ -2648,8 +2663,8 @@
           "value": {
             "fontFamily": "$edit.buttons.button-primary-text-font-family",
             "fontWeight": "$edit.text.font-weight-body",
-            "lineHeight": "$edit.button.button-primary-text-size-md * 1.25",
-            "fontSize": "$edit.button.button-primary-text-size-md * 1.25",
+            "lineHeight": "{edit.buttons.button-font-size} * 1.25",
+            "fontSize": "{edit.buttons.button-font-size} * 1.25",
             "letterSpacing": "$edit.button-letter-spacing",
             "paragraphSpacing": "auto"
           },
@@ -2660,8 +2675,8 @@
           "value": {
             "fontFamily": "$edit.buttons.button-primary-text-font-family",
             "fontWeight": "$edit.text.font-weight-body",
-            "lineHeight": "$edit.button.button-primary-text-size-md",
-            "fontSize": "$edit.button.button-primary-text-size-md",
+            "lineHeight": "{edit.buttons.button-font-size}",
+            "fontSize": "{edit.buttons.button-font-size}",
             "letterSpacing": "$edit.button-letter-spacing",
             "paragraphSpacing": "auto"
           },
@@ -2672,8 +2687,8 @@
           "value": {
             "fontFamily": "$edit.buttons.button-primary-text-font-family",
             "fontWeight": "$edit.text.font-weight-body",
-            "lineHeight": "$edit.button.button-primary-text-size-md * 0.87",
-            "fontSize": "$edit.button.button-primary-text-size-md * 0.87",
+            "lineHeight": "{edit.buttons.button-font-size} * 0.87",
+            "fontSize": "{edit.buttons.button-font-size} * 0.87",
             "letterSpacing": "$edit.button-letter-spacing",
             "paragraphSpacing": "auto"
           },
@@ -2684,8 +2699,8 @@
           "value": {
             "fontFamily": "$edit.buttons.button-secondary-text-font-family",
             "fontWeight": "$edit.text.font-weight-body",
-            "lineHeight": "$edit.button.button-secondary-text-size-md * 1.25",
-            "fontSize": "$edit.button.button-secondary-text-size-md * 1.25",
+            "lineHeight": "{buttons.button-font-size-md} * 1.25",
+            "fontSize": "{buttons.button-font-size-md} * 1.25",
             "letterSpacing": "$edit.button-letter-spacing",
             "paragraphSpacing": "auto"
           },
@@ -2696,8 +2711,8 @@
           "value": {
             "fontFamily": "$edit.buttons.button-secondary-text-font-family",
             "fontWeight": "$edit.text.font-weight-body",
-            "lineHeight": "$edit.button.button-secondary-text-size-md",
-            "fontSize": "$edit.button.button-secondary-text-size-md",
+            "lineHeight": "{buttons.button-font-size-md}",
+            "fontSize": "{buttons.button-font-size-md}",
             "letterSpacing": "$edit.button-letter-spacing",
             "paragraphSpacing": "auto"
           },
@@ -2708,8 +2723,8 @@
           "value": {
             "fontFamily": "$edit.buttons.button-secondary-text-font-family",
             "fontWeight": "$edit.text.font-weight-body",
-            "lineHeight": "$edit.button.button-secondary-text-size-md * 0.87",
-            "fontSize": "$edit.button.button-secondary-text-size-md * 0.87",
+            "lineHeight": "{buttons.button-font-size-md} * 0.87",
+            "fontSize": "{buttons.button-font-size-md} * 0.87",
             "letterSpacing": "$edit.button-letter-spacing",
             "paragraphSpacing": "auto"
           },
@@ -2836,29 +2851,14 @@
             "description": "Button Link Text Decoration Active",
             "type": "textDecoration"
           }
+        },
+        "button-font-size": {
+          "value": "$edit.text.font-size-body",
+          "description": "Button Font Size",
+          "type": "fontSizes"
         }
       },
       "button": {
-        "button-primary-text-size-md": {
-          "value": "$edit.text.font-size-body",
-          "description": "Primary Button Font Size MD",
-          "type": "fontSizes"
-        },
-        "button-secondary-text-size-md": {
-          "value": "$edit.text.font-size-body",
-          "description": "Secondary Button Font Size MD",
-          "type": "fontSizes"
-        },
-        "button-tertiary-text-size-md": {
-          "value": "$edit.text.font-size-body",
-          "description": "Tertiary Button Font Size MD",
-          "type": "fontSizes"
-        },
-        "button-link-text-size-md": {
-          "value": "$edit.text.font-size-body",
-          "description": "Link Button Font Size MD",
-          "type": "fontSizes"
-        },
         "font-weight-button-primary": {
           "value": "Bold",
           "description": "Font Weight Primary Button",
