@@ -1035,14 +1035,14 @@
         "type": "typography",
         "description": "Link Button Type SM"
       },
-      "button-font-size-md": {
-        "value": "$edit.buttons.button-font-size",
-        "description": "Button Font Size MD",
-        "type": "fontSizes"
-      },
       "button-font-size-lg": {
         "value": "$edit.buttons.button-font-size * 1.25",
         "description": "Button Font Size LG",
+        "type": "fontSizes"
+      },
+      "button-font-size-md": {
+        "value": "$edit.buttons.button-font-size",
+        "description": "Button Font Size MD",
         "type": "fontSizes"
       },
       "button-font-size-sm": {
