@@ -1017,36 +1017,42 @@
       },
       "button-link-type-lg": {
         "value": {
-          "fontFamily": "$edit.buttons.button-link-text-font-family",
-          "fontWeight": "$edit.text.font-weight-body",
-          "lineHeight": "$edit.button.button-link-text-size-md * 1.25",
-          "fontSize": "$edit.button.button-link-text-size-md * 1.25",
+          "fontFamily": "$edit.buttons.font-family-button-link",
+          "fontWeight": "$edit.buttons.font-weight-button-link",
+          "lineHeight": "$edit.buttons.font-size-button-link  * 1.25",
+          "fontSize": "$edit.buttons.font-size-button-link  * 1.25",
           "letterSpacing": "{edit.letter-spacing-button}",
-          "paragraphSpacing": "auto"
+          "paragraphSpacing": "auto",
+          "textDecoration": "{edit.buttons.link-button.button-link-text-decoration}",
+          "textCase": "{buttons.button-text-link-transform}"
         },
         "type": "typography",
         "description": "Link Button Type LG "
       },
       "button-link-type-md": {
         "value": {
-          "fontFamily": "$edit.buttons.button-link-text-font-family",
-          "fontWeight": "$edit.text.font-weight-body",
-          "lineHeight": "$edit.button.button-link-text-size-md",
-          "fontSize": "$edit.button.button-link-text-size-md",
+          "fontFamily": "$edit.buttons.font-family-button-link",
+          "fontWeight": "$edit.buttons.font-weight-button-link",
+          "lineHeight": "$edit.buttons.font-size-button-link",
+          "fontSize": "$edit.buttons.font-size-button-link",
           "letterSpacing": "{edit.letter-spacing-button}",
-          "paragraphSpacing": "auto"
+          "paragraphSpacing": "auto",
+          "textDecoration": "{edit.buttons.link-button.button-link-text-decoration}",
+          "textCase": "{buttons.button-text-link-transform}"
         },
         "type": "typography",
         "description": "Link Button Type MD"
       },
       "button-link-type-sm": {
         "value": {
-          "fontFamily": "$edit.buttons.button-link-text-font-family",
-          "fontWeight": "$edit.text.font-weight-body",
-          "lineHeight": "$edit.button.button-link-text-size-md * 0.87",
-          "fontSize": "$edit.button.button-link-text-size-md * 0.87",
+          "fontFamily": "$edit.buttons.font-family-button-link",
+          "fontWeight": "$edit.buttons.font-weight-button-link",
+          "lineHeight": "$edit.buttons.font-size-button-link * 0.87",
+          "fontSize": "$edit.buttons.font-size-button-link * 0.87",
           "letterSpacing": "{edit.letter-spacing-button}",
-          "paragraphSpacing": "auto"
+          "paragraphSpacing": "auto",
+          "textDecoration": "{edit.buttons.link-button.button-link-text-decoration}",
+          "textCase": "{buttons.button-text-link-transform}"
         },
         "type": "typography",
         "description": "Link Button Type SM"
