@@ -891,7 +891,7 @@
     "buttons": {
       "button-primary-type-lg": {
         "value": {
-          "fontFamily": "$edit.buttons.button-font-family",
+          "fontFamily": "{edit.buttons.font-family-button}",
           "fontWeight": "$edit.buttons.font-weight-button-primary",
           "lineHeight": "auto",
           "fontSize": "{edit.buttons.font-size-button} * 1.25",
@@ -905,7 +905,7 @@
       },
       "button-primary-type-md": {
         "value": {
-          "fontFamily": "$edit.buttons.button-font-family",
+          "fontFamily": "{edit.buttons.font-family-button}",
           "fontWeight": "$edit.buttons.font-weight-button-primary",
           "lineHeight": "auto",
           "fontSize": "{edit.buttons.font-size-button}",
@@ -919,36 +919,42 @@
       },
       "button-primary-type-sm": {
         "value": {
-          "fontFamily": "{edit.buttons.button-font-family}",
+          "fontFamily": "{edit.buttons.font-family-button}",
           "fontWeight": "$edit.buttons.font-weight-button-primary",
           "lineHeight": "auto",
           "fontSize": "{edit.buttons.font-size-button} * 0.87",
           "letterSpacing": "{edit.letter-spacing-button}",
-          "paragraphSpacing": "auto"
+          "paragraphSpacing": "auto",
+          "textDecoration": "{buttons.buttons-decoration}",
+          "textCase": "{buttons.buttons-transform}"
         },
         "type": "typography",
         "description": "Primary Button Type SM"
       },
       "button-secondary-type-lg": {
         "value": {
-          "fontFamily": "$edit.buttons.button-secondary-text-font-family",
-          "fontWeight": "$edit.text.font-weight-body",
-          "lineHeight": "{buttons.button-font-size-md} * 1.25",
-          "fontSize": "{buttons.button-font-size-md} * 1.25",
+          "fontFamily": "$edit.buttons.font-family-button",
+          "fontWeight": "$edit.buttons.font-weight-button-secondary",
+          "lineHeight": "auto",
+          "fontSize": "{edit.buttons.font-size-button} * 1.25",
           "letterSpacing": "{edit.letter-spacing-button}",
-          "paragraphSpacing": "auto"
+          "paragraphSpacing": "auto",
+          "textDecoration": "{buttons.buttons-decoration}",
+          "textCase": "{buttons.buttons-transform}"
         },
         "type": "typography",
         "description": "Secondary Button Type LG "
       },
       "button-secondary-type-md": {
         "value": {
-          "fontFamily": "$edit.buttons.button-secondary-text-font-family",
-          "fontWeight": "$edit.text.font-weight-body",
-          "lineHeight": "{buttons.button-font-size-md}",
-          "fontSize": "{buttons.button-font-size-md}",
+          "fontFamily": "$edit.buttons.font-family-button",
+          "fontWeight": "$edit.buttons.font-weight-button-secondary",
+          "lineHeight": "auto",
+          "fontSize": "{edit.buttons.font-size-button}",
           "letterSpacing": "{edit.letter-spacing-button}",
-          "paragraphSpacing": "auto"
+          "paragraphSpacing": "auto",
+          "textDecoration": "{buttons.buttons-decoration}",
+          "textCase": "{buttons.buttons-transform}"
         },
         "type": "typography",
         "description": "Secondary Button Type MD"
@@ -2919,14 +2925,14 @@
           "description": "Button Padding X",
           "type": "spacing"
         },
-        "button-font-family": {
+        "font-family-button": {
           "value": "$edit.text.font-family-body",
           "description": "Button Font Family",
           "type": "fontFamilies"
         },
-        "button-link-font-family": {
+        "font-family-button-link": {
           "value": "$edit.text.font-family-body",
-          "description": "Button Lnk Font Family",
+          "description": "Button Link Font Family",
           "type": "fontFamilies"
         },
         "link-button": {
