@@ -891,24 +891,28 @@
     "buttons": {
       "button-primary-type-lg": {
         "value": {
-          "fontFamily": "{edit.buttons.button-font-family}",
-          "fontWeight": "$edit.text.font-weight-body",
-          "lineHeight": "{edit.buttons.button-font-size} * 1.25",
-          "fontSize": "{edit.buttons.button-font-size} * 1.25",
-          "letterSpacing": "$edit.button-letter-spacing",
-          "paragraphSpacing": "auto"
+          "fontFamily": "$edit.buttons.button-font-family",
+          "fontWeight": "$edit.buttons.font-weight-button-primary",
+          "lineHeight": "auto",
+          "fontSize": "{edit.buttons.font-size-button} * 1.25",
+          "letterSpacing": "{edit.letter-spacing-button}",
+          "paragraphSpacing": "auto",
+          "textDecoration": "$buttons.buttons-decoration",
+          "textCase": "$buttons.buttons-transform"
         },
         "type": "typography",
         "description": "Primary Button Type LG "
       },
       "button-primary-type-md": {
         "value": {
-          "fontFamily": "{edit.buttons.button-font-family}",
-          "fontWeight": "$edit.text.font-weight-body",
-          "lineHeight": "{edit.buttons.button-font-size}",
-          "fontSize": "{edit.buttons.button-font-size}",
-          "letterSpacing": "$edit.button-letter-spacing",
-          "paragraphSpacing": "auto"
+          "fontFamily": "$edit.buttons.button-font-family",
+          "fontWeight": "$edit.buttons.font-weight-button-primary",
+          "lineHeight": "auto",
+          "fontSize": "{edit.buttons.font-size-button}",
+          "letterSpacing": "{edit.letter-spacing-button}",
+          "paragraphSpacing": "auto",
+          "textDecoration": "{buttons.buttons-decoration}",
+          "textCase": "{buttons.buttons-transform}"
         },
         "type": "typography",
         "description": "Primary Button Type MD"
@@ -916,10 +920,10 @@
       "button-primary-type-sm": {
         "value": {
           "fontFamily": "{edit.buttons.button-font-family}",
-          "fontWeight": "$edit.text.font-weight-body",
-          "lineHeight": "{edit.buttons.button-font-size} * 0.87",
-          "fontSize": "{edit.buttons.button-font-size} * 0.87",
-          "letterSpacing": "$edit.button-letter-spacing",
+          "fontWeight": "$edit.buttons.font-weight-button-primary",
+          "lineHeight": "auto",
+          "fontSize": "{edit.buttons.font-size-button} * 0.87",
+          "letterSpacing": "{edit.letter-spacing-button}",
           "paragraphSpacing": "auto"
         },
         "type": "typography",
@@ -931,7 +935,7 @@
           "fontWeight": "$edit.text.font-weight-body",
           "lineHeight": "{buttons.button-font-size-md} * 1.25",
           "fontSize": "{buttons.button-font-size-md} * 1.25",
-          "letterSpacing": "$edit.button-letter-spacing",
+          "letterSpacing": "{edit.letter-spacing-button}",
           "paragraphSpacing": "auto"
         },
         "type": "typography",
@@ -943,7 +947,7 @@
           "fontWeight": "$edit.text.font-weight-body",
           "lineHeight": "{buttons.button-font-size-md}",
           "fontSize": "{buttons.button-font-size-md}",
-          "letterSpacing": "$edit.button-letter-spacing",
+          "letterSpacing": "{edit.letter-spacing-button}",
           "paragraphSpacing": "auto"
         },
         "type": "typography",
@@ -955,7 +959,7 @@
           "fontWeight": "$edit.text.font-weight-body",
           "lineHeight": "{buttons.button-font-size-md} * 0.87",
           "fontSize": "{buttons.button-font-size-md} * 0.87",
-          "letterSpacing": "$edit.button-letter-spacing",
+          "letterSpacing": "{edit.letter-spacing-button}",
           "paragraphSpacing": "auto"
         },
         "type": "typography",
@@ -967,7 +971,7 @@
           "fontWeight": "$edit.text.font-weight-body",
           "lineHeight": "$edit.button.button-tertiary-text-size-md * 1.25",
           "fontSize": "$edit.button.button-tertiary-text-size-md * 1.25",
-          "letterSpacing": "$edit.button-letter-spacing",
+          "letterSpacing": "{edit.letter-spacing-button}",
           "paragraphSpacing": "auto",
           "textDecoration": "$buttons.buttons-decoration",
           "textCase": "$buttons.buttons-transform"
@@ -981,7 +985,7 @@
           "fontWeight": "$edit.text.font-weight-body",
           "lineHeight": "$edit.button.button-tertiary-text-size-md",
           "fontSize": "$edit.button.button-tertiary-text-size-md",
-          "letterSpacing": "$edit.button-letter-spacing",
+          "letterSpacing": "{edit.letter-spacing-button}",
           "paragraphSpacing": "auto"
         },
         "type": "typography",
@@ -993,7 +997,7 @@
           "fontWeight": "$edit.text.font-weight-body",
           "lineHeight": "$edit.button.button-tertiary-text-size-md * 0.87",
           "fontSize": "$edit.button.button-tertiary-text-size-md * 0.87",
-          "letterSpacing": "$edit.button-letter-spacing",
+          "letterSpacing": "{edit.letter-spacing-button}",
           "paragraphSpacing": "auto"
         },
         "type": "typography",
@@ -1005,7 +1009,7 @@
           "fontWeight": "$edit.text.font-weight-body",
           "lineHeight": "$edit.button.button-link-text-size-md * 1.25",
           "fontSize": "$edit.button.button-link-text-size-md * 1.25",
-          "letterSpacing": "$edit.button-letter-spacing",
+          "letterSpacing": "{edit.letter-spacing-button}",
           "paragraphSpacing": "auto"
         },
         "type": "typography",
@@ -1017,7 +1021,7 @@
           "fontWeight": "$edit.text.font-weight-body",
           "lineHeight": "$edit.button.button-link-text-size-md",
           "fontSize": "$edit.button.button-link-text-size-md",
-          "letterSpacing": "$edit.button-letter-spacing",
+          "letterSpacing": "{edit.letter-spacing-button}",
           "paragraphSpacing": "auto"
         },
         "type": "typography",
@@ -1029,24 +1033,24 @@
           "fontWeight": "$edit.text.font-weight-body",
           "lineHeight": "$edit.button.button-link-text-size-md * 0.87",
           "fontSize": "$edit.button.button-link-text-size-md * 0.87",
-          "letterSpacing": "$edit.button-letter-spacing",
+          "letterSpacing": "{edit.letter-spacing-button}",
           "paragraphSpacing": "auto"
         },
         "type": "typography",
         "description": "Link Button Type SM"
       },
       "button-font-size-lg": {
-        "value": "$edit.buttons.button-font-size * 1.25",
+        "value": "{edit.buttons.font-size-button} * 1.25",
         "description": "Button Font Size LG",
         "type": "fontSizes"
       },
       "button-font-size-md": {
-        "value": "$edit.buttons.button-font-size",
+        "value": "{edit.buttons.font-size-button}",
         "description": "Button Font Size MD",
         "type": "fontSizes"
       },
       "button-font-size-sm": {
-        "value": "$edit.buttons.button-font-size * 0.87",
+        "value": "{edit.buttons.font-size-button} * 0.87",
         "description": "Button Font Size SM",
         "type": "fontSizes"
       },
@@ -1574,18 +1578,18 @@
         "description": "Icons Font",
         "type": "typography"
       },
-      "button-primary-icon-font-size-lg": {
-        "value": "{edit.buttons.button-font-size} * 1.25",
+      "font-size-button-primary-icon-lg": {
+        "value": "{edit.buttons.font-size-button} * 1.25",
         "description": "Primary Button Icon Font Size LG",
         "type": "fontSizes"
       },
-      "button-primary-icon-font-size-md": {
-        "value": "{edit.buttons.button-font-size}",
+      "font-size-button-primary-icon-md": {
+        "value": "{edit.buttons.font-size-button}",
         "description": "Primary Button Icon Font Size MD",
         "type": "fontSizes"
       },
-      "button-primary-icon-font-size-sm": {
-        "value": "{edit.buttons.button-font-size} * 0.87",
+      "font-size-button-primary-icon-sm": {
+        "value": "{edit.buttons.font-size-button} * 0.87",
         "description": "Primary Button Icon Font Size SM",
         "type": "fontSizes"
       }
@@ -2942,18 +2946,16 @@
             "type": "textDecoration"
           }
         },
-        "button-font-size": {
+        "font-size-button": {
           "value": "$edit.text.font-size-body",
           "description": "Button Font Size",
           "type": "fontSizes"
         },
-        "button-link-font-size": {
+        "font-size-button-link": {
           "value": "$edit.text.font-size-body",
           "description": "Button Link Font Size",
           "type": "fontSizes"
-        }
-      },
-      "button": {
+        },
         "font-weight-button-primary": {
           "value": "Bold",
           "description": "Font Weight Primary Button",
@@ -2975,7 +2977,7 @@
           "type": "fontWeights"
         }
       },
-      "button-letter-spacing": {
+      "letter-spacing-button": {
         "value": "0%",
         "description": "Button Letter Spacing",
         "type": "letterSpacing"
