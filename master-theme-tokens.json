@@ -2946,7 +2946,7 @@
           "type": "spacing"
         },
         "font-family-button": {
-          "value": "$edit.text.font-family-body",
+          "value": "$edit.text.font-family-heading",
           "description": "Button Font Family",
           "type": "fontFamilies"
         },
@@ -2957,12 +2957,12 @@
         },
         "link-button": {
           "button-link-text-decoration": {
-            "value": "underline",
+            "value": "none",
             "description": "Button Link Text Decoration",
             "type": "textDecoration"
           },
           "button-link-text-decoration-hover": {
-            "value": "none",
+            "value": "underline",
             "description": "Button Link Text Decoration Hover",
             "type": "textDecoration"
           },
