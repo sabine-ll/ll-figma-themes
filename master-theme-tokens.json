@@ -2597,7 +2597,7 @@
         "type": "borderRadius"
       },
       "border-radius-buttons-icon-only": {
-        "value": "$border-radius-6",
+        "value": "9999",
         "description": "Button Border Radius Icon Only",
         "type": "borderRadius"
       },
