@@ -1128,13 +1128,13 @@
         }
       },
       "icon": {
-        "buttonicon-py-lg": {
+        "button-icon-py-lg": {
           "value": "$edit.buttons.button-py * 1.25",
           "description": "Button Icon Padding Y LG",
           "type": "spacing"
         },
         "button-icon-px-lg": {
-          "value": "$edit.buttons.button-px * 0.6",
+          "value": "$edit.buttons.button-px * 1.325",
           "description": "Button Icon Padding X LG",
           "type": "spacing"
         },
