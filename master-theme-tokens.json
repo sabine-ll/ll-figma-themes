@@ -1095,38 +1095,6 @@
         "description": "Text Transform",
         "type": "textCase"
       },
-      "no-icon": {
-        "button-no-icon-py-lg": {
-          "value": "$edit.buttons.button-py * 1.25",
-          "description": "Button No Icon Padding Y LG",
-          "type": "spacing"
-        },
-        "button-no-icon-px-lg": {
-          "value": "$edit.buttons.button-px * 1.325",
-          "description": "Button No Icon Padding X LG",
-          "type": "spacing"
-        },
-        "button-no-icon-py-md": {
-          "value": "$edit.buttons.button-py",
-          "description": "Button No Icon Padding MD",
-          "type": "spacing"
-        },
-        "button-no-icon-px-md": {
-          "value": "$edit.buttons.button-px",
-          "description": "Button No Icon Padding X MD",
-          "type": "spacing"
-        },
-        "button-no-icon-py-sm": {
-          "value": "$edit.buttons.button-py * 0.75",
-          "description": "Button No Icon Padding Y SM",
-          "type": "spacing"
-        },
-        "button-no-icon-px-sm": {
-          "value": "$edit.buttons.button-px * 0.675",
-          "description": "Button No Icon Padding X SM",
-          "type": "spacing"
-        }
-      },
       "icon": {
         "button-icon-py-lg": {
           "value": "$edit.buttons.button-py * 1.25",
@@ -1159,6 +1127,38 @@
           "type": "spacing"
         }
       },
+      "no-icon": {
+        "button-no-icon-py-lg": {
+          "value": "$edit.buttons.button-py * 1.25",
+          "description": "Button No Icon Padding Y LG",
+          "type": "spacing"
+        },
+        "button-no-icon-px-lg": {
+          "value": "$edit.buttons.button-px * 1.325",
+          "description": "Button No Icon Padding X LG",
+          "type": "spacing"
+        },
+        "button-no-icon-py-md": {
+          "value": "$edit.buttons.button-py",
+          "description": "Button No Icon Padding MD",
+          "type": "spacing"
+        },
+        "button-no-icon-px-md": {
+          "value": "$edit.buttons.button-px",
+          "description": "Button No Icon Padding X MD",
+          "type": "spacing"
+        },
+        "button-no-icon-py-sm": {
+          "value": "$edit.buttons.button-py * 0.75",
+          "description": "Button No Icon Padding Y SM",
+          "type": "spacing"
+        },
+        "button-no-icon-px-sm": {
+          "value": "$edit.buttons.button-px * 0.675",
+          "description": "Button No Icon Padding X SM",
+          "type": "spacing"
+        }
+      },
       "only-icon": {
         "button-only-icon-pyx-lg": {
           "value": "$edit.buttons.button-py * 1.25",
@@ -1175,6 +1175,21 @@
           "description": "Button Only Icon Padding SM",
           "type": "spacing"
         }
+      },
+      "icon-size-button-lg": {
+        "value": "$icons.font-size-button-primary-icon-lg",
+        "type": "sizing",
+        "description": "Buttons Icon Box Size LG"
+      },
+      "icon-size-button-md": {
+        "value": "$icons.font-size-button-primary-icon-md",
+        "type": "sizing",
+        "description": "Buttons Icon Box Size MD"
+      },
+      "icon-size-button-sm": {
+        "value": "$icons.font-size-button-primary-icon-sm",
+        "type": "sizing",
+        "description": "Buttons Icon Box Size SM"
       }
     },
     "spacers": {
@@ -2936,12 +2951,12 @@
       },
       "buttons": {
         "button-py": {
-          "value": "8",
+          "value": "10",
           "description": "Button Padding Y ",
           "type": "spacing"
         },
         "button-px": {
-          "value": "16",
+          "value": "20",
           "description": "Button Padding X",
           "type": "spacing"
         },
