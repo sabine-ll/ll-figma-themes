@@ -1063,6 +1063,36 @@
           },
           "type": "typography",
           "description": "Link Button Type SM"
+        },
+        "button-link-py-lg": {
+          "value": "$edit.buttons.button-py * 1.25",
+          "description": "Button Link Padding Y LG",
+          "type": "spacing"
+        },
+        "button-link-px-lg": {
+          "value": "0",
+          "description": "Button Link Padding X LG",
+          "type": "spacing"
+        },
+        "button-link-py-md": {
+          "value": "$edit.buttons.button-py",
+          "description": "Button Link Padding Y MD",
+          "type": "spacing"
+        },
+        "button-link-px-md": {
+          "value": "0",
+          "description": "Button Link Padding X MD",
+          "type": "spacing"
+        },
+        "button-link-py-sm": {
+          "value": "$edit.buttons.button-py * 0.75",
+          "description": "Button Link Padding Y SM",
+          "type": "spacing"
+        },
+        "button-link-px-sm": {
+          "value": "0",
+          "description": "Button Link Padding X SM",
+          "type": "spacing"
         }
       },
       "button-font-size-lg": {
