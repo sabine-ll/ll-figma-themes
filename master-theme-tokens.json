@@ -2641,12 +2641,12 @@
           "type": "color"
         },
         "color-button-link-text-hover": {
-          "value": "rgba(12, 108, 222, 1)",
+          "value": "rgba(0, 91, 148, 1)",
           "description": "Button Link Text Colour Hover",
           "type": "color"
         },
         "color-button-link-text-active": {
-          "value": "rgba(12, 108, 222, 1)",
+          "value": "rgba(0, 91, 148, 1)",
           "description": "Button Link Text Colour Active",
           "type": "color"
         },
