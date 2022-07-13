@@ -10,7 +10,7 @@
           "letterSpacing": "$edit.font-letter-spacing-heading",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-xl",
           "textDecoration": "$typography.headings-decoration",
-          "textCase": "$typography.font-transform-heading"
+          "textCase": "{edit.font-transform-heading}"
         },
         "description": "Heading Extra Large Desktop",
         "type": "typography"
@@ -24,7 +24,7 @@
           "letterSpacing": "$edit.font-letter-spacing-heading",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-xl-mobile",
           "textDecoration": "$typography.headings-decoration",
-          "textCase": "$typography.font-transform-heading"
+          "textCase": "{edit.font-transform-heading}"
         },
         "description": "Heading Extra Large Mobile",
         "type": "typography"
@@ -38,7 +38,7 @@
           "letterSpacing": "$edit.font-letter-spacing-heading",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-lg",
           "textDecoration": "$typography.headings-decoration",
-          "textCase": "$typography.font-transform-heading"
+          "textCase": "{edit.font-transform-heading}"
         },
         "description": "Heading Large Desktop",
         "type": "typography"
@@ -52,7 +52,7 @@
           "letterSpacing": "$edit.font-letter-spacing-heading",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-lg-mobile",
           "textDecoration": "$typography.headings-decoration",
-          "textCase": "$typography.font-transform-heading"
+          "textCase": "{edit.font-transform-heading}"
         },
         "description": "Heading Large Mobile",
         "type": "typography"
@@ -66,7 +66,7 @@
           "letterSpacing": "$edit.font-letter-spacing-heading",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-md",
           "textDecoration": "$typography.headings-decoration",
-          "textCase": "$typography.font-transform-heading"
+          "textCase": "{edit.font-transform-heading}"
         },
         "description": "Heading Medium Desktop",
         "type": "typography"
@@ -80,7 +80,7 @@
           "letterSpacing": "$edit.font-letter-spacing-heading",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-md-mobile",
           "textDecoration": "$typography.headings-decoration",
-          "textCase": "$typography.font-transform-heading"
+          "textCase": "{edit.font-transform-heading}"
         },
         "description": "Heading Medium Mobile",
         "type": "typography"
@@ -94,7 +94,7 @@
           "letterSpacing": "$edit.font-letter-spacing-heading",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-sm",
           "textDecoration": "$typography.headings-decoration",
-          "textCase": "$typography.font-transform-heading"
+          "textCase": "{edit.font-transform-heading}"
         },
         "description": "Heading Small Desktop",
         "type": "typography"
@@ -108,7 +108,7 @@
           "letterSpacing": "$edit.font-letter-spacing-heading",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-sm-mobile",
           "textDecoration": "$typography.headings-decoration",
-          "textCase": "$typography.font-transform-heading"
+          "textCase": "{edit.font-transform-heading}"
         },
         "description": "Heading Small Mobile",
         "type": "typography"
@@ -122,7 +122,7 @@
           "letterSpacing": "$edit.font-letter-spacing-heading-alternate",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-xl-alternate",
           "textDecoration": "$typography.headings-decoration",
-          "textCase": "$typography.font-transform-heading-alternate"
+          "textCase": "{edit.font-transform-heading-alternate}"
         },
         "description": "Heading Alternative Extra Large Desktop ",
         "type": "typography"
@@ -136,7 +136,7 @@
           "letterSpacing": "$edit.font-letter-spacing-heading",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-alternate-xl-mobile",
           "textDecoration": "$typography.headings-decoration",
-          "textCase": "$typography.font-transform-heading-alternate"
+          "textCase": "{edit.font-transform-heading-alternate}"
         },
         "description": "Heading Alternate Extra Large Mobile",
         "type": "typography"
@@ -150,7 +150,7 @@
           "letterSpacing": "$edit.font-letter-spacing-heading-alternate",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-lg-alternate",
           "textDecoration": "$typography.headings-decoration",
-          "textCase": "$typography.font-transform-heading-alternate"
+          "textCase": "{edit.font-transform-heading-alternate}"
         },
         "description": "Heading Large Alternate Desktop",
         "type": "typography"
@@ -164,7 +164,7 @@
           "letterSpacing": "$edit.font-letter-spacing-heading",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-alternate-lg-mobile",
           "textDecoration": "$typography.headings-decoration",
-          "textCase": "$typography.font-transform-heading-alternate"
+          "textCase": "{edit.font-transform-heading-alternate}"
         },
         "description": "Heading Alternate Large Mobile",
         "type": "typography"
@@ -178,7 +178,7 @@
           "letterSpacing": "$edit.font-letter-spacing-heading",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-md-alternate",
           "textDecoration": "$typography.headings-decoration",
-          "textCase": "$typography.font-transform-heading-alternate"
+          "textCase": "{edit.font-transform-heading-alternate}"
         },
         "description": "Heading Alternate Medium Desktop",
         "type": "typography"
@@ -192,7 +192,7 @@
           "letterSpacing": "$edit.font-letter-spacing-heading",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-alternate-md-mobile",
           "textDecoration": "$typography.headings-decoration",
-          "textCase": "$typography.font-transform-heading-alternate"
+          "textCase": "{edit.font-transform-heading-alternate}"
         },
         "description": "Heading Alternate Medium Mobile",
         "type": "typography"
@@ -206,7 +206,7 @@
           "letterSpacing": "$edit.font-letter-spacing-heading",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-sm-alternate",
           "textDecoration": "$typography.headings-decoration",
-          "textCase": "$typography.font-transform-heading-alternate"
+          "textCase": "{edit.font-transform-heading-alternate}"
         },
         "description": "Heading Alternate Small  Desktop",
         "type": "typography"
@@ -330,7 +330,7 @@
           "letterSpacing": "$edit.font-letter-spacing-heading-alternate",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-alternate-sm-mobile",
           "textDecoration": "$typography.headings-decoration",
-          "textCase": "$typography.font-transform-heading-alternate"
+          "textCase": "{edit.font-transform-heading-alternate}"
         },
         "description": "Heading Alternate Small Mobile",
         "type": "typography"
@@ -1935,16 +1935,6 @@
         "description": "Text Decoration",
         "type": "textDecoration"
       },
-      "font-transform-heading": {
-        "value": "none",
-        "description": "Transform Heading",
-        "type": "textCase"
-      },
-      "font-transform-heading-alternate": {
-        "value": "capitalize",
-        "description": "Transform Heading Alternate",
-        "type": "textCase"
-      },
       "font-transform-body": {
         "value": "none",
         "description": "Font Transform Body",
@@ -2057,6 +2047,16 @@
       "type": "opacity"
     },
     "edit": {
+      "font-transform-heading": {
+        "value": "none",
+        "description": "Transform Heading",
+        "type": "textCase"
+      },
+      "font-transform-heading-alternate": {
+        "value": "capitalize",
+        "description": "Transform Heading Alternate",
+        "type": "textCase"
+      },
       "text": {
         "font-family-heading": {
           "value": "Circular Std",
