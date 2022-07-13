@@ -2667,7 +2667,7 @@
         }
       },
       "border-radius-buttons": {
-        "value": "$border-radius-8",
+        "value": "8",
         "description": "Button Border Radius",
         "type": "borderRadius"
       },
