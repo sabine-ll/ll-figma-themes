@@ -896,7 +896,7 @@
             "fontWeight": "$edit.buttons.font-weight-button-primary",
             "lineHeight": "{edit.buttons.font-size-button} * 1.25",
             "fontSize": "{edit.buttons.font-size-button} * 1.25",
-            "letterSpacing": "{edit.letter-spacing-button}",
+            "letterSpacing": "{edit.font-letter-spacing-button}",
             "paragraphSpacing": "auto",
             "textDecoration": "$buttons.buttons-decoration",
             "textCase": "$buttons.buttons-transform"
@@ -910,7 +910,7 @@
             "fontWeight": "$edit.buttons.font-weight-button-primary",
             "lineHeight": "{edit.buttons.font-size-button}",
             "fontSize": "{edit.buttons.font-size-button}",
-            "letterSpacing": "{edit.letter-spacing-button}",
+            "letterSpacing": "{edit.font-letter-spacing-button}",
             "paragraphSpacing": "auto",
             "textDecoration": "{buttons.buttons-decoration}",
             "textCase": "{buttons.buttons-transform}"
@@ -924,7 +924,7 @@
             "fontWeight": "$edit.buttons.font-weight-button-primary",
             "lineHeight": "{edit.buttons.font-size-button} * 0.87",
             "fontSize": "{edit.buttons.font-size-button} * 0.87",
-            "letterSpacing": "{edit.letter-spacing-button}",
+            "letterSpacing": "{edit.font-letter-spacing-button}",
             "paragraphSpacing": "auto",
             "textDecoration": "{buttons.buttons-decoration}",
             "textCase": "{buttons.buttons-transform}"
@@ -940,7 +940,7 @@
             "fontWeight": "$edit.buttons.font-weight-button-secondary",
             "lineHeight": "{edit.buttons.font-size-button} * 1.25",
             "fontSize": "{edit.buttons.font-size-button} * 1.25",
-            "letterSpacing": "{edit.letter-spacing-button}",
+            "letterSpacing": "{edit.font-letter-spacing-button}",
             "paragraphSpacing": "auto",
             "textDecoration": "{buttons.buttons-decoration}",
             "textCase": "{buttons.buttons-transform}"
@@ -954,7 +954,7 @@
             "fontWeight": "$edit.buttons.font-weight-button-secondary",
             "lineHeight": "{edit.buttons.font-size-button}",
             "fontSize": "{edit.buttons.font-size-button}",
-            "letterSpacing": "{edit.letter-spacing-button}",
+            "letterSpacing": "{edit.font-letter-spacing-button}",
             "paragraphSpacing": "auto",
             "textDecoration": "{buttons.buttons-decoration}",
             "textCase": "{buttons.buttons-transform}"
@@ -968,7 +968,7 @@
             "fontWeight": "$edit.buttons.font-weight-button-secondary",
             "lineHeight": "{edit.text.font-size-body}  * 0.87",
             "fontSize": "{edit.text.font-size-body}  * 0.87",
-            "letterSpacing": "{edit.letter-spacing-button}",
+            "letterSpacing": "{edit.font-letter-spacing-button}",
             "paragraphSpacing": "auto",
             "textDecoration": "{buttons.buttons-decoration}",
             "textCase": "{buttons.buttons-transform}"
@@ -984,7 +984,7 @@
             "fontWeight": "$edit.buttons.font-weight-button-tertiary",
             "lineHeight": "$edit.buttons.font-size-button * 1.25",
             "fontSize": "$edit.buttons.font-size-button * 1.25",
-            "letterSpacing": "{edit.letter-spacing-button}",
+            "letterSpacing": "{edit.font-letter-spacing-button}",
             "paragraphSpacing": "auto",
             "textDecoration": "$buttons.buttons-decoration",
             "textCase": "$buttons.buttons-transform"
@@ -998,7 +998,7 @@
             "fontWeight": "$edit.buttons.font-weight-button-tertiary",
             "lineHeight": "$edit.buttons.font-size-button",
             "fontSize": "$edit.buttons.font-size-button",
-            "letterSpacing": "{edit.letter-spacing-button}",
+            "letterSpacing": "{edit.font-letter-spacing-button}",
             "paragraphSpacing": "auto",
             "textDecoration": "{buttons.buttons-decoration}",
             "textCase": "{buttons.buttons-transform}"
@@ -1012,7 +1012,7 @@
             "fontWeight": "$edit.buttons.font-weight-button-tertiary",
             "lineHeight": "$edit.buttons.font-size-button  * 0.87",
             "fontSize": "$edit.buttons.font-size-button  * 0.87",
-            "letterSpacing": "{edit.letter-spacing-button}",
+            "letterSpacing": "{edit.font-letter-spacing-button}",
             "paragraphSpacing": "auto",
             "textDecoration": "{buttons.buttons-decoration}",
             "textCase": "{buttons.buttons-transform}"
@@ -1028,7 +1028,7 @@
             "fontWeight": "$edit.buttons.font-weight-button-link",
             "lineHeight": "$edit.buttons.font-size-button-link  * 1.25",
             "fontSize": "$edit.buttons.font-size-button-link  * 1.25",
-            "letterSpacing": "{edit.letter-spacing-button}",
+            "letterSpacing": "{edit.font-letter-spacing-button}",
             "paragraphSpacing": "auto",
             "textDecoration": "{edit.buttons.link-button.button-link-text-decoration}",
             "textCase": "{buttons.button-text-link-transform}"
@@ -1042,7 +1042,7 @@
             "fontWeight": "$edit.buttons.font-weight-button-link",
             "lineHeight": "$edit.buttons.font-size-button-link",
             "fontSize": "$edit.buttons.font-size-button-link",
-            "letterSpacing": "{edit.letter-spacing-button}",
+            "letterSpacing": "{edit.font-letter-spacing-button}",
             "paragraphSpacing": "auto",
             "textDecoration": "{edit.buttons.link-button.button-link-text-decoration}",
             "textCase": "{buttons.button-text-link-transform}"
@@ -1056,7 +1056,7 @@
             "fontWeight": "$edit.buttons.font-weight-button-link",
             "lineHeight": "$edit.buttons.font-size-button-link * 0.87",
             "fontSize": "$edit.buttons.font-size-button-link * 0.87",
-            "letterSpacing": "{edit.letter-spacing-button}",
+            "letterSpacing": "{edit.font-letter-spacing-button}",
             "paragraphSpacing": "auto",
             "textDecoration": "{edit.buttons.link-button.button-link-text-decoration}",
             "textCase": "{buttons.button-text-link-transform}"
@@ -3048,7 +3048,7 @@
           "type": "fontWeights"
         }
       },
-      "letter-spacing-button": {
+      "font-letter-spacing-button": {
         "value": "0%",
         "description": "Button Letter Spacing",
         "type": "letterSpacing"
