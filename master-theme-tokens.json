@@ -899,7 +899,7 @@
             "letterSpacing": "{edit.font-letter-spacing-button}",
             "paragraphSpacing": "auto",
             "textDecoration": "$buttons.buttons-decoration",
-            "textCase": "$buttons.buttons-transform"
+            "textCase": "{buttons.font-transform-button}"
           },
           "type": "typography",
           "description": "Primary Button Type LG "
@@ -913,7 +913,7 @@
             "letterSpacing": "{edit.font-letter-spacing-button}",
             "paragraphSpacing": "auto",
             "textDecoration": "{buttons.buttons-decoration}",
-            "textCase": "{buttons.buttons-transform}"
+            "textCase": "{buttons.font-transform-button}"
           },
           "type": "typography",
           "description": "Primary Button Type MD"
@@ -927,7 +927,7 @@
             "letterSpacing": "{edit.font-letter-spacing-button}",
             "paragraphSpacing": "auto",
             "textDecoration": "{buttons.buttons-decoration}",
-            "textCase": "{buttons.buttons-transform}"
+            "textCase": "{buttons.font-transform-button}"
           },
           "type": "typography",
           "description": "Primary Button Type SM"
@@ -943,7 +943,7 @@
             "letterSpacing": "{edit.font-letter-spacing-button}",
             "paragraphSpacing": "auto",
             "textDecoration": "{buttons.buttons-decoration}",
-            "textCase": "{buttons.buttons-transform}"
+            "textCase": "{buttons.font-transform-button}"
           },
           "type": "typography",
           "description": "Secondary Button Type LG "
@@ -957,7 +957,7 @@
             "letterSpacing": "{edit.font-letter-spacing-button}",
             "paragraphSpacing": "auto",
             "textDecoration": "{buttons.buttons-decoration}",
-            "textCase": "{buttons.buttons-transform}"
+            "textCase": "{buttons.font-transform-button}"
           },
           "type": "typography",
           "description": "Secondary Button Type MD"
@@ -971,7 +971,7 @@
             "letterSpacing": "{edit.font-letter-spacing-button}",
             "paragraphSpacing": "auto",
             "textDecoration": "{buttons.buttons-decoration}",
-            "textCase": "{buttons.buttons-transform}"
+            "textCase": "{buttons.font-transform-button}"
           },
           "type": "typography",
           "description": "Secondary Button Type SM"
@@ -987,7 +987,7 @@
             "letterSpacing": "{edit.font-letter-spacing-button}",
             "paragraphSpacing": "auto",
             "textDecoration": "$buttons.buttons-decoration",
-            "textCase": "$buttons.buttons-transform"
+            "textCase": "{buttons.font-transform-button}"
           },
           "type": "typography",
           "description": "Tertiary Button Type LG "
@@ -1001,7 +1001,7 @@
             "letterSpacing": "{edit.font-letter-spacing-button}",
             "paragraphSpacing": "auto",
             "textDecoration": "{buttons.buttons-decoration}",
-            "textCase": "{buttons.buttons-transform}"
+            "textCase": "{buttons.font-transform-button}"
           },
           "type": "typography",
           "description": "Tertiary Button Type MD"
@@ -1015,7 +1015,7 @@
             "letterSpacing": "{edit.font-letter-spacing-button}",
             "paragraphSpacing": "auto",
             "textDecoration": "{buttons.buttons-decoration}",
-            "textCase": "{buttons.buttons-transform}"
+            "textCase": "{buttons.font-transform-button}"
           },
           "type": "typography",
           "description": "Tertiary Button Type SM"
@@ -1031,7 +1031,7 @@
             "letterSpacing": "{edit.font-letter-spacing-button}",
             "paragraphSpacing": "auto",
             "textDecoration": "{edit.buttons.link-button.button-link-text-decoration}",
-            "textCase": "{buttons.button-text-link-transform}"
+            "textCase": "{buttons.font-transform-button-link}"
           },
           "type": "typography",
           "description": "Link Button Type LG "
@@ -1045,7 +1045,7 @@
             "letterSpacing": "{edit.font-letter-spacing-button}",
             "paragraphSpacing": "auto",
             "textDecoration": "{edit.buttons.link-button.button-link-text-decoration}",
-            "textCase": "{buttons.button-text-link-transform}"
+            "textCase": "{buttons.font-transform-button-link}"
           },
           "type": "typography",
           "description": "Link Button Type MD"
@@ -1059,7 +1059,7 @@
             "letterSpacing": "{edit.font-letter-spacing-button}",
             "paragraphSpacing": "auto",
             "textDecoration": "{edit.buttons.link-button.button-link-text-decoration}",
-            "textCase": "{buttons.button-text-link-transform}"
+            "textCase": "{buttons.font-transform-button-link}"
           },
           "type": "typography",
           "description": "Link Button Type SM"
@@ -1115,12 +1115,12 @@
         "description": "Main Buttons Decoration",
         "type": "textDecoration"
       },
-      "buttons-transform": {
+      "font-transform-button": {
         "value": "none",
-        "description": "Text Transform",
+        "description": "Button Text Transform",
         "type": "textCase"
       },
-      "button-text-link-transform": {
+      "font-transform-button-link": {
         "value": "none",
         "description": "Text Transform",
         "type": "textCase"
