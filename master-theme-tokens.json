@@ -2349,29 +2349,29 @@
         },
         "color-system-disabled-background": {
           "value": "rgba(204, 204, 204, 1)",
-          "description": "System Disabled background Colour ",
+          "description": "System Disabled Background Colour ",
           "type": "color"
         },
         "color-system-disabled-background-inverted": {
           "value": "rgba(204, 204, 204,0.8)",
-          "description": "System Disabled background Colour Inverted",
+          "description": "System Disabled Background Colour Inverted",
           "type": "color"
         }
       },
       "button-primary": {
         "color-button-primary-background": {
           "value": "rgba(12, 108, 222, 1)",
-          "description": "Button Primary background Colour",
+          "description": "Button Primary Background Colour",
           "type": "color"
         },
         "color-button-primary-background-hover": {
           "value": "rgba(0, 91, 148, 1)",
-          "description": "Button Primary background Colour Hover",
+          "description": "Button Primary Background Colour Hover",
           "type": "color"
         },
         "color-button-primary-background-active": {
           "value": "rgba(2, 62, 100, 1)",
-          "description": "Button Primary background Colour Active",
+          "description": "Button Primary Background Colour Active",
           "type": "color"
         },
         "color-button-primary-border": {
@@ -2406,17 +2406,17 @@
         },
         "color-button-primary-background-inverted": {
           "value": "rgba(255, 255, 255, 1)",
-          "description": "Button Primary background Colour Inverted",
+          "description": "Button Primary Background Colour Inverted",
           "type": "color"
         },
         "color-button-primary-background-hover-inverted": {
           "value": "rgba(209, 213, 219, 1)",
-          "description": "Button Primary background Colour Hover Inverted",
+          "description": "Button Primary Background Colour Hover Inverted",
           "type": "color"
         },
         "color-button-primary-background-active-inverted": {
           "value": "rgba(175, 177, 180, 1)",
-          "description": "Button Primary background Colour Active Inverted",
+          "description": "Button Primary Background Colour Active Inverted",
           "type": "color"
         },
         "color-button-primary-border-inverted": {
@@ -2453,17 +2453,17 @@
       "button-secondary": {
         "color-button-secondary-background": {
           "value": "rgba(255, 255, 255, 0)",
-          "description": "Button Secondary background Colour",
+          "description": "Button Secondary Background Colour",
           "type": "color"
         },
         "color-button-secondary-background-hover": {
           "value": "rgba(12, 108, 222, 1)",
-          "description": "Button Secondary background Colour Hover",
+          "description": "Button Secondary Background Colour Hover",
           "type": "color"
         },
         "color-button-secondary-background-active": {
           "value": "rgba(0, 91, 148, 1)",
-          "description": "Button Secondarybackground Colour Active",
+          "description": "Button SecondaryBackground Colour Active",
           "type": "color"
         },
         "color-button-secondary-border": {
@@ -2498,17 +2498,17 @@
         },
         "color-button-secondary-background-inverted": {
           "value": "rgba(255, 255, 255, 0)",
-          "description": "Button Secondary background Colour Inverted",
+          "description": "Button Secondary Background Colour Inverted",
           "type": "color"
         },
         "color-button-secondary-background-hover-inverted": {
           "value": "rgba(255, 255, 255, 1)",
-          "description": "Button Secondary background Colour Hover Inverted",
+          "description": "Button Secondary Background Colour Hover Inverted",
           "type": "color"
         },
         "color-button-secondary-background-active-inverted": {
           "value": "rgba(209, 213, 219, 1)",
-          "description": "Button Secondary background Colour Active Inverted",
+          "description": "Button Secondary Background Colour Active Inverted",
           "type": "color"
         },
         "color-button-secondary-border-inverted": {
@@ -2545,17 +2545,17 @@
       "button-tertiary": {
         "color-button-tertiary-background": {
           "value": "rgba(255, 255, 255, 0)",
-          "description": "Button Tertiary background Colour",
+          "description": "Button Tertiary Background Colour",
           "type": "color"
         },
         "color-button-tertiary-background-hover": {
           "value": "rgba(255, 255, 255, 0)",
-          "description": "Button Tertiary background Colour Hover",
+          "description": "Button Tertiary Background Colour Hover",
           "type": "color"
         },
         "color-button-tertiary-background-active": {
           "value": "rgba(255, 255, 255, 0)",
-          "description": "Button Tertiary background Colour Active",
+          "description": "Button Tertiary Background Colour Active",
           "type": "color"
         },
         "color-button-tertiary-border": {
@@ -2590,17 +2590,17 @@
         },
         "color-button-tertiary-background-inverted": {
           "value": "rgba(255, 255, 255, 0)",
-          "description": "Button Tertiary background Colour Inverted",
+          "description": "Button Tertiary Background Colour Inverted",
           "type": "color"
         },
         "color-button-tertiary-background-hover-inverted": {
           "value": "rgba(255, 255, 255, 0)",
-          "description": "Button Tertiary background Colour Hover Inverted",
+          "description": "Button Tertiary Background Colour Hover Inverted",
           "type": "color"
         },
         "color-button-tertiary-background-active-inverted": {
           "value": "rgba(255, 255, 255, 0)",
-          "description": "Button Tertiary background Colour Active Inverted",
+          "description": "Button Tertiary Background Colour Active Inverted",
           "type": "color"
         },
         "color-button-tertiary-border-inverted": {
