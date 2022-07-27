@@ -2766,25 +2766,57 @@
         }
       },
       "menu": {
-        "color-menu-1st-level-background": {
-          "value": "rgba(239, 239, 239, 1)",
-          "description": "Menu 1st Level Background Colour",
-          "type": "color"
-        },
-        "color-menu-1st-level-background-hover": {
-          "value": "rgba(239, 239, 239, 1)",
-          "description": "Menu 1st Level Background Colour Hover",
-          "type": "color"
-        },
-        "color-menu-1st-level-link": {
-          "value": "rgba(0, 0, 0, 1)",
-          "description": "Menu 1st Level Link Colour",
-          "type": "color"
-        },
-        "color-menu-1st-level-link-hover": {
-          "value": "rgba(12, 108, 222, 1)",
-          "description": "Menu 1st Level Link Colour Hover",
-          "type": "color"
+        "1st-level": {
+          "color-menu-1st-level-background": {
+            "value": "rgba(239, 239, 239, 1)",
+            "description": "Menu 1st Level Background Colour",
+            "type": "color"
+          },
+          "color-menu-1st-level-background-hover": {
+            "value": "rgba(239, 239, 239, 1)",
+            "description": "Menu 1st Level Background Colour Hover",
+            "type": "color"
+          },
+          "color-menu-1st-level-divider": {
+            "value": "$greyscale.color-grey-500",
+            "description": "Menu 1st Level Divider",
+            "type": "color"
+          },
+          "color-menu-1st-level-link": {
+            "value": "rgba(0, 0, 0, 1)",
+            "description": "Menu 1st Level Link Colour",
+            "type": "color"
+          },
+          "color-menu-1st-level-link-hover": {
+            "value": "rgba(12, 108, 222, 1)",
+            "description": "Menu 1st Level Link Colour Hover",
+            "type": "color"
+          },
+          "color-menu-1st-level-alternative-background": {
+            "value": "rgba(12, 108, 222, 1)",
+            "description": "Menu 1st Level Alternative Background Colour",
+            "type": "color"
+          },
+          "color-menu-1st-level-alternative-background-hover": {
+            "value": "rgba(12, 108, 222, 1)",
+            "description": "Menu 1st Level Alternative Background Colour Hover",
+            "type": "color"
+          },
+          "color-menu-1st-level-alternate-divider": {
+            "value": "$greyscale.color-grey-500",
+            "description": "Menu 1st Level Alternative Divider",
+            "type": "color"
+          },
+          "color-menu-1st-level-alternative-link": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Menu 1st Level Alternative Link Colour",
+            "type": "color"
+          },
+          "color-menu-1st-level-alternative-link-hover": {
+            "value": "rgba(255, 255, 255, 1)",
+            "description": "Menu 1st Level Alternative Link Colour Hover",
+            "type": "color"
+          }
         },
         "color-menu-2nd-level-background": {
           "value": "rgba(239, 239, 239, 1)",
@@ -2804,31 +2836,6 @@
         "color-menu-2nd-level-link-hover": {
           "value": "rgba(12, 108, 222, 1)",
           "description": "Menu 2nd Level Link Colour Hover",
-          "type": "color"
-        },
-        "color-menu-alternative-background": {
-          "value": "rgba(12, 108, 222, 1)",
-          "description": "Menu Alternative Background Colour",
-          "type": "color"
-        },
-        "color-menu-alternative-background-hover": {
-          "value": "rgba(12, 108, 222, 1)",
-          "description": "Menu Alternative Background Colour Hover",
-          "type": "color"
-        },
-        "color-menu-alternative-link": {
-          "value": "rgba(255, 255, 255, 1)",
-          "description": "Menu Alternative Link Colour",
-          "type": "color"
-        },
-        "color-menu-alternative-link-hover": {
-          "value": "rgba(255, 255, 255, 1)",
-          "description": "Menu Alternative Link Colour Hover",
-          "type": "color"
-        },
-        "color-menu-1st-level-divider": {
-          "value": "$greyscale.color-grey-500",
-          "description": "Menu 1st Level Divider",
           "type": "color"
         },
         "color-menu-2nd-level-divider": {
