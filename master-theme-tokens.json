@@ -2831,7 +2831,7 @@
           "description": "Menu 1st Level Divider",
           "type": "color"
         },
-        "color-menu-2nd-level-divider-copy": {
+        "color-menu-2nd-level-divider": {
           "value": "$greyscale.color-grey-300",
           "description": "Menu 2nd Level Divider",
           "type": "color"
