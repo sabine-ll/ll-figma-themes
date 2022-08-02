@@ -1110,6 +1110,21 @@
         "description": "Button Font Size SM",
         "type": "fontSizes"
       },
+      "button-link-font-size-lg": {
+        "value": "{edit.buttons.font-size-button-link} * 1.25",
+        "description": "Button Link Font Size LG",
+        "type": "fontSizes"
+      },
+      "button-link-font-size-md": {
+        "value": "{edit.buttons.font-size-button-link}",
+        "description": "Button Link Font Size MD",
+        "type": "fontSizes"
+      },
+      "button-link-font-size-sm": {
+        "value": "{edit.buttons.font-size-button-link} * 0.87",
+        "description": "Button Link Font Size SM",
+        "type": "fontSizes"
+      },
       "buttons-decoration": {
         "value": "none",
         "description": "Main Buttons Decoration",
