@@ -1030,7 +1030,7 @@
             "fontSize": "$edit.buttons.font-size-button-link  * 1.25",
             "letterSpacing": "{edit.font-letter-spacing-button}",
             "paragraphSpacing": "auto",
-            "textDecoration": "{edit.buttons.link-button.button-link-text-decoration}",
+            "textDecoration": "{edit.buttons.link-button.text-decoration-button-link}",
             "textCase": "{buttons.font-transform-button-link}"
           },
           "type": "typography",
@@ -1044,7 +1044,7 @@
             "fontSize": "$edit.buttons.font-size-button-link",
             "letterSpacing": "{edit.font-letter-spacing-button}",
             "paragraphSpacing": "auto",
-            "textDecoration": "{edit.buttons.link-button.button-link-text-decoration}",
+            "textDecoration": "{edit.buttons.link-button.text-decoration-button-link}",
             "textCase": "{buttons.font-transform-button-link}"
           },
           "type": "typography",
@@ -1058,7 +1058,7 @@
             "fontSize": "$edit.buttons.font-size-button-link * 0.87",
             "letterSpacing": "{edit.font-letter-spacing-button}",
             "paragraphSpacing": "auto",
-            "textDecoration": "{edit.buttons.link-button.button-link-text-decoration}",
+            "textDecoration": "{edit.buttons.link-button.text-decoration-button-link}",
             "textCase": "{buttons.font-transform-button-link}"
           },
           "type": "typography",
@@ -3035,17 +3035,17 @@
           "type": "fontFamilies"
         },
         "link-button": {
-          "button-link-text-decoration": {
+          "text-decoration-button-link": {
             "value": "none",
             "description": "Button Link Text Decoration",
             "type": "textDecoration"
           },
-          "button-link-text-decoration-hover": {
+          "text-decoration-button-link-hover": {
             "value": "underline",
             "description": "Button Link Text Decoration Hover",
             "type": "textDecoration"
           },
-          "button-link-text-decoration-active": {
+          "text-decoration-button-link-active": {
             "value": "underline",
             "description": "Button Link Text Decoration Active",
             "type": "textDecoration"
