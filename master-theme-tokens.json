@@ -2807,6 +2807,11 @@
             "description": "Menu 1st Level Link Colour Hover",
             "type": "color"
           },
+          "color-menu-1st-level-link-active": {
+            "value": "rgba(12, 108, 222, 1)",
+            "description": "Menu 1st Level Link Colour Active",
+            "type": "color"
+          },
           "color-menu-1st-level-alternative-background": {
             "value": "rgba(12, 108, 222, 1)",
             "description": "Menu 1st Level Alternative Background Colour",
