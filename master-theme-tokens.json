@@ -2342,6 +2342,21 @@
           "description": "System Success Text Colour",
           "type": "color"
         },
+        "color-system-info-full": {
+          "value": "rgba(6, 76, 180, 1)",
+          "description": "System Info Colour",
+          "type": "color"
+        },
+        "color-system-info-faded": {
+          "value": "rgba(205, 219, 290, 1)",
+          "description": "System Info Colour Faded",
+          "type": "color"
+        },
+        "color-system-info-text": {
+          "value": "rgba(0, 0, 0, 1)",
+          "description": "System Info Text Colour",
+          "type": "color"
+        },
         "color-system-focus-color": {
           "value": "rgba(50, 114, 217,0.3)",
           "description": "System Focus Colour",
