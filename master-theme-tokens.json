@@ -2150,24 +2150,24 @@
           "description": "Primary Colour",
           "type": "color"
         },
-        "color-primary-inverted": {
-          "value": "rgba(255, 255, 255, 1)",
-          "description": "Primary Colour Inverted",
-          "type": "color"
-        },
         "color-secondary": {
           "value": "rgba(6, 180, 72, 1)",
           "description": "Secondary Colour",
           "type": "color"
         },
-        "color-secondary-inverted": {
-          "value": "rgba(255, 255, 255, 1)",
-          "description": "Secondary Colour Inverted",
-          "type": "color"
-        },
         "color-tertiary": {
           "value": "rgba(168, 222, 60, 1)",
           "description": "Tertiary Colour ",
+          "type": "color"
+        },
+        "color-primary-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Primary Colour Inverted",
+          "type": "color"
+        },
+        "color-secondary-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Secondary Colour Inverted",
           "type": "color"
         },
         "color-tertiary-inverted": {
@@ -2182,24 +2182,24 @@
           "description": "Background Page Colour",
           "type": "color"
         },
-        "color-background-page-inverted": {
-          "value": "rgba(12, 108, 222, 1)",
-          "description": "Background Page Colour Inverted",
-          "type": "color"
-        },
         "color-background-accent1": {
           "value": "$edit.brand-color.color-primary",
           "description": "Background Accent Colour 1",
           "type": "color"
         },
-        "color-background-accent1-inverted": {
-          "value": "$edit.brand-color.color-primary-inverted",
-          "description": "Background Accent Colour 1 Inverted",
-          "type": "color"
-        },
         "color-background-accent2": {
           "value": "rgba(228, 246, 238, 1)",
           "description": "Background Accent Colour 2",
+          "type": "color"
+        },
+        "color-background-page-inverted": {
+          "value": "rgba(12, 108, 222, 1)",
+          "description": "Background Page Colour Inverted",
+          "type": "color"
+        },
+        "color-background-accent1-inverted": {
+          "value": "$edit.brand-color.color-primary-inverted",
+          "description": "Background Accent Colour 1 Inverted",
           "type": "color"
         },
         "color-background-accent2-inverted": {
@@ -2270,24 +2270,24 @@
           "description": "Link Text Colour",
           "type": "color"
         },
-        "color-link-text-inverted": {
-          "value": "rgba(255, 255, 255, 1)",
-          "description": "Link Text Colour Inverted",
-          "type": "color"
-        },
         "color-link-text-hover": {
           "value": "rgba(12, 108, 222, 1)",
           "description": "Link Text Colour Hover",
           "type": "color"
         },
-        "color-link-text-inverted-hover": {
-          "value": "rgba(255, 255, 255, 1)",
-          "description": "Link Text Colour Hover Inverted ",
-          "type": "color"
-        },
         "color-link-text-active": {
           "value": "rgba(0, 91, 148, 1)",
           "description": "Link Text Colour Active",
+          "type": "color"
+        },
+        "color-link-text-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Link Text Colour Inverted",
+          "type": "color"
+        },
+        "color-link-text-inverted-hover": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Link Text Colour Hover Inverted ",
           "type": "color"
         },
         "color-link-text-inverted-active": {
@@ -2951,14 +2951,14 @@
           "description": "Table Background Colour",
           "type": "color"
         },
-        "color-table-background-inverted": {
-          "value": "rgba(255,255,255,1)",
-          "description": "Table Background Colour Inverted",
-          "type": "color"
-        },
         "color-table-title": {
           "value": "rgba(0, 0, 0, 1)",
           "description": "Table Title Colour",
+          "type": "color"
+        },
+        "color-table-background-inverted": {
+          "value": "rgba(255,255,255,1)",
+          "description": "Table Background Colour Inverted",
           "type": "color"
         },
         "color-table-title-inverted": {
@@ -2973,19 +2973,9 @@
           "description": "Inputs Background Colour",
           "type": "color"
         },
-        "color-inputs-background-inverted": {
-          "value": "$edit.background-colors.color-background-page-inverted",
-          "description": "Inputs Background Colour Inverted",
-          "type": "color"
-        },
         "color-inputs-border": {
           "value": "$greyscale.color-grey-300",
           "description": "Inputs Border Colour",
-          "type": "color"
-        },
-        "color-inputs-border-inverted": {
-          "value": "$greyscale.color-white",
-          "description": "Inputs Border Colour Inverted",
           "type": "color"
         },
         "color-inputs-text": {
@@ -2993,24 +2983,34 @@
           "description": "Inputs Text Colour",
           "type": "color"
         },
-        "color-inputs-text-inverted": {
-          "value": "rgba(255, 255, 255, 1)",
-          "description": "Inputs Text Colour Inverted",
-          "type": "color"
-        },
         "color-inputs-highlight-colour": {
           "value": "rgba(12, 108, 222, 1)",
           "description": "Inputs Highlight Colour",
           "type": "color"
         },
-        "color-inputs-highlight-inverted": {
-          "value": "rgba(255, 255, 255, 1)",
-          "description": "Inputs Highlight Colour Inverted",
-          "type": "color"
-        },
         "color-inputs-checked-icon": {
           "value": "rgba(255, 255, 255, 1)",
           "description": "Inputs Checked Icon Colour",
+          "type": "color"
+        },
+        "color-inputs-background-inverted": {
+          "value": "$edit.background-colors.color-background-page-inverted",
+          "description": "Inputs Background Colour Inverted",
+          "type": "color"
+        },
+        "color-inputs-border-inverted": {
+          "value": "$greyscale.color-white",
+          "description": "Inputs Border Colour Inverted",
+          "type": "color"
+        },
+        "color-inputs-text-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Inputs Text Colour Inverted",
+          "type": "color"
+        },
+        "color-inputs-highlight-inverted": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Inputs Highlight Colour Inverted",
           "type": "color"
         },
         "color-inputs-checked-icon-inverted": {
