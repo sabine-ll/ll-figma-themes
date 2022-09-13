@@ -703,11 +703,11 @@
           "fontSize": "$edit.text.font-size-body",
           "letterSpacing": "$edit.font-letter-spacing-body",
           "paragraphSpacing": "$body.paragraph-spacing-body-lg",
-          "textDecoration": "$typography.text-decoration",
+          "textDecoration": "",
           "textCase": "$typography.font-transform-body"
         },
-        "description": "Body Large Desktop",
-        "type": "typography"
+        "type": "typography",
+        "description": "Body Large Desktop"
       },
       "body-lg-bold-desktop": {
         "value": {
@@ -717,11 +717,11 @@
           "fontSize": "$edit.text.font-size-body",
           "letterSpacing": "$edit.font-letter-spacing-body",
           "paragraphSpacing": "$body.paragraph-spacing-body-lg",
-          "textDecoration": "$typography.text-decoration",
+          "textDecoration": "",
           "textCase": "$typography.font-transform-body"
         },
-        "description": "Body Large Desktop",
-        "type": "typography"
+        "type": "typography",
+        "description": "Body Large Desktop"
       },
       "body-md-desktop": {
         "value": {
@@ -3151,8 +3151,30 @@
         "value": "$shadow-md-inverted",
         "type": "boxShadow",
         "description": "Box Shadow Inverted"
+      },
+      "links": {
+        "text-decoration-link": {
+          "value": "underline",
+          "type": "textDecoration",
+          "description": "Link Text Decoration"
+        },
+        "text-decoration-link-hover": {
+          "value": "none",
+          "type": "textDecoration",
+          "description": "Link Text Decoration Hover"
+        },
+        "text-decoration-link-active": {
+          "value": "none",
+          "type": "textDecoration",
+          "description": "Link Text Decoration Active"
+        }
       }
     }
   },
-  "$themes": []
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "1 - Master Theme"
+    ]
+  }
 }
