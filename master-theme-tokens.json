@@ -9,11 +9,11 @@
           "fontSize": "$edit.text.font-size-heading",
           "letterSpacing": "$edit.font-letter-spacing-heading",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-xl",
-          "textDecoration": "$typography.headings-decoration",
+          "textDecoration": "",
           "textCase": "{edit.font-transform-heading}"
         },
-        "description": "Heading Extra Large Desktop",
-        "type": "typography"
+        "type": "typography",
+        "description": "Heading Extra Large Desktop"
       },
       "heading-xl-mobile": {
         "value": {
@@ -23,11 +23,11 @@
           "fontSize": "$headings.font-size-heading-mobile",
           "letterSpacing": "$edit.font-letter-spacing-heading",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-xl-mobile",
-          "textDecoration": "$typography.headings-decoration",
+          "textDecoration": "",
           "textCase": "{edit.font-transform-heading}"
         },
-        "description": "Heading Extra Large Mobile",
-        "type": "typography"
+        "type": "typography",
+        "description": "Heading Extra Large Mobile"
       },
       "heading-lg-desktop": {
         "value": {
@@ -37,11 +37,11 @@
           "fontSize": "$headings.font-size-heading-lg",
           "letterSpacing": "$edit.font-letter-spacing-heading",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-lg",
-          "textDecoration": "$typography.headings-decoration",
+          "textDecoration": "",
           "textCase": "{edit.font-transform-heading}"
         },
-        "description": "Heading Large Desktop",
-        "type": "typography"
+        "type": "typography",
+        "description": "Heading Large Desktop"
       },
       "heading-lg-mobile": {
         "value": {
@@ -51,11 +51,11 @@
           "fontSize": "$headings.font-size-heading-lg-mobile",
           "letterSpacing": "$edit.font-letter-spacing-heading",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-lg-mobile",
-          "textDecoration": "$typography.headings-decoration",
+          "textDecoration": "",
           "textCase": "{edit.font-transform-heading}"
         },
-        "description": "Heading Large Mobile",
-        "type": "typography"
+        "type": "typography",
+        "description": "Heading Large Mobile"
       },
       "heading-md-desktop": {
         "value": {
@@ -65,11 +65,11 @@
           "fontSize": "$headings.font-size-heading-md",
           "letterSpacing": "$edit.font-letter-spacing-heading",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-md",
-          "textDecoration": "$typography.headings-decoration",
+          "textDecoration": "",
           "textCase": "{edit.font-transform-heading}"
         },
-        "description": "Heading Medium Desktop",
-        "type": "typography"
+        "type": "typography",
+        "description": "Heading Medium Desktop"
       },
       "heading-md-mobile": {
         "value": {
@@ -79,11 +79,11 @@
           "fontSize": "$headings.font-size-heading-md-mobile",
           "letterSpacing": "$edit.font-letter-spacing-heading",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-md-mobile",
-          "textDecoration": "$typography.headings-decoration",
+          "textDecoration": "",
           "textCase": "{edit.font-transform-heading}"
         },
-        "description": "Heading Medium Mobile",
-        "type": "typography"
+        "type": "typography",
+        "description": "Heading Medium Mobile"
       },
       "heading-sm-desktop": {
         "value": {
@@ -93,11 +93,11 @@
           "fontSize": "$headings.font-size-heading-sm",
           "letterSpacing": "$edit.font-letter-spacing-heading",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-sm",
-          "textDecoration": "$typography.headings-decoration",
+          "textDecoration": "",
           "textCase": "{edit.font-transform-heading}"
         },
-        "description": "Heading Small Desktop",
-        "type": "typography"
+        "type": "typography",
+        "description": "Heading Small Desktop"
       },
       "heading-sm-mobile": {
         "value": {
@@ -107,11 +107,11 @@
           "fontSize": "$headings.font-size-heading-sm-mobile",
           "letterSpacing": "$edit.font-letter-spacing-heading",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-sm-mobile",
-          "textDecoration": "$typography.headings-decoration",
+          "textDecoration": "",
           "textCase": "{edit.font-transform-heading}"
         },
-        "description": "Heading Small Mobile",
-        "type": "typography"
+        "type": "typography",
+        "description": "Heading Small Mobile"
       },
       "heading-alternate-xl-desktop": {
         "value": {
@@ -121,11 +121,11 @@
           "fontSize": "$edit.text.font-size-heading-alternate",
           "letterSpacing": "$edit.font-letter-spacing-heading-alternate",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-xl-alternate",
-          "textDecoration": "$typography.headings-decoration",
+          "textDecoration": "",
           "textCase": "{edit.font-transform-heading-alternate}"
         },
-        "description": "Heading Alternative Extra Large Desktop ",
-        "type": "typography"
+        "type": "typography",
+        "description": "Heading Alternative Extra Large Desktop "
       },
       "heading-alternate-xl-mobile": {
         "value": {
@@ -135,11 +135,11 @@
           "fontSize": "$headings.font-size-heading-alternate-mobile",
           "letterSpacing": "$edit.font-letter-spacing-heading",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-alternate-xl-mobile",
-          "textDecoration": "$typography.headings-decoration",
+          "textDecoration": "",
           "textCase": "{edit.font-transform-heading-alternate}"
         },
-        "description": "Heading Alternate Extra Large Mobile",
-        "type": "typography"
+        "type": "typography",
+        "description": "Heading Alternate Extra Large Mobile"
       },
       "heading-alternate-lg-desktop": {
         "value": {
@@ -149,11 +149,11 @@
           "fontSize": "$headings.font-size-heading-alternate-lg",
           "letterSpacing": "$edit.font-letter-spacing-heading-alternate",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-lg-alternate",
-          "textDecoration": "$typography.headings-decoration",
+          "textDecoration": "",
           "textCase": "{edit.font-transform-heading-alternate}"
         },
-        "description": "Heading Large Alternate Desktop",
-        "type": "typography"
+        "type": "typography",
+        "description": "Heading Large Alternate Desktop"
       },
       "heading-alternate-lg-mobile": {
         "value": {
@@ -163,11 +163,11 @@
           "fontSize": "$headings.font-size-heading-alternate-lg-mobile",
           "letterSpacing": "$edit.font-letter-spacing-heading",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-alternate-lg-mobile",
-          "textDecoration": "$typography.headings-decoration",
+          "textDecoration": "",
           "textCase": "{edit.font-transform-heading-alternate}"
         },
-        "description": "Heading Alternate Large Mobile",
-        "type": "typography"
+        "type": "typography",
+        "description": "Heading Alternate Large Mobile"
       },
       "heading-alternate-md-desktop": {
         "value": {
@@ -177,11 +177,11 @@
           "fontSize": "$headings.font-size-heading-alternate-md",
           "letterSpacing": "$edit.font-letter-spacing-heading",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-md-alternate",
-          "textDecoration": "$typography.headings-decoration",
+          "textDecoration": "",
           "textCase": "{edit.font-transform-heading-alternate}"
         },
-        "description": "Heading Alternate Medium Desktop",
-        "type": "typography"
+        "type": "typography",
+        "description": "Heading Alternate Medium Desktop"
       },
       "heading-alternate-md-mobile": {
         "value": {
@@ -191,11 +191,11 @@
           "fontSize": "$headings.font-size-heading-alternate-md-mobile",
           "letterSpacing": "$edit.font-letter-spacing-heading",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-alternate-md-mobile",
-          "textDecoration": "$typography.headings-decoration",
+          "textDecoration": "",
           "textCase": "{edit.font-transform-heading-alternate}"
         },
-        "description": "Heading Alternate Medium Mobile",
-        "type": "typography"
+        "type": "typography",
+        "description": "Heading Alternate Medium Mobile"
       },
       "heading-alternate-sm-desktop": {
         "value": {
@@ -205,11 +205,11 @@
           "fontSize": "$headings.font-size-heading-alternate-sm",
           "letterSpacing": "$edit.font-letter-spacing-heading",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-sm-alternate",
-          "textDecoration": "$typography.headings-decoration",
+          "textDecoration": "",
           "textCase": "{edit.font-transform-heading-alternate}"
         },
-        "description": "Heading Alternate Small  Desktop",
-        "type": "typography"
+        "type": "typography",
+        "description": "Heading Alternate Small  Desktop"
       },
       "font-size-heading-lg": {
         "value": "$edit.text.font-size-heading * 0.75",
@@ -329,11 +329,11 @@
           "fontSize": "$headings.font-size-heading-alternate-sm-mobile",
           "letterSpacing": "$edit.font-letter-spacing-heading-alternate",
           "paragraphSpacing": "$headings.paragraph-spacing-heading-alternate-sm-mobile",
-          "textDecoration": "$typography.headings-decoration",
+          "textDecoration": "",
           "textCase": "{edit.font-transform-heading-alternate}"
         },
-        "description": "Heading Alternate Small Mobile",
-        "type": "typography"
+        "type": "typography",
+        "description": "Heading Alternate Small Mobile"
       },
       "font-size-heading-mobile": {
         "value": "$edit.text.font-size-heading * 0.725",
@@ -675,11 +675,11 @@
           "fontSize": "$body.font-size-body-xl",
           "letterSpacing": "$edit.font-letter-spacing-body",
           "paragraphSpacing": "$body.paragraph-spacing-body-xl",
-          "textDecoration": "$typography.text-decoration",
+          "textDecoration": "",
           "textCase": "$typography.font-transform-body"
         },
-        "description": "Body Extra Large Desktop",
-        "type": "typography"
+        "type": "typography",
+        "description": "Body Extra Large Desktop"
       },
       "body-xl-bold-desktop": {
         "value": {
@@ -689,11 +689,11 @@
           "fontSize": "$body.font-size-body-xl",
           "letterSpacing": "$edit.font-letter-spacing-body",
           "paragraphSpacing": "$body.paragraph-spacing-body-xl",
-          "textDecoration": "$typography.text-decoration",
+          "textDecoration": "",
           "textCase": "$typography.font-transform-body"
         },
-        "description": "Body Extra Large Desktop",
-        "type": "typography"
+        "type": "typography",
+        "description": "Body Extra Large Desktop"
       },
       "body-lg-desktop": {
         "value": {
@@ -731,11 +731,11 @@
           "fontSize": "$body.font-size-body-md",
           "letterSpacing": "$edit.font-letter-spacing-body",
           "paragraphSpacing": "$body.paragraph-spacing-body-md",
-          "textDecoration": "$typography.text-decoration",
+          "textDecoration": "",
           "textCase": "$typography.font-transform-body"
         },
-        "description": "Body Medium Desktop",
-        "type": "typography"
+        "type": "typography",
+        "description": "Body Medium Desktop"
       },
       "body-md-bold-desktop": {
         "value": {
@@ -745,11 +745,11 @@
           "fontSize": "$body.font-size-body-md",
           "letterSpacing": "$edit.font-letter-spacing-body",
           "paragraphSpacing": "$body.paragraph-spacing-body-md",
-          "textDecoration": "$typography.text-decoration",
+          "textDecoration": "",
           "textCase": "$typography.font-transform-body"
         },
-        "description": "Body Medium Desktop",
-        "type": "typography"
+        "type": "typography",
+        "description": "Body Medium Desktop"
       },
       "body-sm-desktop": {
         "value": {
@@ -759,11 +759,11 @@
           "fontSize": "$body.font-size-body-sm",
           "letterSpacing": "$edit.font-letter-spacing-body",
           "paragraphSpacing": "$body.paragraph-spacing-body-sm",
-          "textDecoration": "$typography.text-decoration",
+          "textDecoration": "",
           "textCase": "$typography.font-transform-body"
         },
-        "description": "Body Small Desktop",
-        "type": "typography"
+        "type": "typography",
+        "description": "Body Small Desktop"
       },
       "body-sm-bold-desktop": {
         "value": {
@@ -773,11 +773,11 @@
           "fontSize": "$body.font-size-body-sm",
           "letterSpacing": "$edit.font-letter-spacing-body",
           "paragraphSpacing": "$body.paragraph-spacing-body-sm",
-          "textDecoration": "$typography.text-decoration",
+          "textDecoration": "",
           "textCase": "$typography.font-transform-body"
         },
-        "description": "Body Small Desktop",
-        "type": "typography"
+        "type": "typography",
+        "description": "Body Small Desktop"
       },
       "font-size-body-xl": {
         "value": "$edit.text.font-size-body * 1.25",
@@ -852,11 +852,11 @@
           "fontSize": "$body.font-size-body-xl-mobile",
           "letterSpacing": "$edit.font-letter-spacing-body",
           "paragraphSpacing": "$body.paragraph-spacing-body-xl-mobile",
-          "textDecoration": "$typography.text-decoration",
+          "textDecoration": "",
           "textCase": "$typography.font-transform-body"
         },
-        "description": "Body Extra Large Mobile",
-        "type": "typography"
+        "type": "typography",
+        "description": "Body Extra Large Mobile"
       },
       "body-xl-bold-mobile": {
         "value": {
@@ -866,11 +866,11 @@
           "fontSize": "$body.font-size-body-xl-mobile",
           "letterSpacing": "$edit.font-letter-spacing-body",
           "paragraphSpacing": "$body.paragraph-spacing-body-xl-mobile",
-          "textDecoration": "$typography.text-decoration",
+          "textDecoration": "",
           "textCase": "$typography.font-transform-body"
         },
-        "description": "Body Extra Large Bold Mobile",
-        "type": "typography"
+        "type": "typography",
+        "description": "Body Extra Large Bold Mobile"
       },
       "font-size-body-mobile-xl": {
         "value": "$edit.text.font-size-body * 1.15",
