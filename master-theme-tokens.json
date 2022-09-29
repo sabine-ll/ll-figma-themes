@@ -1939,6 +1939,218 @@
         "type": "color"
       }
     },
+    "transparency": {
+      "white": {
+        "white-50": {
+          "value": "rgba($greyscale.color-white, 0.5)",
+          "description": "White 50%",
+          "type": "color"
+        },
+        "white-60": {
+          "value": "rgba($greyscale.color-white, 0.6)",
+          "description": "White 60%",
+          "type": "color"
+        },
+        "white-70": {
+          "value": "rgba($greyscale.color-white, 0.7)",
+          "description": "White 70%",
+          "type": "color"
+        },
+        "white-80": {
+          "value": "rgba($greyscale.color-white, 0.8)",
+          "description": "White 80%",
+          "type": "color"
+        },
+        "white-90": {
+          "value": "rgba($greyscale.color-white, 0.9)",
+          "description": "White 90%",
+          "type": "color"
+        }
+      },
+      "black": {
+        "black-50": {
+          "value": "rgba($greyscale.color-black, 0.5)",
+          "description": "Black 50%",
+          "type": "color"
+        },
+        "black-60": {
+          "value": "rgba($greyscale.color-black, 0.6)",
+          "description": "Black 60%",
+          "type": "color"
+        },
+        "black-70": {
+          "value": "rgba($greyscale.color-black, 0.7)",
+          "description": "Black 70%",
+          "type": "color"
+        },
+        "black-80": {
+          "value": "rgba($greyscale.color-black, 0.8)",
+          "description": "Black 80%",
+          "type": "color"
+        },
+        "black-90": {
+          "value": "rgba($greyscale.color-black, 0.9)",
+          "description": "Black 90%",
+          "type": "color"
+        }
+      },
+      "Page Background Colour": {
+        "page-50": {
+          "value": "rgba($edit.background-colors.color-background-page, 0.5)",
+          "description": "Page Background 50%",
+          "type": "color"
+        },
+        "page-60": {
+          "value": "rgba($edit.background-colors.color-background-page, 0.6)",
+          "description": "Page Background 60%",
+          "type": "color"
+        },
+        "page-70": {
+          "value": "rgba($edit.background-colors.color-background-page, 0.7)",
+          "description": "Page Background 70%",
+          "type": "color"
+        },
+        "page-80": {
+          "value": "rgba($edit.background-colors.color-background-page, 0.8)",
+          "description": "Page Background 80%",
+          "type": "color"
+        },
+        "page-90": {
+          "value": "rgba($edit.background-colors.color-background-page, 0.9)",
+          "description": "Page Background 90%",
+          "type": "color"
+        },
+        "page-inverted-50": {
+          "value": "rgba($edit.background-colors.color-background-page-inverted, 0.5)",
+          "description": "Page Background Inverted 50%",
+          "type": "color"
+        },
+        "page-inverted-60": {
+          "value": "rgba($edit.background-colors.color-background-page-inverted, 0.6)",
+          "description": "Page Background Inverted 60%",
+          "type": "color"
+        },
+        "page-inverted-70": {
+          "value": "rgba($edit.background-colors.color-background-page-inverted, 0.7)",
+          "description": "Page Background Inverted 70%",
+          "type": "color"
+        },
+        "page-inverted-80": {
+          "value": "rgba($edit.background-colors.color-background-page-inverted, 0.8)",
+          "description": "Page Background Inverted 80%",
+          "type": "color"
+        },
+        "page-inverted-90": {
+          "value": "rgba($edit.background-colors.color-background-page-inverted, 0.9)",
+          "description": "Page Background Inverted 90%",
+          "type": "color"
+        }
+      },
+      "Accent 1 Background Colour": {
+        "accent1-50": {
+          "value": "rgba($edit.background-colors.color-background-accent1, 0.5)",
+          "description": "Accent 1 Background 50%",
+          "type": "color"
+        },
+        "accent1-60": {
+          "value": "rgba($edit.background-colors.color-background-accent1, 0.6)",
+          "description": "Accent 1 Background 60%",
+          "type": "color"
+        },
+        "accent1-70": {
+          "value": "rgba($edit.background-colors.color-background-accent1, 0.7)",
+          "description": "Accent 1 Background 70%",
+          "type": "color"
+        },
+        "accent1-80": {
+          "value": "rgba($edit.background-colors.color-background-accent1, 0.8)",
+          "description": "Accent 1 Background 80%",
+          "type": "color"
+        },
+        "accent1-90": {
+          "value": "rgba($edit.background-colors.color-background-accent1, 0.9)",
+          "description": "Accent 1 Background 90%",
+          "type": "color"
+        },
+        "accent1-inverted-50": {
+          "value": "rgba($edit.background-colors.color-background-accent1-inverted, 0.5)",
+          "description": "Accent 1 Background Inverted 50%",
+          "type": "color"
+        },
+        "accent1-inverted-60": {
+          "value": "rgba($edit.background-colors.color-background-accent1-inverted, 0.6)",
+          "description": "Accent 1 Background Inverted 60%",
+          "type": "color"
+        },
+        "accent1-inverted-70": {
+          "value": "rgba($edit.background-colors.color-background-accent1-inverted, 0.7)",
+          "description": "Accent 1 Background Inverted 70%",
+          "type": "color"
+        },
+        "accent1-inverted-80": {
+          "value": "rgba($edit.background-colors.color-background-accent1-inverted, 0.8)",
+          "description": "Accent 1 Background Inverted 80%",
+          "type": "color"
+        },
+        "accent1-inverted-90": {
+          "value": "rgba($edit.background-colors.color-background-accent1-inverted, 0.9)",
+          "description": "Accent 1 Background Inverted 90%",
+          "type": "color"
+        }
+      },
+      "Accent 2 Background Colour": {
+        "accent2-50": {
+          "value": "rgba($edit.background-colors.color-background-accent2, 0.5)",
+          "description": "Accent 2 Background 50%",
+          "type": "color"
+        },
+        "accent2-60": {
+          "value": "rgba($edit.background-colors.color-background-accent2, 0.6)",
+          "description": "Accent 2 Background 60%",
+          "type": "color"
+        },
+        "accent2-70": {
+          "value": "rgba($edit.background-colors.color-background-accent2, 0.7)",
+          "description": "Accent 2 Background 70%",
+          "type": "color"
+        },
+        "accent2-80": {
+          "value": "rgba($edit.background-colors.color-background-accent2, 0.8)",
+          "description": "Accent 2 Background 80%",
+          "type": "color"
+        },
+        "accent2-90": {
+          "value": "rgba($edit.background-colors.color-background-accent2, 0.9)",
+          "description": "Accent 2 Background 90%",
+          "type": "color"
+        },
+        "accent2-inverted-50": {
+          "value": "rgba($edit.background-colors.color-background-accent2-inverted, 0.5)",
+          "description": "Accent 2 Background Inverted 50%",
+          "type": "color"
+        },
+        "accent2-inverted-60": {
+          "value": "rgba($edit.background-colors.color-background-accent2-inverted, 0.6)",
+          "description": "Accent 2 Background Inverted 60%",
+          "type": "color"
+        },
+        "accent2-inverted-70": {
+          "value": "rgba($edit.background-colors.color-background-accent2-inverted, 0.7)",
+          "description": "Accent 2 Background Inverted 70%",
+          "type": "color"
+        },
+        "accent2-inverted-80": {
+          "value": "rgba($edit.background-colors.color-background-accent2-inverted, 0.8)",
+          "description": "Accent 2 Background Inverted 80%",
+          "type": "color"
+        },
+        "accent2-inverted-90": {
+          "value": "rgba($edit.background-colors.color-background-accent2-inverted, 0.9)",
+          "description": "Accent 2 Background Inverted 90%",
+          "type": "color"
+        }
+      }
+    },
     "typography": {
       "headings-decoration": {
         "value": "none",
@@ -2204,6 +2416,11 @@
         },
         "color-background-accent2-inverted": {
           "value": "rgba(6, 180, 72, 1)",
+          "description": "Background Accent Colour 2 Inverted",
+          "type": "color"
+        },
+        "color-btest": {
+          "value": "rgba($edit.brand-color.color-primary, 0.6)",
           "description": "Background Accent Colour 2 Inverted",
           "type": "color"
         }
