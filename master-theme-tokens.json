@@ -211,14 +211,19 @@
         "type": "typography",
         "description": "Heading Alternate Small  Desktop"
       },
+      "font-size-heading-mobile": {
+        "value": "$edit.text.font-size-heading * 0.725",
+        "description": "Font Size XL Mobile",
+        "type": "fontSizes"
+      },
       "font-size-heading-lg": {
         "value": "$edit.text.font-size-heading * 0.75",
         "description": "Font Size Large Desktop",
         "type": "fontSizes"
       },
-      "font-size-heading-alternate-lg": {
-        "value": "$edit.text.font-size-heading-alternate * 0.75",
-        "description": "Font Size Large Desktop Alternate",
+      "font-size-heading-lg-mobile": {
+        "value": "$edit.text.font-size-heading * 0.65",
+        "description": "Font Size LG Mobile",
         "type": "fontSizes"
       },
       "font-size-heading-md": {
@@ -226,14 +231,44 @@
         "description": "Font Size Medium Desktop",
         "type": "fontSizes"
       },
-      "font-size-heading-alternate-md": {
-        "value": "$edit.text.font-size-heading-alternate * 0.5",
-        "description": "Font Size Medium Desktop",
+      "font-size-heading-md-mobile": {
+        "value": "$edit.text.font-size-heading * 0.45",
+        "description": "Font Size MD Mobile",
         "type": "fontSizes"
       },
       "font-size-heading-sm": {
         "value": "$edit.text.font-size-heading * 0.375",
         "description": "Font Size Small Desktop",
+        "type": "fontSizes"
+      },
+      "font-size-heading-sm-mobile": {
+        "value": "$edit.text.font-size-heading * 0.35",
+        "description": "Font Size SM Mobile",
+        "type": "fontSizes"
+      },
+      "font-size-heading-alternate-mobile": {
+        "value": "$edit.text.font-size-heading-alternate * 0.725",
+        "description": "Font Size XL Alternate Mobile",
+        "type": "fontSizes"
+      },
+      "font-size-heading-alternate-lg": {
+        "value": "$edit.text.font-size-heading-alternate * 0.75",
+        "description": "Font Size Large Desktop Alternate",
+        "type": "fontSizes"
+      },
+      "font-size-heading-alternate-lg-mobile": {
+        "value": "$edit.text.font-size-heading-alternate * 0.65",
+        "description": "Font Size LG Alternate Mobile",
+        "type": "fontSizes"
+      },
+      "font-size-heading-alternate-md": {
+        "value": "$edit.text.font-size-heading-alternate * 0.5",
+        "description": "Font Size Medium Desktop",
+        "type": "fontSizes"
+      },
+      "font-size-heading-alternate-md-mobile": {
+        "value": "$edit.text.font-size-heading-alternate * 0.45",
+        "description": "Font Size Alternate MD Mobile",
         "type": "fontSizes"
       },
       "font-size-heading-alternate-sm": {
@@ -246,9 +281,9 @@
         "description": "Font Spacing Bottom Heading XL Desktop",
         "type": "sizing"
       },
-      "font-margin-bottom-heading-alternate": {
-        "value": "$edit.text.font-size-heading-alternate",
-        "description": "Font Spacing Bottom Heading XL Alternate Desktop",
+      "font-margin-bottom-heading-mobile": {
+        "value": "$edit.text.font-size-heading * 0.725",
+        "description": "Font Spacing Bottom Heading XL Mobile",
         "type": "sizing"
       },
       "font-margin-bottom-heading-lg": {
@@ -256,9 +291,9 @@
         "description": "Font Spacing Bottom Heading LG Desktop",
         "type": "sizing"
       },
-      "font-margin-bottom-heading-lg-alternate": {
-        "value": "$edit.text.font-size-heading-alternate * 0.75",
-        "description": "Font Spacing Bottom Heading LG Alternate Desktop",
+      "font-margin-bottom-heading-lg-mobile": {
+        "value": "$edit.text.font-size-heading * 0.65",
+        "description": "Font Spacing Bottom Heading LG Mobile",
         "type": "sizing"
       },
       "font-margin-bottom-heading-md": {
@@ -266,14 +301,49 @@
         "description": "Font Spacing Bottom Heading MD Desktop",
         "type": "sizing"
       },
-      "font-margin-bottom-heading-md-alternate": {
-        "value": "$edit.text.font-size-heading-alternate * 0.5",
-        "description": "Font Spacing Bottom Heading MD Alternate Desktop",
+      "font-margin-bottom-heading-md-mobile": {
+        "value": "$edit.text.font-size-heading * 0.45",
+        "description": "Font Spacing Bottom Heading MD Mobile",
         "type": "sizing"
       },
       "font-margin-bottom-heading-sm": {
         "value": "$edit.text.font-size-heading  * 0.375",
         "description": "Font Spacing Bottom Heading SM Desktop",
+        "type": "sizing"
+      },
+      "font-margin-bottom-heading-sm-mobile": {
+        "value": "$edit.text.font-size-heading * 0.35",
+        "description": "Font Spacing Bottom Heading SM Mobile",
+        "type": "sizing"
+      },
+      "font-margin-bottom-heading-alternate": {
+        "value": "$edit.text.font-size-heading-alternate",
+        "description": "Font Spacing Bottom Heading XL Alternate Desktop",
+        "type": "sizing"
+      },
+      "font-margin-bottom-heading-mobile-alternate": {
+        "value": "$edit.text.font-size-heading-alternate * 0.725",
+        "description": "Font Spacing Bottom Heading XL Alternate Mobile",
+        "type": "sizing"
+      },
+      "font-margin-bottom-heading-lg-alternate": {
+        "value": "$edit.text.font-size-heading-alternate * 0.75",
+        "description": "Font Spacing Bottom Heading LG Alternate Desktop",
+        "type": "sizing"
+      },
+      "font-margin-bottom-heading-lg-alternate-mobile": {
+        "value": "$edit.text.font-size-heading-alternate * 0.65",
+        "description": "Font Spacing Bottom Heading LG Alternate Mobile",
+        "type": "sizing"
+      },
+      "font-margin-bottom-heading-md-alternate": {
+        "value": "$edit.text.font-size-heading-alternate * 0.5",
+        "description": "Font Spacing Bottom Heading MD Alternate Desktop",
+        "type": "sizing"
+      },
+      "font-margin-bottom-heading-md-alternate-mobile": {
+        "value": "$edit.text.font-size-heading-alternate * 0.45",
+        "description": "Font Spacing Bottom Heading MD Alternate Mobile",
         "type": "sizing"
       },
       "font-margin-bottom-heading-sm-alternate": {
@@ -286,9 +356,9 @@
         "description": "Font Spacing Bottom Heading XL Desktop",
         "type": "spacing"
       },
-      "font-spacing-bottom-heading-alternate": {
-        "value": "$edit.text.font-size-heading-alternate",
-        "description": "Font Spacing Bottom Heading XL Alternate Desktop",
+      "font-spacing-bottom-heading-mobile": {
+        "value": "$edit.text.font-size-heading * 0.725",
+        "description": "Font Spacing Bottom Heading XL Mobile",
         "type": "spacing"
       },
       "font-spacing-bottom-heading-lg": {
@@ -296,9 +366,9 @@
         "description": "Font Spacing Bottom Heading LG Desktop",
         "type": "spacing"
       },
-      "font-spacing-bottom-heading-lg-alternate": {
-        "value": "$edit.text.font-size-heading-alternate * 0.75",
-        "description": "Font Spacing Bottom Heading LG Alternate Desktop",
+      "font-spacing-bottom-heading-lg-mobile": {
+        "value": "$edit.text.font-size-heading * 0.65",
+        "description": "Font Spacing Bottom Heading LG Mobile",
         "type": "spacing"
       },
       "font-spacing-bottom-heading-md": {
@@ -306,14 +376,49 @@
         "description": "Font Spacing Bottom Heading MD Desktop",
         "type": "spacing"
       },
-      "font-spacing-bottom-heading-md-alternate": {
-        "value": "$edit.text.font-size-heading-alternate * 0.5",
-        "description": "Font Spacing Bottom Heading MD Alternate Desktop",
+      "font-spacing-bottom-heading-md-mobile": {
+        "value": "$edit.text.font-size-heading * 0.45",
+        "description": "Font Spacing Bottom Heading MD Mobile",
         "type": "spacing"
       },
       "font-spacing-bottom-heading-sm": {
         "value": "$edit.text.font-size-heading  * 0.375",
         "description": "Font Spacing Bottom Heading SM Desktop",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-sm-mobile": {
+        "value": "$edit.text.font-size-heading * 0.35",
+        "description": "Font Spacing Bottom Heading SM Mobile",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-alternate": {
+        "value": "$edit.text.font-size-heading-alternate",
+        "description": "Font Spacing Bottom Heading XL Alternate Desktop",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-alternate-mobile": {
+        "value": "$edit.text.font-size-heading-alternate * 0.725",
+        "description": "Font Spacing Bottom Heading XL Alternate Mobile",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-lg-alternate": {
+        "value": "$edit.text.font-size-heading-alternate * 0.75",
+        "description": "Font Spacing Bottom Heading LG Alternate Desktop",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-lg-alternate-mobile": {
+        "value": "$edit.text.font-size-heading-alternate * 0.65",
+        "description": "Font Spacing Bottom Heading LG Alternate Mobile",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-md-alternate": {
+        "value": "$edit.text.font-size-heading-alternate * 0.5",
+        "description": "Font Spacing Bottom Heading MD Alternate Desktop",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-md-alternate-mobile": {
+        "value": "$edit.text.font-size-heading-alternate * 0.45",
+        "description": "Font Spacing Bottom Heading MD Alternate Mobile",
         "type": "spacing"
       },
       "font-spacing-bottom-heading-sm-alternate": {
@@ -335,120 +440,15 @@
         "type": "typography",
         "description": "Heading Alternate Small Mobile"
       },
-      "font-size-heading-mobile": {
-        "value": "$edit.text.font-size-heading * 0.725",
-        "description": "Font Size XL Mobile",
-        "type": "fontSizes"
-      },
-      "font-size-heading-alternate-mobile": {
-        "value": "$edit.text.font-size-heading-alternate * 0.725",
-        "description": "Font Size XL Alternate Mobile",
-        "type": "fontSizes"
-      },
-      "font-size-heading-lg-mobile": {
-        "value": "$edit.text.font-size-heading * 0.65",
-        "description": "Font Size LG Mobile",
-        "type": "fontSizes"
-      },
-      "font-size-heading-alternate-lg-mobile": {
-        "value": "$edit.text.font-size-heading-alternate * 0.65",
-        "description": "Font Size LG Alternate Mobile",
-        "type": "fontSizes"
-      },
-      "font-size-heading-md-mobile": {
-        "value": "$edit.text.font-size-heading * 0.45",
-        "description": "Font Size MD Mobile",
-        "type": "fontSizes"
-      },
-      "font-size-heading-alternate-md-mobile": {
-        "value": "$edit.text.font-size-heading-alternate * 0.45",
-        "description": "Font Size Alternate MD Mobile",
-        "type": "fontSizes"
-      },
-      "font-size-heading-sm-mobile": {
-        "value": "$edit.text.font-size-heading * 0.35",
-        "description": "Font Size SM Mobile",
-        "type": "fontSizes"
-      },
       "font-size-heading-alternate-sm-mobile": {
         "value": "$edit.text.font-size-heading-alternate * 0.35",
         "description": "Font Size Alternate SM Mobile",
         "type": "fontSizes"
       },
-      "font-margin-bottom-heading-mobile": {
-        "value": "$edit.text.font-size-heading * 0.725",
-        "description": "Font Spacing Bottom Heading XL Mobile",
-        "type": "sizing"
-      },
-      "font-margin-bottom-heading-mobile-alternate": {
-        "value": "$edit.text.font-size-heading-alternate * 0.725",
-        "description": "Font Spacing Bottom Heading XL Alternate Mobile",
-        "type": "sizing"
-      },
-      "font-margin-bottom-heading-lg-mobile": {
-        "value": "$edit.text.font-size-heading * 0.65",
-        "description": "Font Spacing Bottom Heading LG Mobile",
-        "type": "sizing"
-      },
-      "font-margin-bottom-heading-lg-alternate-mobile": {
-        "value": "$edit.text.font-size-heading-alternate * 0.65",
-        "description": "Font Spacing Bottom Heading LG Alternate Mobile",
-        "type": "sizing"
-      },
-      "font-margin-bottom-heading-md-mobile": {
-        "value": "$edit.text.font-size-heading * 0.45",
-        "description": "Font Spacing Bottom Heading MD Mobile",
-        "type": "sizing"
-      },
-      "font-margin-bottom-heading-md-alternate-mobile": {
-        "value": "$edit.text.font-size-heading-alternate * 0.45",
-        "description": "Font Spacing Bottom Heading MD Alternate Mobile",
-        "type": "sizing"
-      },
-      "font-margin-bottom-heading-sm-mobile": {
-        "value": "$edit.text.font-size-heading * 0.35",
-        "description": "Font Spacing Bottom Heading SM Mobile",
-        "type": "sizing"
-      },
       "font-margin-bottom-heading-sm-alternate-mobile": {
         "value": "$edit.text.font-size-heading-alternate * 0.35",
         "description": "Font Spacing Bottom Heading SM Alternate Mobile ",
         "type": "sizing"
-      },
-      "font-spacing-bottom-heading-mobile": {
-        "value": "$edit.text.font-size-heading * 0.725",
-        "description": "Font Spacing Bottom Heading XL Mobile",
-        "type": "spacing"
-      },
-      "font-spacing-bottom-heading-alternate-mobile": {
-        "value": "$edit.text.font-size-heading-alternate * 0.725",
-        "description": "Font Spacing Bottom Heading XL Alternate Mobile",
-        "type": "spacing"
-      },
-      "font-spacing-bottom-heading-lg-mobile": {
-        "value": "$edit.text.font-size-heading * 0.65",
-        "description": "Font Spacing Bottom Heading LG Mobile",
-        "type": "spacing"
-      },
-      "font-spacing-bottom-heading-lg-alternate-mobile": {
-        "value": "$edit.text.font-size-heading-alternate * 0.65",
-        "description": "Font Spacing Bottom Heading LG Alternate Mobile",
-        "type": "spacing"
-      },
-      "font-spacing-bottom-heading-md-mobile": {
-        "value": "$edit.text.font-size-heading * 0.45",
-        "description": "Font Spacing Bottom Heading MD Mobile",
-        "type": "spacing"
-      },
-      "font-spacing-bottom-heading-md-alternate-mobile": {
-        "value": "$edit.text.font-size-heading-alternate * 0.45",
-        "description": "Font Spacing Bottom Heading MD Alternate Mobile",
-        "type": "spacing"
-      },
-      "font-spacing-bottom-heading-sm-mobile": {
-        "value": "$edit.text.font-size-heading * 0.35",
-        "description": "Font Spacing Bottom Heading SM Mobile",
-        "type": "spacing"
       },
       "font-spacing-bottom-heading-sm-alternate-mobile": {
         "value": "$edit.text.font-size-heading-alternate * 0.35",
@@ -628,7 +628,7 @@
         "description": "Paragraph Spacing Body XL Mobile"
       },
       "paragraph-spacing-body-lg": {
-        "value": "$body.font-size-body * 1.2",
+        "value": "$edit.text.font-size-body * 1.2",
         "type": "paragraphSpacing",
         "description": "Paragraph Spacing Body LG"
       },
@@ -784,10 +784,10 @@
         "description": "Font Size Body Large Desktop",
         "type": "fontSizes"
       },
-      "font-size-body": {
-        "value": "16",
-        "description": "Font Size Body Large Desktop",
-        "type": "fontSizes"
+      "font-size-body-xl-mobile": {
+        "value": "$edit.text.font-size-body * 1.15",
+        "type": "fontSizes",
+        "description": "Font Size Body XL Mobile"
       },
       "font-size-body-md": {
         "value": "$edit.text.font-size-body * 0.87",
@@ -799,14 +799,14 @@
         "description": "Font Size Body Small Desktop",
         "type": "fontSizes"
       },
-      "font-size-body-xl-mobile": {
-        "value": "$edit.text.font-size-body * 1.15",
-        "description": "Font Size Body Large Desktop",
-        "type": "fontSizes"
-      },
       "font-margin-bottom-body-xl": {
         "value": "$body.font-size-body-xl * 1.2",
         "description": "Font Spacing Bottom Body XL Desktop",
+        "type": "sizing"
+      },
+      "font-margin-bottom-body-mobile-xl": {
+        "value": "$edit.text.font-size-body * 1.2",
+        "description": "Font Spacing Bottom Body XL Mobile",
         "type": "sizing"
       },
       "font-margin-bottom-body-lg": {
@@ -871,16 +871,6 @@
         },
         "type": "typography",
         "description": "Body Extra Large Bold Mobile"
-      },
-      "font-size-body-mobile-xl": {
-        "value": "$edit.text.font-size-body * 1.15",
-        "description": "Font Size Body XL Mobile",
-        "type": "fontSizes"
-      },
-      "font-margin-bottom-body-mobile-xl": {
-        "value": "$edit.text.font-size-body * 1.2",
-        "description": "Font Spacing Bottom Body XL Mobile",
-        "type": "sizing"
       },
       "font-spacing-bottom-body-mobile-xl": {
         "value": "$edit.text.font-size-body * 1.2",
