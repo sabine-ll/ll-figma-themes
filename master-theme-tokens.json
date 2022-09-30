@@ -829,6 +829,11 @@
         "description": "Font Spacing Bottom Body XL Desktop",
         "type": "spacing"
       },
+      "font-spacing-bottom-body-mobile-xl": {
+        "value": "$edit.text.font-size-body * 1.2",
+        "description": "Font Spacing Bottom Body XL Mobile",
+        "type": "spacing"
+      },
       "font-spacing-bottom-body-lg": {
         "value": "$edit.text.font-size-body * 1.2",
         "description": "Font Spacing Bottom Body LG Desktop",
@@ -871,11 +876,6 @@
         },
         "type": "typography",
         "description": "Body Extra Large Bold Mobile"
-      },
-      "font-spacing-bottom-body-mobile-xl": {
-        "value": "$edit.text.font-size-body * 1.2",
-        "description": "Font Spacing Bottom Body XL Mobile",
-        "type": "spacing"
       }
     },
     "buttons": {
