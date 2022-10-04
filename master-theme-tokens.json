@@ -616,6 +616,110 @@
         "description": "Paragraph Spacing Heading Alternate SM Mobile"
       }
     },
+    "headings-above-divider": {
+      "font-spacing-bottom-heading": {
+        "value": "$edit.text.font-size-heading * 0.333",
+        "type": "spacing",
+        "description": "Font Spacing Bottom Heading XL with Divivder Desktop"
+      },
+      "font-spacing-bottom-heading-mobile": {
+        "value": "$edit.text.font-size-heading * 0.241",
+        "type": "spacing",
+        "description": "Font Spacing Bottom Heading XL with Divivder Mobile"
+      },
+      "font-spacing-bottom-heading-lg": {
+        "value": "$edit.text.font-size-heading * 0.25",
+        "description": "Font Spacing Bottom Heading LG with Divider Desktop",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-lg-mobile": {
+        "value": "$edit.text.font-size-heading * 0.215",
+        "description": "Font Spacing Bottom Heading LG with Divider Mobile",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-md": {
+        "value": "$edit.text.font-size-heading * 0.166",
+        "description": "Font Spacing Bottom Heading MD with Divider Desktop",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-md-mobile": {
+        "value": "$edit.text.font-size-heading * 0.15",
+        "description": "Font Spacing Bottom Heading MD with Divider Mobile",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-sm": {
+        "value": "$edit.text.font-size-heading  * 0.125",
+        "description": "Font Spacing Bottom Heading SM with Divider Desktop",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-sm-mobile": {
+        "value": "$edit.text.font-size-heading  * 0.116",
+        "description": "Font Spacing Bottom Heading SM with Divider Mobile",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-body-xl": {
+        "value": "$edit.text.font-size-body * 0.65",
+        "type": "spacing",
+        "description": "Font Spacing Bottom Body XL with Divider Desktop"
+      },
+      "font-spacing-bottom-body-xl-mobile": {
+        "value": "$edit.text.font-size-body * 0.6",
+        "type": "spacing",
+        "description": "Font Spacing Bottom Body XL with Divider Mobile"
+      }
+    },
+    "headings-below-divider": {
+      "font-spacing-bottom-heading": {
+        "value": "$edit.text.font-size-heading * 0.5",
+        "type": "spacing",
+        "description": "Spacing Heading XL below Divivder Desktop"
+      },
+      "font-spacing-bottom-heading-mobile": {
+        "value": "$edit.text.font-size-heading * 0.483",
+        "type": "spacing",
+        "description": "Spacing Heading XL below Divivder Mobile"
+      },
+      "font-spacing-bottom-heading-lg": {
+        "value": "$edit.text.font-size-heading * 0.475",
+        "description": "Spacing Bottom Heading LG below Divider Desktop",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-lg-mobile": {
+        "value": "$edit.text.font-size-heading * 0.35",
+        "description": "Spacing Bottom Heading LG below Divider Mobile",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-md": {
+        "value": "$edit.text.font-size-heading * 0.45",
+        "description": "Spacing Bottom Heading MD below Divider Desktop",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-md-mobile": {
+        "value": "$edit.text.font-size-heading * 0.3",
+        "description": "Spacing Bottom Heading MD below Divider Mobile",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-sm": {
+        "value": "$edit.text.font-size-heading  * 0.275",
+        "description": "Spacing Bottom Heading SM below Divider Desktop",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-sm-mobile": {
+        "value": "$edit.text.font-size-heading  * 0.275",
+        "description": "Spacing Bottom Heading SM below Divider Mobile",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-body-xl": {
+        "value": "$edit.text.font-size-body * 0.85",
+        "type": "spacing",
+        "description": "Spacing Bottom Body XL below Divider Desktop"
+      },
+      "font-spacing-bottom-body-xl-mobile": {
+        "value": "$edit.text.font-size-body * 0.8",
+        "type": "spacing",
+        "description": "Spacing Bottom Body XL below Divider Mobile"
+      }
+    },
     "body": {
       "paragraph-spacing-body-xl": {
         "value": "$body.font-size-body-xl * 1.2",
