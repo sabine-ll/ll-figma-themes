@@ -3425,13 +3425,13 @@
       },
       "border-radius-media-block-image": {
         "value": "128",
-        "description": "Border Radius Media Block Image",
-        "type": "borderRadius"
+        "type": "borderRadius",
+        "description": "Border Radius Media Block Image"
       },
       "border-radius-hero": {
-        "value": "0",
-        "description": "Border Radius Hero",
-        "type": "borderRadius"
+        "value": "20",
+        "type": "borderRadius",
+        "description": "Border Radius Hero"
       },
       "border-width-inputs": {
         "value": "1",
