@@ -2664,9 +2664,9 @@
           "type": "color"
         },
         "color-system-focus-color": {
-          "value": "rgba(50, 114, 217,0.3)",
-          "description": "System Focus Colour",
-          "type": "color"
+          "value": "rgba(50, 114, 217, 0.3)",
+          "type": "color",
+          "description": "System Focus Colour"
         },
         "color-system-focus-color-inverted": {
           "value": "rgba(255, 255, 255, 0.3)",
