@@ -3519,7 +3519,7 @@
         "description": "Border Width Inputs"
       },
       "box-shadow": {
-        "value": "{shadow-md}",
+        "value": "$shadow-md",
         "type": "boxShadow",
         "description": "Box Shadow"
       },
