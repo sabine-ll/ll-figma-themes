@@ -1960,10 +1960,11 @@
         "y": "1",
         "blur": "2",
         "spread": "0",
-        "color": "$edit.shadow.color-shadow"
+        "color": "$edit.shadow.color-shadow",
+        "type": "dropShadow"
       },
-      "description": "Shadow Small",
-      "type": "boxShadow"
+      "type": "boxShadow",
+      "description": "Shadow Small"
     },
     "shadow-sm-inverted": {
       "value": {
@@ -1971,10 +1972,11 @@
         "y": "1",
         "blur": "2",
         "spread": "0",
-        "color": "$edit.shadow.color-shadow-inverted"
+        "color": "$edit.shadow.color-shadow-inverted",
+        "type": "dropShadow"
       },
-      "description": "Shadow Small Inverted",
-      "type": "boxShadow"
+      "type": "boxShadow",
+      "description": "Shadow Small Inverted"
     },
     "shadow-md": {
       "value": {
@@ -1982,10 +1984,11 @@
         "y": "4",
         "blur": "8",
         "spread": "0",
-        "color": "$edit.shadow.color-shadow"
+        "color": "$edit.shadow.color-shadow",
+        "type": "dropShadow"
       },
-      "description": "Shadow Medium",
-      "type": "boxShadow"
+      "type": "boxShadow",
+      "description": "Shadow Medium"
     },
     "shadow-md-inverted": {
       "value": {
@@ -1993,10 +1996,11 @@
         "y": "4",
         "blur": "8",
         "spread": "0",
-        "color": "$edit.shadow.color-shadow-inverted"
+        "color": "$edit.shadow.color-shadow-inverted",
+        "type": "dropShadow"
       },
-      "description": "Shadow Medium Inverted",
-      "type": "boxShadow"
+      "type": "boxShadow",
+      "description": "Shadow Medium Inverted"
     },
     "shadow-lg": {
       "value": {
@@ -2004,10 +2008,11 @@
         "y": "6",
         "blur": "12",
         "spread": "0",
-        "color": "$edit.shadow.color-shadow"
+        "color": "$edit.shadow.color-shadow",
+        "type": "dropShadow"
       },
-      "description": "Shadow Large",
-      "type": "boxShadow"
+      "type": "boxShadow",
+      "description": "Shadow Large"
     },
     "shadow-lg-inverted": {
       "value": {
@@ -2015,10 +2020,11 @@
         "y": "6",
         "blur": "12",
         "spread": "0",
-        "color": "$edit.shadow.color-shadow-inverted"
+        "color": "$edit.shadow.color-shadow-inverted",
+        "type": "dropShadow"
       },
-      "description": "Shadow Large Inverted",
-      "type": "boxShadow"
+      "type": "boxShadow",
+      "description": "Shadow Large Inverted"
     },
     "shadow-xl": {
       "value": {
@@ -2026,10 +2032,11 @@
         "y": "8",
         "blur": "16",
         "spread": "0",
-        "color": "$edit.shadow.color-shadow"
+        "color": "$edit.shadow.color-shadow",
+        "type": "dropShadow"
       },
-      "description": "Shadow Extra Large",
-      "type": "boxShadow"
+      "type": "boxShadow",
+      "description": "Shadow Extra Large"
     },
     "shadow-xl-inverted": {
       "value": {
@@ -2037,10 +2044,11 @@
         "y": "8",
         "blur": "16",
         "spread": "0",
-        "color": "$edit.shadow.color-shadow-inverted"
+        "color": "$edit.shadow.color-shadow-inverted",
+        "type": "dropShadow"
       },
-      "description": "Shadow Extra Large Inverted",
-      "type": "boxShadow"
+      "type": "boxShadow",
+      "description": "Shadow Extra Large Inverted"
     },
     "shadow-2xl": {
       "value": {
@@ -2048,10 +2056,11 @@
         "y": "12",
         "blur": "24",
         "spread": "0",
-        "color": "$edit.shadow.color-shadow"
+        "color": "$edit.shadow.color-shadow",
+        "type": "dropShadow"
       },
-      "description": "Shadow 2 Extra Large",
-      "type": "boxShadow"
+      "type": "boxShadow",
+      "description": "Shadow 2 Extra Large"
     },
     "shadow-2xl-inverted": {
       "value": {
@@ -2059,10 +2068,11 @@
         "y": "12",
         "blur": "24",
         "spread": "0",
-        "color": "$edit.shadow.color-shadow-inverted"
+        "color": "$edit.shadow.color-shadow-inverted",
+        "type": "dropShadow"
       },
-      "description": "Shadow 2 Extra Large Inverted",
-      "type": "boxShadow"
+      "type": "boxShadow",
+      "description": "Shadow 2 Extra Large Inverted"
     },
     "greyscale": {
       "color-black": {
