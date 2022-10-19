@@ -2458,6 +2458,45 @@
       "type": "opacity"
     },
     "edit": {
+      "header": {
+        "height-topbar-desktop": {
+          "value": "42",
+          "description": "Header Top Bar Height Desktop",
+          "type": "sizing"
+        },
+        "height-topbar-mobile": {
+          "value": "42",
+          "description": "Header Top Bar Height Mobile",
+          "type": "sizing"
+        },
+        "height-header-desktop": {
+          "value": "86",
+          "description": "Header Menu Bar Height Desktop",
+          "type": "sizing"
+        },
+        "height-header-mobile": {
+          "value": "72",
+          "description": "Header Menu Bar Height Mobile",
+          "type": "sizing"
+        },
+        "top-bar": {
+          "link-text-decoration": {
+            "value": "none",
+            "type": "textDecoration",
+            "description": "Header Top Bar Link Text Decoration"
+          },
+          "link-text-decoration-hover": {
+            "value": "none",
+            "type": "textDecoration",
+            "description": "Header Top Bar Link Text Decoration Hover"
+          },
+          "link-text-decoration-active": {
+            "value": "none",
+            "type": "textDecoration",
+            "description": "Header Top Bar Link Text Decoration Active"
+          }
+        }
+      },
       "font-transform-heading": {
         "value": "none",
         "description": "Transform Heading",
