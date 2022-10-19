@@ -3173,9 +3173,9 @@
           "type": "color"
         },
         "color-topbar-border": {
-          "value": "rgba(17, 29, 34, 1)",
-          "description": "Top Bar Border Colour",
-          "type": "color"
+          "value": "rgba(255, 255, 255, 1)",
+          "type": "color",
+          "description": "Top Bar Border Colour"
         },
         "color-topbar-divider": {
           "value": "rgba(255, 255, 255, 1)",
