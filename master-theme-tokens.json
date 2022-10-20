@@ -2497,6 +2497,63 @@
           }
         }
       },
+      "footer": {
+        "link-text-decoration": {
+          "value": "none",
+          "type": "textDecoration",
+          "description": "Footer Link Text Decoration"
+        },
+        "link-text-decoration-hover": {
+          "value": "underline",
+          "type": "textDecoration",
+          "description": "Footer Link Text Decoration Hover"
+        },
+        "link-text-decoration-active": {
+          "value": "underline",
+          "type": "textDecoration",
+          "description": "Footer Link Text Decoration Active"
+        },
+        "color-footer-background": {
+          "value": "rgba(17, 29, 34, 1)",
+          "description": "Footer Background Colour",
+          "type": "color"
+        },
+        "color-footer-border": {
+          "value": "rgba(190, 190, 190, 0.25)",
+          "type": "color",
+          "description": "Footer Border colour"
+        },
+        "color-footer-divider": {
+          "value": "rgba(190, 190, 190, .25)",
+          "description": "Footer Divider Colour",
+          "type": "color"
+        },
+        "color-footer-heading": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Footer Heading Colour",
+          "type": "color"
+        },
+        "color-footer-text": {
+          "value": "rgba(255, 255, 255, 0.9)",
+          "type": "color",
+          "description": "Footer Text Colour"
+        },
+        "color-footer-link": {
+          "value": "rgba(255, 255, 255, 0.9)",
+          "type": "color",
+          "description": "Footer Link Colour"
+        },
+        "color-footer-link-hover": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Footer Link Hover Colour",
+          "type": "color"
+        },
+        "color-footer-link-active": {
+          "value": "rgba(255, 255, 255, 1)",
+          "description": "Footer Link Active Colour",
+          "type": "color"
+        }
+      },
       "font-transform-heading": {
         "value": "none",
         "description": "Transform Heading",
@@ -2561,6 +2618,38 @@
         "font-weight-body": {
           "value": "Regular",
           "description": "Font Body Weight",
+          "type": "fontWeights"
+        }
+      },
+      "text-figma": {
+        "font-weight-heading-regular": {
+          "value": "Book",
+          "type": "fontWeights",
+          "description": "Font Heading Weight - Regular (used in Figma only)"
+        },
+        "font-weight-heading-bold": {
+          "value": "Bold",
+          "description": "Font Heading Weight - Bold (used in Figma only)",
+          "type": "fontWeights"
+        },
+        "font-weight-heading-alternate-regular": {
+          "value": "Regular",
+          "type": "fontWeights",
+          "description": "Font Heading Alternate Weight - Regular (used in Figma only)"
+        },
+        "font-weight-heading-alternate-bold": {
+          "value": "Bold",
+          "description": "Font Heading Alternate Weight - Bold (used in Figma only)",
+          "type": "fontWeights"
+        },
+        "font-weight-body-regular": {
+          "value": "Regular",
+          "type": "fontWeights",
+          "description": "Font Body Weight - Regular (used in Figma only)"
+        },
+        "font-weight-body-bold": {
+          "value": "Bold",
+          "description": "Font Body Weight - Bold (used in Figma only)",
           "type": "fontWeights"
         }
       },
@@ -3210,9 +3299,9 @@
           "type": "color"
         },
         "color-header-divider": {
-          "value": "rgba(255, 255, 255, 1)",
-          "description": "Header Divider Colour",
-          "type": "color"
+          "value": "rgba(0, 0, 0, 1)",
+          "type": "color",
+          "description": "Header Divider Colour"
         },
         "color-header-link": {
           "value": "rgba(0, 0, 0, 1)",
@@ -3339,48 +3428,6 @@
             "type": "color",
             "description": "Menu 2nd Level Alternative Link Colour Hover"
           }
-        }
-      },
-      "footer": {
-        "color-footer-background": {
-          "value": "rgba(17, 29, 34, 1)",
-          "description": "Footer Background Colour",
-          "type": "color"
-        },
-        "color-footer-border": {
-          "value": "rgba(190, 190, 190, 0.25)",
-          "type": "color",
-          "description": "Footer Border colour"
-        },
-        "color-footer-divider": {
-          "value": "rgba(190, 190, 190, .25)",
-          "description": "Footer Divider Colour",
-          "type": "color"
-        },
-        "color-footer-heading": {
-          "value": "rgba(255, 255, 255, 1)",
-          "description": "Footer Heading Colour",
-          "type": "color"
-        },
-        "color-footer-text": {
-          "value": "rgba(255, 255, 255, 0.9)",
-          "type": "color",
-          "description": "Footer Text Colour"
-        },
-        "color-footer-link": {
-          "value": "rgba(255, 255, 255, 0.9)",
-          "type": "color",
-          "description": "Footer Link Colour"
-        },
-        "color-footer-link-hover": {
-          "value": "rgba(255, 255, 255, 1)",
-          "description": "Footer Link Hover Colour",
-          "type": "color"
-        },
-        "color-footer-link-active": {
-          "value": "rgba(255, 255, 255, 1)",
-          "description": "Footer Link Active Colour",
-          "type": "color"
         }
       },
       "Border": {
