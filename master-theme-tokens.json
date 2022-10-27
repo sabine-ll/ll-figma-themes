@@ -1062,6 +1062,28 @@
         "description": "Body Extra Large Bold Mobile"
       }
     },
+    "header-divider": {
+      "top-bar-md": {
+        "value": "$edit.text.font-size-body * 0.87",
+        "type": "sizing",
+        "description": "Header Divider Height Top Bar Medium"
+      },
+      "top-bar-lg": {
+        "value": "$edit.text.font-size-body",
+        "type": "sizing",
+        "description": "Header Divider Height Top Bar Large"
+      },
+      "top-bar-xl": {
+        "value": "$edit.text.font-size-body * 1.25",
+        "type": "sizing",
+        "description": "Header Divider Height Top Bar Extra Large Desktop"
+      },
+      "top-bar-xl-mobile": {
+        "value": "$edit.text.font-size-body * 1.15",
+        "type": "sizing",
+        "description": "Header Divider Height Top Bar Extra Large Mobile"
+      }
+    },
     "buttons": {
       "primary": {
         "button-primary-type-lg": {
