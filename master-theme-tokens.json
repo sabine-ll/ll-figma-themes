@@ -2588,9 +2588,9 @@
       },
       "text": {
         "font-family-heading": {
-          "value": "Circular Std",
-          "description": "Heading Font Family",
-          "type": "fontFamilies"
+          "value": "Arial",
+          "type": "fontFamilies",
+          "description": "Heading Font Family"
         },
         "font-family-headings-alternate": {
           "value": "NewParis Headline",
