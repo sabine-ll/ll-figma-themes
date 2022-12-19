@@ -2588,7 +2588,7 @@
       },
       "text": {
         "font-family-heading": {
-          "value": "Arial",
+          "value": "Circular Std",
           "type": "fontFamilies",
           "description": "Heading Font Family"
         },
@@ -2599,8 +2599,8 @@
         },
         "font-size-heading": {
           "value": "64",
-          "description": "Font Size Extra Large",
-          "type": "fontSizes"
+          "type": "fontSizes",
+          "description": "Font Size Extra Large"
         },
         "font-size-heading-alternate": {
           "value": "60",
