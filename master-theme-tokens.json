@@ -2609,8 +2609,8 @@
         },
         "font-size-body": {
           "value": "16",
-          "description": "Font Body Size LG",
-          "type": "fontSizes"
+          "type": "fontSizes",
+          "description": "Font Body Size LG"
         },
         "font-family-body-xl": {
           "value": "Arial",
@@ -2619,8 +2619,8 @@
         },
         "font-family-body": {
           "value": "Arial",
-          "description": "Body Font Family",
-          "type": "fontFamilies"
+          "type": "fontFamilies",
+          "description": "Body Font Family"
         },
         "font-weight-heading": {
           "value": "Bold",
