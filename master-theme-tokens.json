@@ -276,156 +276,6 @@
         "description": "Font Size Small Alternate Desktop",
         "type": "fontSizes"
       },
-      "font-margin-bottom-heading": {
-        "value": "$edit.text.font-size-heading",
-        "description": "Font Spacing Bottom Heading XL Desktop",
-        "type": "sizing"
-      },
-      "font-margin-bottom-heading-mobile": {
-        "value": "$edit.text.font-size-heading * 0.725",
-        "description": "Font Spacing Bottom Heading XL Mobile",
-        "type": "sizing"
-      },
-      "font-margin-bottom-heading-lg": {
-        "value": "$edit.text.font-size-heading * 0.75",
-        "description": "Font Spacing Bottom Heading LG Desktop",
-        "type": "sizing"
-      },
-      "font-margin-bottom-heading-lg-mobile": {
-        "value": "$edit.text.font-size-heading * 0.65",
-        "description": "Font Spacing Bottom Heading LG Mobile",
-        "type": "sizing"
-      },
-      "font-margin-bottom-heading-md": {
-        "value": "$edit.text.font-size-heading * 0.5",
-        "description": "Font Spacing Bottom Heading MD Desktop",
-        "type": "sizing"
-      },
-      "font-margin-bottom-heading-md-mobile": {
-        "value": "$edit.text.font-size-heading * 0.45",
-        "description": "Font Spacing Bottom Heading MD Mobile",
-        "type": "sizing"
-      },
-      "font-margin-bottom-heading-sm": {
-        "value": "$edit.text.font-size-heading  * 0.375",
-        "description": "Font Spacing Bottom Heading SM Desktop",
-        "type": "sizing"
-      },
-      "font-margin-bottom-heading-sm-mobile": {
-        "value": "$edit.text.font-size-heading * 0.35",
-        "description": "Font Spacing Bottom Heading SM Mobile",
-        "type": "sizing"
-      },
-      "font-margin-bottom-heading-alternate": {
-        "value": "$edit.text.font-size-heading-alternate",
-        "description": "Font Spacing Bottom Heading XL Alternate Desktop",
-        "type": "sizing"
-      },
-      "font-margin-bottom-heading-mobile-alternate": {
-        "value": "$edit.text.font-size-heading-alternate * 0.725",
-        "description": "Font Spacing Bottom Heading XL Alternate Mobile",
-        "type": "sizing"
-      },
-      "font-margin-bottom-heading-lg-alternate": {
-        "value": "$edit.text.font-size-heading-alternate * 0.75",
-        "description": "Font Spacing Bottom Heading LG Alternate Desktop",
-        "type": "sizing"
-      },
-      "font-margin-bottom-heading-lg-alternate-mobile": {
-        "value": "$edit.text.font-size-heading-alternate * 0.65",
-        "description": "Font Spacing Bottom Heading LG Alternate Mobile",
-        "type": "sizing"
-      },
-      "font-margin-bottom-heading-md-alternate": {
-        "value": "$edit.text.font-size-heading-alternate * 0.5",
-        "description": "Font Spacing Bottom Heading MD Alternate Desktop",
-        "type": "sizing"
-      },
-      "font-margin-bottom-heading-md-alternate-mobile": {
-        "value": "$edit.text.font-size-heading-alternate * 0.45",
-        "description": "Font Spacing Bottom Heading MD Alternate Mobile",
-        "type": "sizing"
-      },
-      "font-margin-bottom-heading-sm-alternate": {
-        "value": "$edit.text.font-size-heading-alternate  * 0.375",
-        "description": "Font Spacing Bottom Heading SM Alternate Desktop",
-        "type": "sizing"
-      },
-      "font-spacing-bottom-heading": {
-        "value": "$edit.text.font-size-heading",
-        "description": "Font Spacing Bottom Heading XL Desktop",
-        "type": "spacing"
-      },
-      "font-spacing-bottom-heading-mobile": {
-        "value": "$edit.text.font-size-heading * 0.725",
-        "description": "Font Spacing Bottom Heading XL Mobile",
-        "type": "spacing"
-      },
-      "font-spacing-bottom-heading-lg": {
-        "value": "$edit.text.font-size-heading * 0.75",
-        "description": "Font Spacing Bottom Heading LG Desktop",
-        "type": "spacing"
-      },
-      "font-spacing-bottom-heading-lg-mobile": {
-        "value": "$edit.text.font-size-heading * 0.65",
-        "description": "Font Spacing Bottom Heading LG Mobile",
-        "type": "spacing"
-      },
-      "font-spacing-bottom-heading-md": {
-        "value": "$edit.text.font-size-heading * 0.5",
-        "description": "Font Spacing Bottom Heading MD Desktop",
-        "type": "spacing"
-      },
-      "font-spacing-bottom-heading-md-mobile": {
-        "value": "$edit.text.font-size-heading * 0.45",
-        "description": "Font Spacing Bottom Heading MD Mobile",
-        "type": "spacing"
-      },
-      "font-spacing-bottom-heading-sm": {
-        "value": "$edit.text.font-size-heading  * 0.375",
-        "description": "Font Spacing Bottom Heading SM Desktop",
-        "type": "spacing"
-      },
-      "font-spacing-bottom-heading-sm-mobile": {
-        "value": "$edit.text.font-size-heading * 0.35",
-        "description": "Font Spacing Bottom Heading SM Mobile",
-        "type": "spacing"
-      },
-      "font-spacing-bottom-heading-alternate": {
-        "value": "$edit.text.font-size-heading-alternate",
-        "description": "Font Spacing Bottom Heading XL Alternate Desktop",
-        "type": "spacing"
-      },
-      "font-spacing-bottom-heading-alternate-mobile": {
-        "value": "$edit.text.font-size-heading-alternate * 0.725",
-        "description": "Font Spacing Bottom Heading XL Alternate Mobile",
-        "type": "spacing"
-      },
-      "font-spacing-bottom-heading-lg-alternate": {
-        "value": "$edit.text.font-size-heading-alternate * 0.75",
-        "description": "Font Spacing Bottom Heading LG Alternate Desktop",
-        "type": "spacing"
-      },
-      "font-spacing-bottom-heading-lg-alternate-mobile": {
-        "value": "$edit.text.font-size-heading-alternate * 0.65",
-        "description": "Font Spacing Bottom Heading LG Alternate Mobile",
-        "type": "spacing"
-      },
-      "font-spacing-bottom-heading-md-alternate": {
-        "value": "$edit.text.font-size-heading-alternate * 0.5",
-        "description": "Font Spacing Bottom Heading MD Alternate Desktop",
-        "type": "spacing"
-      },
-      "font-spacing-bottom-heading-md-alternate-mobile": {
-        "value": "$edit.text.font-size-heading-alternate * 0.45",
-        "description": "Font Spacing Bottom Heading MD Alternate Mobile",
-        "type": "spacing"
-      },
-      "font-spacing-bottom-heading-sm-alternate": {
-        "value": "$edit.text.font-size-heading-alternate  * 0.375",
-        "description": "Font Spacing Bottom Heading SM Alternate Desktop",
-        "type": "spacing"
-      },
       "heading-alternate-sm-mobile": {
         "value": {
           "fontFamily": "$edit.text.font-family-headings-alternate",
@@ -444,16 +294,6 @@
         "value": "$edit.text.font-size-heading-alternate * 0.35",
         "description": "Font Size Alternate SM Mobile",
         "type": "fontSizes"
-      },
-      "font-margin-bottom-heading-sm-alternate-mobile": {
-        "value": "$edit.text.font-size-heading-alternate * 0.35",
-        "description": "Font Spacing Bottom Heading SM Alternate Mobile ",
-        "type": "sizing"
-      },
-      "font-spacing-bottom-heading-sm-alternate-mobile": {
-        "value": "$edit.text.font-size-heading-alternate * 0.35",
-        "description": "Font Spacing Bottom Heading SM Alternate Mobile",
-        "type": "spacing"
       },
       "line-height-heading-xl": {
         "value": "$edit.text.font-size-heading * 1.2",
@@ -616,7 +456,169 @@
         "description": "Paragraph Spacing Heading Alternate SM Mobile"
       }
     },
-    "headings-above-divider": {
+    "headings-margin-bottom": {
+      "font-margin-bottom-heading": {
+        "value": "$edit.text.font-size-heading",
+        "description": "Font Spacing Bottom Heading XL Desktop",
+        "type": "sizing"
+      },
+      "font-margin-bottom-heading-mobile": {
+        "value": "$edit.text.font-size-heading * 0.725",
+        "description": "Font Spacing Bottom Heading XL Mobile",
+        "type": "sizing"
+      },
+      "font-margin-bottom-heading-lg": {
+        "value": "$edit.text.font-size-heading * 0.75",
+        "description": "Font Spacing Bottom Heading LG Desktop",
+        "type": "sizing"
+      },
+      "font-margin-bottom-heading-lg-mobile": {
+        "value": "$edit.text.font-size-heading * 0.65",
+        "description": "Font Spacing Bottom Heading LG Mobile",
+        "type": "sizing"
+      },
+      "font-margin-bottom-heading-md": {
+        "value": "$edit.text.font-size-heading * 0.5",
+        "description": "Font Spacing Bottom Heading MD Desktop",
+        "type": "sizing"
+      },
+      "font-margin-bottom-heading-md-mobile": {
+        "value": "$edit.text.font-size-heading * 0.45",
+        "description": "Font Spacing Bottom Heading MD Mobile",
+        "type": "sizing"
+      },
+      "font-margin-bottom-heading-sm": {
+        "value": "$edit.text.font-size-heading  * 0.375",
+        "description": "Font Spacing Bottom Heading SM Desktop",
+        "type": "sizing"
+      },
+      "font-margin-bottom-heading-sm-mobile": {
+        "value": "$edit.text.font-size-heading * 0.35",
+        "description": "Font Spacing Bottom Heading SM Mobile",
+        "type": "sizing"
+      },
+      "font-margin-bottom-heading-alternate": {
+        "value": "$edit.text.font-size-heading-alternate",
+        "description": "Font Spacing Bottom Heading XL Alternate Desktop",
+        "type": "sizing"
+      },
+      "font-margin-bottom-heading-mobile-alternate": {
+        "value": "$edit.text.font-size-heading-alternate * 0.725",
+        "description": "Font Spacing Bottom Heading XL Alternate Mobile",
+        "type": "sizing"
+      },
+      "font-margin-bottom-heading-lg-alternate": {
+        "value": "$edit.text.font-size-heading-alternate * 0.75",
+        "description": "Font Spacing Bottom Heading LG Alternate Desktop",
+        "type": "sizing"
+      },
+      "font-margin-bottom-heading-lg-alternate-mobile": {
+        "value": "$edit.text.font-size-heading-alternate * 0.65",
+        "description": "Font Spacing Bottom Heading LG Alternate Mobile",
+        "type": "sizing"
+      },
+      "font-margin-bottom-heading-md-alternate": {
+        "value": "$edit.text.font-size-heading-alternate * 0.5",
+        "description": "Font Spacing Bottom Heading MD Alternate Desktop",
+        "type": "sizing"
+      },
+      "font-margin-bottom-heading-md-alternate-mobile": {
+        "value": "$edit.text.font-size-heading-alternate * 0.45",
+        "description": "Font Spacing Bottom Heading MD Alternate Mobile",
+        "type": "sizing"
+      },
+      "font-margin-bottom-heading-sm-alternate": {
+        "value": "$edit.text.font-size-heading-alternate  * 0.375",
+        "description": "Font Spacing Bottom Heading SM Alternate Desktop",
+        "type": "sizing"
+      },
+      "font-spacing-bottom-heading": {
+        "value": "$edit.text.font-size-heading",
+        "description": "Font Spacing Bottom Heading XL Desktop",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-mobile": {
+        "value": "$edit.text.font-size-heading * 0.725",
+        "description": "Font Spacing Bottom Heading XL Mobile",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-lg": {
+        "value": "$edit.text.font-size-heading * 0.75",
+        "description": "Font Spacing Bottom Heading LG Desktop",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-lg-mobile": {
+        "value": "$edit.text.font-size-heading * 0.65",
+        "description": "Font Spacing Bottom Heading LG Mobile",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-md": {
+        "value": "$edit.text.font-size-heading * 0.5",
+        "description": "Font Spacing Bottom Heading MD Desktop",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-md-mobile": {
+        "value": "$edit.text.font-size-heading * 0.45",
+        "description": "Font Spacing Bottom Heading MD Mobile",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-sm": {
+        "value": "$edit.text.font-size-heading  * 0.375",
+        "description": "Font Spacing Bottom Heading SM Desktop",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-sm-mobile": {
+        "value": "$edit.text.font-size-heading * 0.35",
+        "description": "Font Spacing Bottom Heading SM Mobile",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-alternate": {
+        "value": "$edit.text.font-size-heading-alternate",
+        "description": "Font Spacing Bottom Heading XL Alternate Desktop",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-alternate-mobile": {
+        "value": "$edit.text.font-size-heading-alternate * 0.725",
+        "description": "Font Spacing Bottom Heading XL Alternate Mobile",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-lg-alternate": {
+        "value": "$edit.text.font-size-heading-alternate * 0.75",
+        "description": "Font Spacing Bottom Heading LG Alternate Desktop",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-lg-alternate-mobile": {
+        "value": "$edit.text.font-size-heading-alternate * 0.65",
+        "description": "Font Spacing Bottom Heading LG Alternate Mobile",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-md-alternate": {
+        "value": "$edit.text.font-size-heading-alternate * 0.5",
+        "description": "Font Spacing Bottom Heading MD Alternate Desktop",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-md-alternate-mobile": {
+        "value": "$edit.text.font-size-heading-alternate * 0.45",
+        "description": "Font Spacing Bottom Heading MD Alternate Mobile",
+        "type": "spacing"
+      },
+      "font-spacing-bottom-heading-sm-alternate": {
+        "value": "$edit.text.font-size-heading-alternate  * 0.375",
+        "description": "Font Spacing Bottom Heading SM Alternate Desktop",
+        "type": "spacing"
+      },
+      "font-margin-bottom-heading-sm-alternate-mobile": {
+        "value": "$edit.text.font-size-heading-alternate * 0.35",
+        "description": "Font Spacing Bottom Heading SM Alternate Mobile ",
+        "type": "sizing"
+      },
+      "font-spacing-bottom-heading-sm-alternate-mobile": {
+        "value": "$edit.text.font-size-heading-alternate * 0.35",
+        "description": "Font Spacing Bottom Heading SM Alternate Mobile",
+        "type": "spacing"
+      }
+    },
+    "headings-margin-above-divider": {
       "font-spacing-bottom-heading": {
         "value": "$edit.text.font-size-heading * 0.333",
         "type": "spacing",
@@ -708,7 +710,7 @@
         "description": "Font Spacing Bottom Body XL with Divider Mobile"
       }
     },
-    "headings-below-divider": {
+    "headings-margin-below-divider": {
       "font-spacing-bottom-heading": {
         "value": "$edit.text.font-size-heading * 0.5",
         "type": "spacing",
@@ -983,6 +985,36 @@
         "description": "Font Size Body Small Desktop",
         "type": "fontSizes"
       },
+      "body-xl-mobile": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-body-xl",
+          "fontWeight": "$edit.text.font-weight-body-xl",
+          "lineHeight": "$body.line-height-body-xl-mobile",
+          "fontSize": "$body.font-size-body-xl-mobile",
+          "letterSpacing": "$edit.font-letter-spacing-body",
+          "paragraphSpacing": "$body.paragraph-spacing-body-xl-mobile",
+          "textDecoration": "",
+          "textCase": "$typography.font-transform-body"
+        },
+        "type": "typography",
+        "description": "Body Extra Large Mobile"
+      },
+      "body-xl-bold-mobile": {
+        "value": {
+          "fontFamily": "$edit.text.font-family-body-xl",
+          "fontWeight": "Bold",
+          "lineHeight": "$body.line-height-body-xl-mobile",
+          "fontSize": "$body.font-size-body-xl-mobile",
+          "letterSpacing": "$edit.font-letter-spacing-body",
+          "paragraphSpacing": "$body.paragraph-spacing-body-xl-mobile",
+          "textDecoration": "",
+          "textCase": "$typography.font-transform-body"
+        },
+        "type": "typography",
+        "description": "Body Extra Large Bold Mobile"
+      }
+    },
+    "body-margin-bottom": {
       "font-margin-bottom-body-xl": {
         "value": "$body.font-size-body-xl * 1.2",
         "description": "Font Spacing Bottom Body XL Desktop",
@@ -1032,34 +1064,6 @@
         "value": "$body.font-size-body-sm * 1.2",
         "description": "Font Spacing Bottom Body SM Desktop",
         "type": "spacing"
-      },
-      "body-xl-mobile": {
-        "value": {
-          "fontFamily": "$edit.text.font-family-body-xl",
-          "fontWeight": "$edit.text.font-weight-body-xl",
-          "lineHeight": "$body.line-height-body-xl-mobile",
-          "fontSize": "$body.font-size-body-xl-mobile",
-          "letterSpacing": "$edit.font-letter-spacing-body",
-          "paragraphSpacing": "$body.paragraph-spacing-body-xl-mobile",
-          "textDecoration": "",
-          "textCase": "$typography.font-transform-body"
-        },
-        "type": "typography",
-        "description": "Body Extra Large Mobile"
-      },
-      "body-xl-bold-mobile": {
-        "value": {
-          "fontFamily": "$edit.text.font-family-body-xl",
-          "fontWeight": "Bold",
-          "lineHeight": "$body.line-height-body-xl-mobile",
-          "fontSize": "$body.font-size-body-xl-mobile",
-          "letterSpacing": "$edit.font-letter-spacing-body",
-          "paragraphSpacing": "$body.paragraph-spacing-body-xl-mobile",
-          "textDecoration": "",
-          "textCase": "$typography.font-transform-body"
-        },
-        "type": "typography",
-        "description": "Body Extra Large Bold Mobile"
       }
     },
     "header-divider": {
